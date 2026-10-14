@@ -1,0 +1,18 @@
+# Local copies and packaged exports
+*- コピー/
+*.zip
+*.7z
+*.rar
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*~
+.idea/
+.vscode/
