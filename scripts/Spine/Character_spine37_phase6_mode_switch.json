@@ -1,0 +1,250 @@
+{
+  "fk_controls": {
+    "modes": {
+      "0": {
+        "expected_active": true,
+        "joint_motion": 0.44990210868773,
+        "pass": true,
+        "zero_restore_error": 0.0
+      },
+      "1": {
+        "expected_active": false,
+        "joint_motion": 0.0,
+        "pass": true,
+        "zero_restore_error": 0.0
+      },
+      "2": {
+        "expected_active": true,
+        "joint_motion": 0.44990210543744896,
+        "pass": true,
+        "zero_restore_error": 0.0
+      }
+    },
+    "pass": true
+  },
+  "ik_ikfk_zero_delta": [
+    {
+      "from": 1,
+      "max_matrix_error": 3.0517578125e-05,
+      "pose_maintained": true,
+      "to": 2
+    },
+    {
+      "from": 2,
+      "max_matrix_error": 3.0517578125e-05,
+      "pose_maintained": true,
+      "to": 1
+    }
+  ],
+  "pass": true,
+  "snap_policy": {
+    "fk_ik": "required",
+    "ik_ikfk_nonzero_delta": "expected_pose_change",
+    "ik_ikfk_zero_delta": "not_required"
+  },
+  "snap_required": true,
+  "tolerance": {
+    "matrix": 0.0001,
+    "rotation_degrees": 0.001
+  },
+  "transitions": [
+    {
+      "from": 0,
+      "joints": {
+        "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+          "matrix_error": 182.4463752174812,
+          "position_error": 182.4463752174812,
+          "rotation_error_degrees": 54.49960606042837
+        },
+        "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+          "matrix_error": 145.61840280537183,
+          "position_error": 145.61840280537183,
+          "rotation_error_degrees": 61.560668248867074
+        },
+        "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+          "matrix_error": 85.70672067646558,
+          "position_error": 85.70672067646558,
+          "rotation_error_degrees": 65.80758932797626
+        },
+        "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+          "matrix_error": 20.391199436231204,
+          "position_error": 20.391199436231204,
+          "rotation_error_degrees": 64.26504381152581
+        }
+      },
+      "max": {
+        "matrix_error": 182.4463752174812,
+        "position_error": 182.4463752174812,
+        "rotation_error_degrees": 65.80758932797626
+      },
+      "pose_maintained": false,
+      "snap_required": true,
+      "to": 1
+    },
+    {
+      "from": 1,
+      "joints": {
+        "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+          "matrix_error": 182.4463752174812,
+          "position_error": 182.4463752174812,
+          "rotation_error_degrees": 54.49960606042837
+        },
+        "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+          "matrix_error": 145.61840280537183,
+          "position_error": 145.61840280537183,
+          "rotation_error_degrees": 61.560668248867074
+        },
+        "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+          "matrix_error": 85.70672067646558,
+          "position_error": 85.70672067646558,
+          "rotation_error_degrees": 65.80758932797623
+        },
+        "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+          "matrix_error": 20.391199436231204,
+          "position_error": 20.391199436231204,
+          "rotation_error_degrees": 64.26504381152587
+        }
+      },
+      "max": {
+        "matrix_error": 182.4463752174812,
+        "position_error": 182.4463752174812,
+        "rotation_error_degrees": 65.80758932797623
+      },
+      "pose_maintained": false,
+      "snap_required": true,
+      "to": 0
+    },
+    {
+      "from": 0,
+      "joints": {
+        "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+          "matrix_error": 182.4463752174812,
+          "position_error": 182.4463752174812,
+          "rotation_error_degrees": 54.499594556997096
+        },
+        "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+          "matrix_error": 145.61840280537183,
+          "position_error": 145.61840280537183,
+          "rotation_error_degrees": 61.35397690479849
+        },
+        "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+          "matrix_error": 85.70672067646558,
+          "position_error": 85.70672067646558,
+          "rotation_error_degrees": 65.17415147832672
+        },
+        "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+          "matrix_error": 20.391199436231204,
+          "position_error": 20.391199436231204,
+          "rotation_error_degrees": 64.26503566530661
+        }
+      },
+      "max": {
+        "matrix_error": 182.4463752174812,
+        "position_error": 182.4463752174812,
+        "rotation_error_degrees": 65.17415147832672
+      },
+      "pose_maintained": false,
+      "snap_required": true,
+      "to": 2
+    },
+    {
+      "from": 1,
+      "joints": {
+        "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+          "matrix_error": 1.52587890625e-05,
+          "position_error": 1.52587890625e-05,
+          "rotation_error_degrees": 1.1326587362040635e-05
+        },
+        "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+          "matrix_error": 0.34535605763002086,
+          "position_error": 3.814697265625e-06,
+          "rotation_error_degrees": 9.999998391287654
+        },
+        "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+          "matrix_error": 0.2441903258158199,
+          "position_error": 1.9073486328125e-05,
+          "rotation_error_degrees": 7.000000476849419
+        },
+        "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+          "matrix_error": 3.0517578125e-05,
+          "position_error": 3.0517578125e-05,
+          "rotation_error_degrees": 8.00910673140078e-06
+        }
+      },
+      "max": {
+        "matrix_error": 0.34535605763002086,
+        "position_error": 3.0517578125e-05,
+        "rotation_error_degrees": 9.999998391287654
+      },
+      "pose_maintained": false,
+      "snap_required": true,
+      "to": 2
+    },
+    {
+      "from": 2,
+      "joints": {
+        "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+          "matrix_error": 182.4463752174812,
+          "position_error": 182.4463752174812,
+          "rotation_error_degrees": 54.49959455699721
+        },
+        "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+          "matrix_error": 145.61840280537183,
+          "position_error": 145.61840280537183,
+          "rotation_error_degrees": 61.35397690479854
+        },
+        "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+          "matrix_error": 85.70672067646558,
+          "position_error": 85.70672067646558,
+          "rotation_error_degrees": 65.17415147832662
+        },
+        "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+          "matrix_error": 20.391199436231204,
+          "position_error": 20.391199436231204,
+          "rotation_error_degrees": 64.26503566530664
+        }
+      },
+      "max": {
+        "matrix_error": 182.4463752174812,
+        "position_error": 182.4463752174812,
+        "rotation_error_degrees": 65.17415147832662
+      },
+      "pose_maintained": false,
+      "snap_required": true,
+      "to": 0
+    },
+    {
+      "from": 2,
+      "joints": {
+        "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+          "matrix_error": 1.52587890625e-05,
+          "position_error": 1.52587890625e-05,
+          "rotation_error_degrees": 1.183023466776879e-05
+        },
+        "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+          "matrix_error": 0.34535605763002086,
+          "position_error": 3.814697265625e-06,
+          "rotation_error_degrees": 9.999998391288095
+        },
+        "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+          "matrix_error": 0.2441903258158199,
+          "position_error": 1.9073486328125e-05,
+          "rotation_error_degrees": 7.000000476848794
+        },
+        "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+          "matrix_error": 3.0517578125e-05,
+          "position_error": 3.0517578125e-05,
+          "rotation_error_degrees": 8.00910673140078e-06
+        }
+      },
+      "max": {
+        "matrix_error": 0.34535605763002086,
+        "position_error": 3.0517578125e-05,
+        "rotation_error_degrees": 9.999998391288095
+      },
+      "pose_maintained": false,
+      "snap_required": true,
+      "to": 1
+    }
+  ]
+}

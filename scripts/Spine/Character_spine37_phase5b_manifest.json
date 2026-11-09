@@ -1,0 +1,1965 @@
+{
+  "baseline_cycles": [
+    "ALL_Bow_anim.parentInverseMatrix[0]",
+    "ALL_Bow_anim.parentMatrix[0]",
+    "ALL_Bow_anim.worldInverseMatrix[0]",
+    "ALL_Bow_anim.worldMatrix[0]",
+    "Bow.parentInverseMatrix[0]",
+    "Bow.parentMatrix[0]",
+    "Bow.worldInverseMatrix[0]",
+    "Bow.worldMatrix[0]",
+    "Bow_Follow_GRP.rotateX",
+    "Bow_Follow_GRP.rotateY",
+    "Bow_Follow_GRP.rotateZ",
+    "Bow_Follow_GRP.translateX",
+    "Bow_Follow_GRP.translateY",
+    "Bow_Follow_GRP.translateZ",
+    "Bow_Follow_GRP.worldInverseMatrix[0]",
+    "Bow_Follow_GRP.worldMatrix[0]",
+    "Bow_Follow_GRP_parentConstraint1.constraintRotateX",
+    "Bow_Follow_GRP_parentConstraint1.constraintRotateY",
+    "Bow_Follow_GRP_parentConstraint1.constraintRotateZ",
+    "Bow_Follow_GRP_parentConstraint1.constraintTranslateX",
+    "Bow_Follow_GRP_parentConstraint1.constraintTranslateY",
+    "Bow_Follow_GRP_parentConstraint1.constraintTranslateZ",
+    "Bow_Follow_GRP_parentConstraint1.target[0].targetParentMatrix",
+    "Bow_Follow_GRP_parentConstraint1.target[1].targetParentMatrix",
+    "Bow_anim_GRP.parentInverseMatrix[0]",
+    "Bow_anim_GRP.parentMatrix[0]",
+    "Bow_anim_GRP.worldInverseMatrix[0]",
+    "Bow_anim_GRP.worldMatrix[0]",
+    "FK_R_palm_jnt.parentInverseMatrix[0]",
+    "FK_R_palm_jnt.parentMatrix[0]",
+    "FK_R_palm_jnt.worldInverseMatrix[0]",
+    "FK_R_palm_jnt.worldMatrix[0]",
+    "IK_L_elbow_jnt.parentInverseMatrix[0]",
+    "IK_L_elbow_jnt.parentMatrix[0]",
+    "IK_L_elbow_jnt.rotate",
+    "IK_L_elbow_jnt.worldInverseMatrix[0]",
+    "IK_L_elbow_jnt.worldMatrix[0]",
+    "IK_L_shoulder_jnt.rotate",
+    "IK_L_shoulder_jnt.worldInverseMatrix[0]",
+    "IK_L_shoulder_jnt.worldMatrix[0]",
+    "IK_L_wrist_jnt.parentMatrix[0]",
+    "IK_L_wrist_jnt.rotate",
+    "IK_R_elbow_jnt.parentInverseMatrix[0]",
+    "IK_R_elbow_jnt.parentMatrix[0]",
+    "IK_R_elbow_jnt.rotate",
+    "IK_R_elbow_jnt.worldInverseMatrix[0]",
+    "IK_R_elbow_jnt.worldMatrix[0]",
+    "IK_R_shoulder_jnt.rotate",
+    "IK_R_shoulder_jnt.worldInverseMatrix[0]",
+    "IK_R_shoulder_jnt.worldMatrix[0]",
+    "IK_R_wrist_jnt.parentMatrix[0]",
+    "IK_R_wrist_jnt.rotate",
+    "Ik_L_hand_anim.rotateX",
+    "Ik_L_hand_anim.rotateY",
+    "Ik_L_hand_anim.rotateZ",
+    "Ik_L_hand_anim.translate",
+    "Ik_L_hand_anim.translateX",
+    "Ik_L_hand_anim.translateY",
+    "Ik_L_hand_anim.translateZ",
+    "Ik_L_hand_anim.worldInverseMatrix[0]",
+    "Ik_L_hand_anim.worldMatrix[0]",
+    "Ik_L_hand_anim_parent_Constraint_1.constraintRotateX",
+    "Ik_L_hand_anim_parent_Constraint_1.constraintRotateY",
+    "Ik_L_hand_anim_parent_Constraint_1.constraintRotateZ",
+    "Ik_L_hand_anim_parent_Constraint_1.constraintTranslateX",
+    "Ik_L_hand_anim_parent_Constraint_1.constraintTranslateY",
+    "Ik_L_hand_anim_parent_Constraint_1.constraintTranslateZ",
+    "Ik_L_hand_anim_parent_Constraint_1.target[0].targetParentMatrix",
+    "Ik_L_hand_anim_parent_Constraint_1.target[0].targetRotate",
+    "Ik_L_hand_anim_parent_Constraint_1.target[0].targetTranslate",
+    "Ik_R_hand_anim.rotateX",
+    "Ik_R_hand_anim.rotateY",
+    "Ik_R_hand_anim.rotateZ",
+    "Ik_R_hand_anim.translate",
+    "Ik_R_hand_anim.translateX",
+    "Ik_R_hand_anim.translateY",
+    "Ik_R_hand_anim.translateZ",
+    "Ik_R_hand_anim.worldInverseMatrix[0]",
+    "Ik_R_hand_anim.worldMatrix[0]",
+    "Ik_R_hand_anim_parent_Constraint_1.constraintRotateX",
+    "Ik_R_hand_anim_parent_Constraint_1.constraintRotateY",
+    "Ik_R_hand_anim_parent_Constraint_1.constraintRotateZ",
+    "Ik_R_hand_anim_parent_Constraint_1.constraintTranslateX",
+    "Ik_R_hand_anim_parent_Constraint_1.constraintTranslateY",
+    "Ik_R_hand_anim_parent_Constraint_1.constraintTranslateZ",
+    "Ik_R_hand_anim_parent_Constraint_1.target[0].targetParentMatrix",
+    "Ik_R_hand_anim_parent_Constraint_1.target[0].targetRotate",
+    "Ik_R_hand_anim_parent_Constraint_1.target[0].targetTranslate",
+    "L_String_Follow_LOC.parentInverseMatrix[0]",
+    "L_String_Follow_LOC.parentMatrix[0]",
+    "L_String_Follow_LOC.rotate",
+    "L_String_Follow_LOC.rotateX",
+    "L_String_Follow_LOC.rotateY",
+    "L_String_Follow_LOC.rotateZ",
+    "L_String_Follow_LOC.translate",
+    "L_String_Follow_LOC.translateX",
+    "L_String_Follow_LOC.translateY",
+    "L_String_Follow_LOC.translateZ",
+    "L_String_Follow_LOC_parent_Constraint_1.constraintParentInverseMatrix",
+    "L_String_Follow_LOC_parent_Constraint_1.constraintRotateX",
+    "L_String_Follow_LOC_parent_Constraint_1.constraintRotateY",
+    "L_String_Follow_LOC_parent_Constraint_1.constraintRotateZ",
+    "L_String_Follow_LOC_parent_Constraint_1.constraintTranslateX",
+    "L_String_Follow_LOC_parent_Constraint_1.constraintTranslateY",
+    "L_String_Follow_LOC_parent_Constraint_1.constraintTranslateZ",
+    "L_String_Follow_LOC_parent_Constraint_1.target[0].targetParentMatrix",
+    "L_String_Follow_LOC_parent_Constraint_1.target[0].targetRotate",
+    "L_String_Follow_LOC_parent_Constraint_1.target[0].targetTranslate",
+    "L_arm_I_Khandle_NEW.message",
+    "L_arm_I_Khandle_NEW.translateX",
+    "L_arm_I_Khandle_NEW.translateY",
+    "L_arm_I_Khandle_NEW.translateZ",
+    "L_arm_I_Khandle_NEW_point_Constraint_1.constraintTranslateX",
+    "L_arm_I_Khandle_NEW_point_Constraint_1.constraintTranslateY",
+    "L_arm_I_Khandle_NEW_point_Constraint_1.constraintTranslateZ",
+    "L_arm_I_Khandle_NEW_point_Constraint_1.target[0].targetTranslate",
+    "L_elbow_skn_jnt.parentInverseMatrix[0]",
+    "L_elbow_skn_jnt.parentMatrix[0]",
+    "L_elbow_skn_jnt.rotateX",
+    "L_elbow_skn_jnt.rotateY",
+    "L_elbow_skn_jnt.rotateZ",
+    "L_elbow_skn_jnt.worldInverseMatrix[0]",
+    "L_elbow_skn_jnt.worldMatrix[0]",
+    "L_elbow_skn_jnt_orient_Constraint_1.constraintParentInverseMatrix",
+    "L_elbow_skn_jnt_orient_Constraint_1.constraintRotateX",
+    "L_elbow_skn_jnt_orient_Constraint_1.constraintRotateY",
+    "L_elbow_skn_jnt_orient_Constraint_1.constraintRotateZ",
+    "L_elbow_skn_jnt_orient_Constraint_1.target[1].targetParentMatrix",
+    "L_elbow_skn_jnt_orient_Constraint_1.target[1].targetRotate",
+    "L_forearm_skn_jnt.parentInverseMatrix[0]",
+    "L_forearm_skn_jnt.parentMatrix[0]",
+    "L_forearm_skn_jnt.rotateX",
+    "L_forearm_skn_jnt.worldInverseMatrix[0]",
+    "L_forearm_skn_jnt.worldMatrix[0]",
+    "L_forearm_skn_jnt_orient_Constraint_1.constraintParentInverseMatrix",
+    "L_forearm_skn_jnt_orient_Constraint_1.constraintRotateX",
+    "L_forearm_skn_jnt_orient_Constraint_1.target[1].targetParentMatrix",
+    "L_forearm_skn_jnt_orient_Constraint_1.target[1].targetRotate",
+    "L_index1_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.input[0]",
+    "L_index1_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.output",
+    "L_index1_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.input[0]",
+    "L_index1_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.output",
+    "L_index1_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.input[0]",
+    "L_index1_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.output",
+    "L_index2_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.input[0]",
+    "L_index2_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.output",
+    "L_index2_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.input[0]",
+    "L_index2_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.output",
+    "L_index2_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.input[0]",
+    "L_index2_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.output",
+    "L_index3_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.input[0]",
+    "L_index3_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.output",
+    "L_index3_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.input[0]",
+    "L_index3_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.output",
+    "L_index3_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.input[0]",
+    "L_index3_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.output",
+    "L_middle1_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.input[0]",
+    "L_middle1_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.output",
+    "L_middle1_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.input[0]",
+    "L_middle1_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.output",
+    "L_middle1_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.input[0]",
+    "L_middle1_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.output",
+    "L_middle2_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.input[0]",
+    "L_middle2_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.output",
+    "L_middle2_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.input[0]",
+    "L_middle2_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.output",
+    "L_middle2_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.input[0]",
+    "L_middle2_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.output",
+    "L_middle3_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.input[0]",
+    "L_middle3_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.output",
+    "L_middle3_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.input[0]",
+    "L_middle3_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.output",
+    "L_middle3_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.input[0]",
+    "L_middle3_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.output",
+    "L_palm_skn_jnt.parentInverseMatrix[0]",
+    "L_palm_skn_jnt.parentMatrix[0]",
+    "L_palm_skn_jnt.worldInverseMatrix[0]",
+    "L_palm_skn_jnt.worldMatrix[0]",
+    "L_pinky1_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.input[0]",
+    "L_pinky1_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.output",
+    "L_pinky1_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.input[0]",
+    "L_pinky1_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.output",
+    "L_pinky1_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.input[0]",
+    "L_pinky1_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.output",
+    "L_pinky2_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.input[0]",
+    "L_pinky2_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.output",
+    "L_pinky2_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.input[0]",
+    "L_pinky2_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.output",
+    "L_pinky2_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.input[0]",
+    "L_pinky2_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.output",
+    "L_pinky3_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.input[0]",
+    "L_pinky3_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.output",
+    "L_pinky3_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.input[0]",
+    "L_pinky3_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.output",
+    "L_pinky3_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.input[0]",
+    "L_pinky3_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.output",
+    "L_ring1_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.input[0]",
+    "L_ring1_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.output",
+    "L_ring1_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.input[0]",
+    "L_ring1_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.output",
+    "L_ring1_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.input[0]",
+    "L_ring1_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.output",
+    "L_ring2_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.input[0]",
+    "L_ring2_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.output",
+    "L_ring2_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.input[0]",
+    "L_ring2_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.output",
+    "L_ring2_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.input[0]",
+    "L_ring2_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.output",
+    "L_ring3_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.input[0]",
+    "L_ring3_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.output",
+    "L_ring3_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.input[0]",
+    "L_ring3_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.output",
+    "L_ring3_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.input[0]",
+    "L_ring3_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.output",
+    "L_shoulder_skn_jnt.rotateX",
+    "L_shoulder_skn_jnt.rotateY",
+    "L_shoulder_skn_jnt.rotateZ",
+    "L_shoulder_skn_jnt.worldInverseMatrix[0]",
+    "L_shoulder_skn_jnt.worldMatrix[0]",
+    "L_shoulder_skn_jnt_orient_Constraint_1.constraintRotateX",
+    "L_shoulder_skn_jnt_orient_Constraint_1.constraintRotateY",
+    "L_shoulder_skn_jnt_orient_Constraint_1.constraintRotateZ",
+    "L_shoulder_skn_jnt_orient_Constraint_1.target[1].targetRotate",
+    "L_thumb1_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.input[0]",
+    "L_thumb1_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.output",
+    "L_thumb1_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.input[0]",
+    "L_thumb1_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.output",
+    "L_thumb1_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.input[0]",
+    "L_thumb1_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.output",
+    "L_thumb2_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.input[0]",
+    "L_thumb2_HandSDK_pose_poseDriver_GRP_rotateX_poseBlend.output",
+    "L_thumb2_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.input[0]",
+    "L_thumb2_HandSDK_pose_poseDriver_GRP_rotateY_poseBlend.output",
+    "L_thumb2_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.input[0]",
+    "L_thumb2_HandSDK_pose_poseDriver_GRP_rotateZ_poseBlend.output",
+    "L_thumb_1_anim.parentMatrix[0]",
+    "L_thumb_1_anim_scaleConstraint.constraintParentInverseMatrix",
+    "L_thumb_1_anim_scaleConstraint.constraintScaleX",
+    "L_thumb_1_anim_scaleConstraint.constraintScaleY",
+    "L_thumb_1_anim_scaleConstraint.constraintScaleZ",
+    "L_thumb_1_anim_scaleConstraint.target[0].targetParentMatrix",
+    "L_thumb_1_jnt.inverseScale",
+    "L_thumb_1_jnt.parentInverseMatrix[0]",
+    "L_thumb_1_jnt.parentMatrix[0]",
+    "L_thumb_1_jnt.scale",
+    "L_thumb_1_jnt.scaleX",
+    "L_thumb_1_jnt.scaleY",
+    "L_thumb_1_jnt.scaleZ",
+    "L_thumb_1_jnt.worldInverseMatrix[0]",
+    "L_thumb_1_jnt.worldMatrix[0]",
+    "L_thumb_1_zero.parentInverseMatrix[0]",
+    "L_thumb_1_zero.parentMatrix[0]",
+    "L_thumb_1_zero.worldInverseMatrix[0]",
+    "L_thumb_1_zero.worldMatrix[0]",
+    "L_thumb_2_anim.parentMatrix[0]",
+    "L_thumb_2_anim_scaleConstraint.constraintParentInverseMatrix",
+    "L_thumb_2_anim_scaleConstraint.constraintScaleX",
+    "L_thumb_2_anim_scaleConstraint.constraintScaleY",
+    "L_thumb_2_anim_scaleConstraint.constraintScaleZ",
+    "L_thumb_2_anim_scaleConstraint.target[0].targetParentMatrix",
+    "L_thumb_2_jnt.inverseScale",
+    "L_thumb_2_jnt.parentInverseMatrix[0]",
+    "L_thumb_2_jnt.parentMatrix[0]",
+    "L_thumb_2_jnt.scaleX",
+    "L_thumb_2_jnt.scaleY",
+    "L_thumb_2_jnt.scaleZ",
+    "L_thumb_2_jnt.worldInverseMatrix[0]",
+    "L_thumb_2_jnt.worldMatrix[0]",
+    "L_thumb_2_zero.parentInverseMatrix[0]",
+    "L_thumb_2_zero.parentMatrix[0]",
+    "L_thumb_2_zero.worldInverseMatrix[0]",
+    "L_thumb_2_zero.worldMatrix[0]",
+    "L_thumb_palm_FK_SDK_FinalADD.inputBX",
+    "L_thumb_palm_FK_SDK_FinalADD.inputBY",
+    "L_thumb_palm_FK_SDK_FinalADD.inputBZ",
+    "L_thumb_palm_FK_SDK_FinalADD.outputX",
+    "L_thumb_palm_FK_SDK_FinalADD.outputY",
+    "L_thumb_palm_FK_SDK_FinalADD.outputZ",
+    "L_thumb_palm_anim.parentMatrix[0]",
+    "L_thumb_palm_anim_parentConstraint.constraintParentInverseMatrix",
+    "L_thumb_palm_anim_parentConstraint.constraintRotateX",
+    "L_thumb_palm_anim_parentConstraint.constraintRotateY",
+    "L_thumb_palm_anim_parentConstraint.constraintRotateZ",
+    "L_thumb_palm_anim_parentConstraint.constraintTranslateX",
+    "L_thumb_palm_anim_parentConstraint.constraintTranslateY",
+    "L_thumb_palm_anim_parentConstraint.constraintTranslateZ",
+    "L_thumb_palm_anim_parentConstraint.target[0].targetParentMatrix",
+    "L_thumb_palm_anim_scaleConstraint.constraintParentInverseMatrix",
+    "L_thumb_palm_anim_scaleConstraint.constraintScaleX",
+    "L_thumb_palm_anim_scaleConstraint.constraintScaleY",
+    "L_thumb_palm_anim_scaleConstraint.constraintScaleZ",
+    "L_thumb_palm_anim_scaleConstraint.target[0].targetParentMatrix",
+    "L_thumb_palm_jnt.parentInverseMatrix[0]",
+    "L_thumb_palm_jnt.parentMatrix[0]",
+    "L_thumb_palm_jnt.rotateX",
+    "L_thumb_palm_jnt.rotateY",
+    "L_thumb_palm_jnt.rotateZ",
+    "L_thumb_palm_jnt.scale",
+    "L_thumb_palm_jnt.scaleX",
+    "L_thumb_palm_jnt.scaleY",
+    "L_thumb_palm_jnt.scaleZ",
+    "L_thumb_palm_jnt.translateX",
+    "L_thumb_palm_jnt.translateY",
+    "L_thumb_palm_jnt.translateZ",
+    "L_thumb_palm_jnt.worldInverseMatrix[0]",
+    "L_thumb_palm_jnt.worldMatrix[0]",
+    "L_thumb_palm_zero.parentInverseMatrix[0]",
+    "L_thumb_palm_zero.parentMatrix[0]",
+    "L_thumb_palm_zero.worldInverseMatrix[0]",
+    "L_thumb_palm_zero.worldMatrix[0]",
+    "L_weapon_socket_LOCW_0.parentMatrix[0]",
+    "L_wrist_HandRotateY_ADD.input1",
+    "L_wrist_HandRotateY_ADD.output",
+    "L_wrist_I_Khandle.message",
+    "L_wrist_I_Khandle.parentMatrix[0]",
+    "L_wrist_skn_jnt.parentInverseMatrix[0]",
+    "L_wrist_skn_jnt.parentMatrix[0]",
+    "L_wrist_skn_jnt.rotateX",
+    "L_wrist_skn_jnt.rotateY",
+    "L_wrist_skn_jnt.worldInverseMatrix[0]",
+    "L_wrist_skn_jnt.worldMatrix[0]",
+    "L_wrist_skn_jnt_orient_Constraint_1.constraintParentInverseMatrix",
+    "L_wrist_skn_jnt_orient_Constraint_1.constraintRotateX",
+    "L_wrist_skn_jnt_orient_Constraint_1.constraintRotateY",
+    "L_wrist_skn_jnt_orient_Constraint_1.target[1].targetParentMatrix",
+    "L_wrist_skn_jnt_orient_Constraint_1.target[1].targetRotate",
+    "R_String_Follow_LOC.parentInverseMatrix[0]",
+    "R_String_Follow_LOC.parentMatrix[0]",
+    "R_String_Follow_LOC.rotate",
+    "R_String_Follow_LOC.rotateX",
+    "R_String_Follow_LOC.rotateY",
+    "R_String_Follow_LOC.rotateZ",
+    "R_String_Follow_LOC.translate",
+    "R_String_Follow_LOC.translateX",
+    "R_String_Follow_LOC.translateY",
+    "R_String_Follow_LOC.translateZ",
+    "R_String_Follow_LOC_parent_Constraint_1.constraintParentInverseMatrix",
+    "R_String_Follow_LOC_parent_Constraint_1.constraintRotateX",
+    "R_String_Follow_LOC_parent_Constraint_1.constraintRotateY",
+    "R_String_Follow_LOC_parent_Constraint_1.constraintRotateZ",
+    "R_String_Follow_LOC_parent_Constraint_1.constraintTranslateX",
+    "R_String_Follow_LOC_parent_Constraint_1.constraintTranslateY",
+    "R_String_Follow_LOC_parent_Constraint_1.constraintTranslateZ",
+    "R_String_Follow_LOC_parent_Constraint_1.target[0].targetParentMatrix",
+    "R_String_Follow_LOC_parent_Constraint_1.target[0].targetRotate",
+    "R_String_Follow_LOC_parent_Constraint_1.target[0].targetTranslate",
+    "R_arm_I_Khandle_NEW.message",
+    "R_arm_I_Khandle_NEW.translateX",
+    "R_arm_I_Khandle_NEW.translateY",
+    "R_arm_I_Khandle_NEW.translateZ",
+    "R_arm_I_Khandle_NEW_point_Constraint_1.constraintTranslateX",
+    "R_arm_I_Khandle_NEW_point_Constraint_1.constraintTranslateY",
+    "R_arm_I_Khandle_NEW_point_Constraint_1.constraintTranslateZ",
+    "R_arm_I_Khandle_NEW_point_Constraint_1.target[0].targetTranslate",
+    "R_elbow_skn_jnt.parentInverseMatrix[0]",
+    "R_elbow_skn_jnt.parentMatrix[0]",
+    "R_elbow_skn_jnt.rotateX",
+    "R_elbow_skn_jnt.rotateY",
+    "R_elbow_skn_jnt.rotateZ",
+    "R_elbow_skn_jnt.worldInverseMatrix[0]",
+    "R_elbow_skn_jnt.worldMatrix[0]",
+    "R_elbow_skn_jnt_orient_Constraint_1.constraintParentInverseMatrix",
+    "R_elbow_skn_jnt_orient_Constraint_1.constraintRotateX",
+    "R_elbow_skn_jnt_orient_Constraint_1.constraintRotateY",
+    "R_elbow_skn_jnt_orient_Constraint_1.constraintRotateZ",
+    "R_elbow_skn_jnt_orient_Constraint_1.target[1].targetParentMatrix",
+    "R_elbow_skn_jnt_orient_Constraint_1.target[1].targetRotate",
+    "R_forearm_skn_jnt.parentInverseMatrix[0]",
+    "R_forearm_skn_jnt.parentMatrix[0]",
+    "R_forearm_skn_jnt.rotateX",
+    "R_forearm_skn_jnt.worldInverseMatrix[0]",
+    "R_forearm_skn_jnt.worldMatrix[0]",
+    "R_forearm_skn_jnt_orient_Constraint_1.constraintParentInverseMatrix",
+    "R_forearm_skn_jnt_orient_Constraint_1.constraintRotateX",
+    "R_forearm_skn_jnt_orient_Constraint_1.target[1].targetParentMatrix",
+    "R_forearm_skn_jnt_orient_Constraint_1.target[1].targetRotate",
+    "R_shoulder_skn_jnt.rotateX",
+    "R_shoulder_skn_jnt.rotateY",
+    "R_shoulder_skn_jnt.rotateZ",
+    "R_shoulder_skn_jnt.worldInverseMatrix[0]",
+    "R_shoulder_skn_jnt.worldMatrix[0]",
+    "R_shoulder_skn_jnt_orient_Constraint_1.constraintRotateX",
+    "R_shoulder_skn_jnt_orient_Constraint_1.constraintRotateY",
+    "R_shoulder_skn_jnt_orient_Constraint_1.constraintRotateZ",
+    "R_shoulder_skn_jnt_orient_Constraint_1.target[1].targetRotate",
+    "R_thumb_1_anim.parentMatrix[0]",
+    "R_thumb_1_anim_scaleConstraint.constraintParentInverseMatrix",
+    "R_thumb_1_anim_scaleConstraint.constraintScaleX",
+    "R_thumb_1_anim_scaleConstraint.constraintScaleY",
+    "R_thumb_1_anim_scaleConstraint.constraintScaleZ",
+    "R_thumb_1_anim_scaleConstraint.target[0].targetParentMatrix",
+    "R_thumb_1_jnt.inverseScale",
+    "R_thumb_1_jnt.parentInverseMatrix[0]",
+    "R_thumb_1_jnt.parentMatrix[0]",
+    "R_thumb_1_jnt.scale",
+    "R_thumb_1_jnt.scaleX",
+    "R_thumb_1_jnt.scaleY",
+    "R_thumb_1_jnt.scaleZ",
+    "R_thumb_1_jnt.worldInverseMatrix[0]",
+    "R_thumb_1_jnt.worldMatrix[0]",
+    "R_thumb_1_zero.parentInverseMatrix[0]",
+    "R_thumb_1_zero.parentMatrix[0]",
+    "R_thumb_1_zero.worldInverseMatrix[0]",
+    "R_thumb_1_zero.worldMatrix[0]",
+    "R_thumb_2_anim.parentMatrix[0]",
+    "R_thumb_2_anim_scaleConstraint.constraintParentInverseMatrix",
+    "R_thumb_2_anim_scaleConstraint.constraintScaleX",
+    "R_thumb_2_anim_scaleConstraint.constraintScaleY",
+    "R_thumb_2_anim_scaleConstraint.constraintScaleZ",
+    "R_thumb_2_anim_scaleConstraint.target[0].targetParentMatrix",
+    "R_thumb_2_jnt.inverseScale",
+    "R_thumb_2_jnt.parentInverseMatrix[0]",
+    "R_thumb_2_jnt.parentMatrix[0]",
+    "R_thumb_2_jnt.scaleX",
+    "R_thumb_2_jnt.scaleY",
+    "R_thumb_2_jnt.scaleZ",
+    "R_thumb_2_jnt.worldInverseMatrix[0]",
+    "R_thumb_2_jnt.worldMatrix[0]",
+    "R_thumb_2_zero.parentInverseMatrix[0]",
+    "R_thumb_2_zero.parentMatrix[0]",
+    "R_thumb_2_zero.worldInverseMatrix[0]",
+    "R_thumb_2_zero.worldMatrix[0]",
+    "R_thumb_palm_anim.parentMatrix[0]",
+    "R_thumb_palm_anim_parentConstraint.constraintParentInverseMatrix",
+    "R_thumb_palm_anim_parentConstraint.constraintTranslateX",
+    "R_thumb_palm_anim_parentConstraint.constraintTranslateY",
+    "R_thumb_palm_anim_parentConstraint.constraintTranslateZ",
+    "R_thumb_palm_anim_parentConstraint.target[0].targetParentMatrix",
+    "R_thumb_palm_anim_scaleConstraint.constraintParentInverseMatrix",
+    "R_thumb_palm_anim_scaleConstraint.constraintScaleX",
+    "R_thumb_palm_anim_scaleConstraint.constraintScaleY",
+    "R_thumb_palm_anim_scaleConstraint.constraintScaleZ",
+    "R_thumb_palm_anim_scaleConstraint.target[0].targetParentMatrix",
+    "R_thumb_palm_jnt.parentInverseMatrix[0]",
+    "R_thumb_palm_jnt.parentMatrix[0]",
+    "R_thumb_palm_jnt.scale",
+    "R_thumb_palm_jnt.scaleX",
+    "R_thumb_palm_jnt.scaleY",
+    "R_thumb_palm_jnt.scaleZ",
+    "R_thumb_palm_jnt.translateX",
+    "R_thumb_palm_jnt.translateY",
+    "R_thumb_palm_jnt.translateZ",
+    "R_thumb_palm_jnt.worldInverseMatrix[0]",
+    "R_thumb_palm_jnt.worldMatrix[0]",
+    "R_thumb_palm_zero.parentInverseMatrix[0]",
+    "R_thumb_palm_zero.parentMatrix[0]",
+    "R_thumb_palm_zero.worldInverseMatrix[0]",
+    "R_thumb_palm_zero.worldMatrix[0]",
+    "R_weapon_socket_LOCW_1.parentMatrix[0]",
+    "R_wrist_I_Khandle.message",
+    "R_wrist_I_Khandle.parentMatrix[0]",
+    "R_wrist_skn_jnt.parentInverseMatrix[0]",
+    "R_wrist_skn_jnt.parentMatrix[0]",
+    "R_wrist_skn_jnt.rotateX",
+    "R_wrist_skn_jnt.rotateY",
+    "R_wrist_skn_jnt.rotateZ",
+    "R_wrist_skn_jnt.worldInverseMatrix[0]",
+    "R_wrist_skn_jnt.worldMatrix[0]",
+    "R_wrist_skn_jnt_orient_Constraint_1.constraintParentInverseMatrix",
+    "R_wrist_skn_jnt_orient_Constraint_1.constraintRotateX",
+    "R_wrist_skn_jnt_orient_Constraint_1.constraintRotateY",
+    "R_wrist_skn_jnt_orient_Constraint_1.constraintRotateZ",
+    "R_wrist_skn_jnt_orient_Constraint_1.target[1].targetParentMatrix",
+    "R_wrist_skn_jnt_orient_Constraint_1.target[1].targetRotate",
+    "String_ManualOffset_ADL.input1",
+    "String_ManualOffset_ADL.output",
+    "String_anim.parentInverseMatrix[0]",
+    "String_anim.parentMatrix[0]",
+    "String_anim.worldInverseMatrix[0]",
+    "String_anim.worldMatrix[0]",
+    "String_anim_offset.parentInverseMatrix[0]",
+    "String_anim_offset.parentMatrix[0]",
+    "String_anim_offset.worldInverseMatrix[0]",
+    "String_anim_offset.worldMatrix[0]",
+    "String_jnt_GRP.parentInverseMatrix[0]",
+    "String_jnt_GRP.parentMatrix[0]",
+    "String_jnt_GRP.worldInverseMatrix[0]",
+    "String_jnt_GRP.worldMatrix[0]",
+    "blendWeighted61.input[0]",
+    "blendWeighted61.output",
+    "blendWeighted62.input[0]",
+    "blendWeighted62.output",
+    "blendWeighted63.input[0]",
+    "blendWeighted63.output",
+    "blendWeighted87.input[0]",
+    "blendWeighted87.output",
+    "blendWeighted88.input[0]",
+    "blendWeighted88.output",
+    "blendWeighted89.input[0]",
+    "blendWeighted89.output",
+    "blendWeighted90.input[0]",
+    "blendWeighted90.output",
+    "blendWeighted91.input[0]",
+    "blendWeighted91.output",
+    "pairBlend17.inRotateX2",
+    "pairBlend17.inRotateY2",
+    "pairBlend17.inRotateZ2",
+    "pairBlend17.outRotateX",
+    "pairBlend17.outRotateY",
+    "pairBlend17.outRotateZ",
+    "pairBlend24.inRotateX2",
+    "pairBlend24.inRotateY2",
+    "pairBlend24.inRotateZ2",
+    "pairBlend24.inTranslateX2",
+    "pairBlend24.inTranslateY2",
+    "pairBlend24.inTranslateZ2",
+    "pairBlend24.outRotateX",
+    "pairBlend24.outRotateY",
+    "pairBlend24.outRotateZ",
+    "pairBlend24.outTranslateX",
+    "pairBlend24.outTranslateY",
+    "pairBlend24.outTranslateZ",
+    "pairBlend81.inTranslateX2",
+    "pairBlend81.inTranslateY2",
+    "pairBlend81.inTranslateZ2",
+    "pairBlend81.outTranslateX",
+    "pairBlend81.outTranslateY",
+    "pairBlend81.outTranslateZ",
+    "pairBlend85.inTranslateX2",
+    "pairBlend85.inTranslateY2",
+    "pairBlend85.inTranslateZ2",
+    "pairBlend85.outTranslateX",
+    "pairBlend85.outTranslateY",
+    "pairBlend85.outTranslateZ",
+    "string_Bow_and_Arrow_String_Middle_jnt.parentInverseMatrix[0]",
+    "string_Bow_and_Arrow_String_Middle_jnt.parentMatrix[0]",
+    "string_Bow_and_Arrow_String_Middle_jnt.rotate",
+    "string_Bow_and_Arrow_String_Middle_jnt.rotateX",
+    "string_Bow_and_Arrow_String_Middle_jnt.rotateY",
+    "string_Bow_and_Arrow_String_Middle_jnt.rotateZ",
+    "string_Bow_and_Arrow_String_Middle_jnt.translate",
+    "string_Bow_and_Arrow_String_Middle_jnt.translateX",
+    "string_Bow_and_Arrow_String_Middle_jnt.translateY",
+    "string_Bow_and_Arrow_String_Middle_jnt.translateZ",
+    "string_Bow_and_Arrow_String_Middle_jnt_parentConstraint1.constraintParentInverseMatrix",
+    "string_Bow_and_Arrow_String_Middle_jnt_parentConstraint1.constraintRotateX",
+    "string_Bow_and_Arrow_String_Middle_jnt_parentConstraint1.constraintRotateY",
+    "string_Bow_and_Arrow_String_Middle_jnt_parentConstraint1.constraintRotateZ",
+    "string_Bow_and_Arrow_String_Middle_jnt_parentConstraint1.constraintTranslateX",
+    "string_Bow_and_Arrow_String_Middle_jnt_parentConstraint1.constraintTranslateY",
+    "string_Bow_and_Arrow_String_Middle_jnt_parentConstraint1.constraintTranslateZ",
+    "string_Bow_and_Arrow_String_Middle_jnt_parentConstraint1.target[0].targetParentMatrix",
+    "transform_4.parentInverseMatrix[0]",
+    "transform_4.parentMatrix[0]",
+    "transform_4.worldInverseMatrix[0]",
+    "transform_4.worldMatrix[0]",
+    "unitConversion1701.input",
+    "unitConversion1701.output",
+    "unitConversion1702.input",
+    "unitConversion1702.output",
+    "unitConversion1707.input",
+    "unitConversion1707.output",
+    "unitConversion1708.input",
+    "unitConversion1708.output",
+    "unitConversion1709.input",
+    "unitConversion1709.output",
+    "unitConversion1713.input",
+    "unitConversion1713.output",
+    "unitConversion1714.input",
+    "unitConversion1714.output",
+    "unitConversion1715.input",
+    "unitConversion1715.output",
+    "unitConversion1719.input",
+    "unitConversion1719.output",
+    "unitConversion1720.input",
+    "unitConversion1720.output",
+    "unitConversion1725.input",
+    "unitConversion1725.output",
+    "unitConversion1726.input",
+    "unitConversion1726.output",
+    "unitConversion1727.input",
+    "unitConversion1727.output",
+    "unitConversion1731.input",
+    "unitConversion1731.output",
+    "unitConversion1732.input",
+    "unitConversion1732.output",
+    "unitConversion1733.input",
+    "unitConversion1733.output",
+    "unitConversion1737.input",
+    "unitConversion1737.output",
+    "unitConversion1738.input",
+    "unitConversion1738.output",
+    "unitConversion1743.input",
+    "unitConversion1743.output",
+    "unitConversion1744.input",
+    "unitConversion1744.output",
+    "unitConversion1745.input",
+    "unitConversion1745.output",
+    "unitConversion1749.input",
+    "unitConversion1749.output",
+    "unitConversion1750.input",
+    "unitConversion1750.output",
+    "unitConversion1751.input",
+    "unitConversion1751.output",
+    "unitConversion1755.input",
+    "unitConversion1755.output",
+    "unitConversion1756.input",
+    "unitConversion1756.output",
+    "unitConversion1761.input",
+    "unitConversion1761.output",
+    "unitConversion1762.input",
+    "unitConversion1762.output",
+    "unitConversion1763.input",
+    "unitConversion1763.output",
+    "unitConversion1767.input",
+    "unitConversion1767.output",
+    "unitConversion1768.input",
+    "unitConversion1768.output",
+    "unitConversion1769.input",
+    "unitConversion1769.output",
+    "unitConversion1773.input",
+    "unitConversion1773.output",
+    "unitConversion1774.input",
+    "unitConversion1774.output",
+    "unitConversion1775.input",
+    "unitConversion1775.output",
+    "unitConversion1779.input",
+    "unitConversion1779.output",
+    "unitConversion1780.input",
+    "unitConversion1780.output",
+    "unitConversion1781.input",
+    "unitConversion1781.output",
+    "unitConversion1787.input",
+    "unitConversion1787.output",
+    "unitConversion1805.input",
+    "unitConversion1805.output",
+    "unitConversion1823.input",
+    "unitConversion1823.output",
+    "unitConversion1841.input",
+    "unitConversion1841.output",
+    "unitConversion1883.input",
+    "unitConversion1883.output",
+    "unitConversion1884.input",
+    "unitConversion1884.output",
+    "unitConversion232.input",
+    "unitConversion232.output",
+    "unitConversion233.input",
+    "unitConversion233.output",
+    "unitConversion235.input",
+    "unitConversion235.output",
+    "unitConversion236.input",
+    "unitConversion236.output",
+    "unitConversion238.input",
+    "unitConversion238.output",
+    "unitConversion239.input",
+    "unitConversion239.output",
+    "unitConversion370.input",
+    "unitConversion370.output",
+    "unitConversion371.input",
+    "unitConversion371.output",
+    "unitConversion373.input",
+    "unitConversion373.output",
+    "unitConversion374.input",
+    "unitConversion374.output",
+    "unitConversion376.input",
+    "unitConversion376.output",
+    "unitConversion377.input",
+    "unitConversion377.output"
+  ],
+  "created_nodes": [
+    "DIANA_SPINE_P5B_ATTACHMENT_GRP",
+    "DIANA_SPINE_P5B_L_ARM_BODY_FINAL_MM",
+    "DIANA_SPINE_P5B_L_ARM_BODY_OFFSET_FBF",
+    "DIANA_SPINE_P5B_L_ARM_BODY_TARGET",
+    "DIANA_SPINE_P5B_L_CLAVICE_DESIRED_WORLD_MM",
+    "DIANA_SPINE_P5B_L_CLAVICE_OPM_MM",
+    "DIANA_SPINE_P5B_L_CLAVICE_REST_LOCAL_INV_FBF",
+    "DIANA_SPINE_P5B_L_CLAVICE_SHOULDER_OFFSET_FBF",
+    "DIANA_SPINE_P5B_L_IK_ELBOW_DESIRED_WORLD_MM",
+    "DIANA_SPINE_P5B_L_IK_ELBOW_OPM_MM",
+    "DIANA_SPINE_P5B_L_IK_ELBOW_REST_LOCAL_INV_FBF",
+    "DIANA_SPINE_P5B_L_IK_ELBOW_SHOULDER_OFFSET_FBF",
+    "DIANA_SPINE_P5B_REGISTRY",
+    "DIANA_SPINE_P5B_R_ARM_BODY_FINAL_MM",
+    "DIANA_SPINE_P5B_R_ARM_BODY_OFFSET_FBF",
+    "DIANA_SPINE_P5B_R_ARM_BODY_TARGET",
+    "DIANA_SPINE_P5B_R_CLAVICE_DESIRED_WORLD_MM",
+    "DIANA_SPINE_P5B_R_CLAVICE_OPM_MM",
+    "DIANA_SPINE_P5B_R_CLAVICE_REST_LOCAL_INV_FBF",
+    "DIANA_SPINE_P5B_R_CLAVICE_SHOULDER_OFFSET_FBF",
+    "DIANA_SPINE_P5B_R_IK_ELBOW_DESIRED_WORLD_MM",
+    "DIANA_SPINE_P5B_R_IK_ELBOW_OPM_MM",
+    "DIANA_SPINE_P5B_R_IK_ELBOW_REST_LOCAL_INV_FBF",
+    "DIANA_SPINE_P5B_R_IK_ELBOW_SHOULDER_OFFSET_FBF"
+  ],
+  "created_utc": "2026-11-04T02:16:26.586673Z",
+  "protected_connections": {
+    "RIG_spineStretch_MD": [
+      {
+        "other": "IK_back_spine_jnt_2.scaleX",
+        "plug": "RIG_spineStretch_MD.outputX"
+      },
+      {
+        "other": "IK_back_spine_jnt_1.scaleX",
+        "plug": "RIG_spineStretch_MD.outputX"
+      },
+      {
+        "other": "IK_back_spine_jnt_3.scaleX",
+        "plug": "RIG_spineStretch_MD.outputX"
+      },
+      {
+        "other": "IK_back_spine_jnt_4.scaleX",
+        "plug": "RIG_spineStretch_MD.outputX"
+      },
+      {
+        "other": "IK_back_spine_jnt_5.scaleX",
+        "plug": "RIG_spineStretch_MD.outputX"
+      },
+      {
+        "other": "IK_back_spine_jnt_6.scaleX",
+        "plug": "RIG_spineStretch_MD.outputX"
+      },
+      {
+        "other": "IK_back_spine_jnt_7.scaleX",
+        "plug": "RIG_spineStretch_MD.outputX"
+      },
+      {
+        "other": "IK_back_spine_jnt_8.scaleX",
+        "plug": "RIG_spineStretch_MD.outputX"
+      },
+      {
+        "other": "IK_back_spine_jnt_9.scaleX",
+        "plug": "RIG_spineStretch_MD.outputX"
+      },
+      {
+        "other": "RIG_curveInfo1.arcLength",
+        "plug": "RIG_spineStretch_MD.input1X"
+      }
+    ],
+    "Terminal": [
+      {
+        "other": "Body_Rot_Pivot_anim.visibility",
+        "plug": "Terminal.Body_Rot_Visible"
+      },
+      {
+        "other": "Sword.visibility",
+        "plug": "Terminal.swordVis"
+      },
+      {
+        "other": "Shield.visibility",
+        "plug": "Terminal.shieldVis"
+      },
+      {
+        "other": "Bow.visibility",
+        "plug": "Terminal.bowVis"
+      },
+      {
+        "other": "Bow_Follow_GRP.visibility",
+        "plug": "Terminal.bowVis"
+      },
+      {
+        "other": "Arrow_Follow_GRP.visibility",
+        "plug": "Terminal.bowVis"
+      },
+      {
+        "other": "R_Long_zero.visibility",
+        "plug": "Terminal.R_Long"
+      },
+      {
+        "other": "L_Long_zero.visibility",
+        "plug": "Terminal.L_Long"
+      },
+      {
+        "other": "Short_Root_zero.visibility",
+        "plug": "Terminal.Short_CTRL"
+      },
+      {
+        "other": "short_under_zero_GRP.visibility",
+        "plug": "Terminal.Shoet_Layer_CTRL"
+      },
+      {
+        "other": "DSS_Head_ROTATION_REV.inputX",
+        "plug": "Terminal.Head_Space"
+      },
+      {
+        "other": "DSS_Head_ROTATION_OC.DSS_Head_ROT_WORLD_REFW1",
+        "plug": "Terminal.Head_Space"
+      },
+      {
+        "other": "DIANA_SPINE_HEAD_SPACE_ROT_COND.firstTerm",
+        "plug": "Terminal.Head_Space"
+      },
+      {
+        "other": "DIANA_SPINE_CV0_MODE1_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_CV0_MODE0_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_CV0_MODE2_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_CV1_MODE0_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_CV1_MODE1_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_CV1_MODE2_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_CV2_MODE0_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_CV2_MODE1_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_CV2_MODE2_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_CV3_MODE0_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_CV3_MODE1_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_CV3_MODE2_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_FK_VIS_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_IK_VIS_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_HIP_MODE_CHOICE.selector",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_LOWER_MODE_CHOICE.selector",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_MIDDLE_MODE_CHOICE.selector",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_SHOULDER_MODE_CHOICE.selector",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_IK_UPPER_VIS_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_L_arm_GRP_MODE_CHOICE.selector",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_R_arm_GRP_MODE_CHOICE.selector",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_FINAL_DISPLAY_VIS_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_P5_HIP_FOLLOW_MODE_CHOICE.selector",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_P5_HIP_VALID_MODE_VIS_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_P5_LOWER_FOLLOW_MODE_CHOICE.selector",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_P5_LOWER_VALID_MODE_VIS_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_P5_MIDDLE_FOLLOW_MODE_CHOICE.selector",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_P5_MIDDLE_VALID_MODE_VIS_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_P5_SHOULDER_FOLLOW_MODE_CHOICE.selector",
+        "plug": "Terminal.Spine_Mode"
+      },
+      {
+        "other": "DIANA_SPINE_P5_SHOULDER_VALID_MODE_VIS_COND.firstTerm",
+        "plug": "Terminal.Spine_Mode"
+      }
+    ],
+    "back_spine_curve": [
+      {
+        "other": "DIANA_SPINE_CV1_SPACE_MM.matrixIn[1]",
+        "plug": "back_spine_curve.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_CV0_SPACE_MM.matrixIn[1]",
+        "plug": "back_spine_curve.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_CV2_SPACE_MM.matrixIn[1]",
+        "plug": "back_spine_curve.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_CV3_SPACE_MM.matrixIn[1]",
+        "plug": "back_spine_curve.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_CV0_FK_SPACE_MM.matrixIn[1]",
+        "plug": "back_spine_curve.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_CV1_FK_SPACE_MM.matrixIn[1]",
+        "plug": "back_spine_curve.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_CV2_FK_SPACE_MM.matrixIn[1]",
+        "plug": "back_spine_curve.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_CV3_FK_SPACE_MM.matrixIn[1]",
+        "plug": "back_spine_curve.worldInverseMatrix"
+      }
+    ],
+    "head_jnt_parent_Constraint_1": [
+      {
+        "other": "head_jnt.translateX",
+        "plug": "head_jnt_parent_Constraint_1.constraintTranslateX"
+      },
+      {
+        "other": "head_jnt.translateY",
+        "plug": "head_jnt_parent_Constraint_1.constraintTranslateY"
+      },
+      {
+        "other": "head_jnt.translateZ",
+        "plug": "head_jnt_parent_Constraint_1.constraintTranslateZ"
+      },
+      {
+        "other": "head_jnt.rotateX",
+        "plug": "head_jnt_parent_Constraint_1.constraintRotateX"
+      },
+      {
+        "other": "head_jnt.rotateY",
+        "plug": "head_jnt_parent_Constraint_1.constraintRotateY"
+      },
+      {
+        "other": "head_jnt.rotateZ",
+        "plug": "head_jnt_parent_Constraint_1.constraintRotateZ"
+      },
+      {
+        "other": "head_jnt.rotateOrder",
+        "plug": "head_jnt_parent_Constraint_1.constraintRotateOrder"
+      },
+      {
+        "other": "head_jnt.parentInverseMatrix",
+        "plug": "head_jnt_parent_Constraint_1.constraintParentInverseMatrix"
+      },
+      {
+        "other": "head_jnt.rotatePivot",
+        "plug": "head_jnt_parent_Constraint_1.constraintRotatePivot"
+      },
+      {
+        "other": "head_jnt.rotatePivotTranslate",
+        "plug": "head_jnt_parent_Constraint_1.constraintRotateTranslate"
+      },
+      {
+        "other": "head_jnt.jointOrient",
+        "plug": "head_jnt_parent_Constraint_1.constraintJointOrient"
+      },
+      {
+        "other": "DIANA_SPINE_HEAD_FINAL_FOLLOW_PROXY.translate",
+        "plug": "head_jnt_parent_Constraint_1.target[0].targetTranslate"
+      },
+      {
+        "other": "DIANA_SPINE_HEAD_FINAL_FOLLOW_PROXY.rotatePivot",
+        "plug": "head_jnt_parent_Constraint_1.target[0].targetRotatePivot"
+      },
+      {
+        "other": "DIANA_SPINE_HEAD_FINAL_FOLLOW_PROXY.rotatePivotTranslate",
+        "plug": "head_jnt_parent_Constraint_1.target[0].targetRotateTranslate"
+      },
+      {
+        "other": "DIANA_SPINE_HEAD_FINAL_FOLLOW_PROXY.rotate",
+        "plug": "head_jnt_parent_Constraint_1.target[0].targetRotate"
+      },
+      {
+        "other": "DIANA_SPINE_HEAD_FINAL_FOLLOW_PROXY.rotateOrder",
+        "plug": "head_jnt_parent_Constraint_1.target[0].targetRotateOrder"
+      },
+      {
+        "other": "DIANA_SPINE_HEAD_FINAL_FOLLOW_PROXY.scale",
+        "plug": "head_jnt_parent_Constraint_1.target[0].targetScale"
+      },
+      {
+        "other": "DIANA_SPINE_HEAD_FINAL_FOLLOW_PROXY.parentMatrix",
+        "plug": "head_jnt_parent_Constraint_1.target[0].targetParentMatrix"
+      }
+    ],
+    "neck_root_jnt_parent_Constraint_1": [
+      {
+        "other": "neck_root_jnt.translateX",
+        "plug": "neck_root_jnt_parent_Constraint_1.constraintTranslateX"
+      },
+      {
+        "other": "neck_root_jnt.translateY",
+        "plug": "neck_root_jnt_parent_Constraint_1.constraintTranslateY"
+      },
+      {
+        "other": "neck_root_jnt.translateZ",
+        "plug": "neck_root_jnt_parent_Constraint_1.constraintTranslateZ"
+      },
+      {
+        "other": "neck_root_jnt.rotateX",
+        "plug": "neck_root_jnt_parent_Constraint_1.constraintRotateX"
+      },
+      {
+        "other": "neck_root_jnt.rotateY",
+        "plug": "neck_root_jnt_parent_Constraint_1.constraintRotateY"
+      },
+      {
+        "other": "neck_root_jnt.rotateZ",
+        "plug": "neck_root_jnt_parent_Constraint_1.constraintRotateZ"
+      },
+      {
+        "other": "neck_root_jnt.rotateOrder",
+        "plug": "neck_root_jnt_parent_Constraint_1.constraintRotateOrder"
+      },
+      {
+        "other": "neck_root_jnt.parentInverseMatrix",
+        "plug": "neck_root_jnt_parent_Constraint_1.constraintParentInverseMatrix"
+      },
+      {
+        "other": "neck_root_jnt.rotatePivot",
+        "plug": "neck_root_jnt_parent_Constraint_1.constraintRotatePivot"
+      },
+      {
+        "other": "neck_root_jnt.rotatePivotTranslate",
+        "plug": "neck_root_jnt_parent_Constraint_1.constraintRotateTranslate"
+      },
+      {
+        "other": "neck_root_jnt.jointOrient",
+        "plug": "neck_root_jnt_parent_Constraint_1.constraintJointOrient"
+      },
+      {
+        "other": "DIANA_SPINE_NECK_FINAL_FOLLOW_PROXY.translate",
+        "plug": "neck_root_jnt_parent_Constraint_1.target[0].targetTranslate"
+      },
+      {
+        "other": "DIANA_SPINE_NECK_FINAL_FOLLOW_PROXY.rotatePivot",
+        "plug": "neck_root_jnt_parent_Constraint_1.target[0].targetRotatePivot"
+      },
+      {
+        "other": "DIANA_SPINE_NECK_FINAL_FOLLOW_PROXY.rotatePivotTranslate",
+        "plug": "neck_root_jnt_parent_Constraint_1.target[0].targetRotateTranslate"
+      },
+      {
+        "other": "DIANA_SPINE_NECK_FINAL_FOLLOW_PROXY.rotate",
+        "plug": "neck_root_jnt_parent_Constraint_1.target[0].targetRotate"
+      },
+      {
+        "other": "DIANA_SPINE_NECK_FINAL_FOLLOW_PROXY.rotateOrder",
+        "plug": "neck_root_jnt_parent_Constraint_1.target[0].targetRotateOrder"
+      },
+      {
+        "other": "DIANA_SPINE_NECK_FINAL_FOLLOW_PROXY.scale",
+        "plug": "neck_root_jnt_parent_Constraint_1.target[0].targetScale"
+      },
+      {
+        "other": "DIANA_SPINE_NECK_FINAL_FOLLOW_PROXY.parentMatrix",
+        "plug": "neck_root_jnt_parent_Constraint_1.target[0].targetParentMatrix"
+      }
+    ]
+  },
+  "scene": "C:/Users/draco/OneDrive/ドキュメント/GitHub/Diana-Character-Rig/dist/Character_spine37_SPINE_RC01.ma",
+  "shoulder_rest": [
+    0.0,
+    2.0,
+    0.0,
+    0.0,
+    -2.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    2.0,
+    0.0,
+    -98.13696828837817,
+    86.24294163916022,
+    195.32156170271625,
+    1.0
+  ],
+  "sides": {
+    "L": {
+      "constraint": {
+        "connections": [
+          {
+            "other": "IK_L_hand_anim_const.translateX",
+            "plug": "L_ARM_IK_SPACE_PC.constraintTranslateX"
+          },
+          {
+            "other": "IK_L_hand_anim_const.translateY",
+            "plug": "L_ARM_IK_SPACE_PC.constraintTranslateY"
+          },
+          {
+            "other": "IK_L_hand_anim_const.translateZ",
+            "plug": "L_ARM_IK_SPACE_PC.constraintTranslateZ"
+          },
+          {
+            "other": "IK_L_hand_anim_const.rotateX",
+            "plug": "L_ARM_IK_SPACE_PC.constraintRotateX"
+          },
+          {
+            "other": "IK_L_hand_anim_const.rotateY",
+            "plug": "L_ARM_IK_SPACE_PC.constraintRotateY"
+          },
+          {
+            "other": "IK_L_hand_anim_const.rotateZ",
+            "plug": "L_ARM_IK_SPACE_PC.constraintRotateZ"
+          },
+          {
+            "other": "IK_L_hand_anim_const.rotateOrder",
+            "plug": "L_ARM_IK_SPACE_PC.constraintRotateOrder"
+          },
+          {
+            "other": "IK_L_hand_anim_const.parentInverseMatrix",
+            "plug": "L_ARM_IK_SPACE_PC.constraintParentInverseMatrix"
+          },
+          {
+            "other": "IK_L_hand_anim_const.rotatePivot",
+            "plug": "L_ARM_IK_SPACE_PC.constraintRotatePivot"
+          },
+          {
+            "other": "IK_L_hand_anim_const.rotatePivotTranslate",
+            "plug": "L_ARM_IK_SPACE_PC.constraintRotateTranslate"
+          },
+          {
+            "other": "shoulder_spine_anim.translate",
+            "plug": "L_ARM_IK_SPACE_PC.target[0].targetTranslate"
+          },
+          {
+            "other": "shoulder_spine_anim.rotatePivot",
+            "plug": "L_ARM_IK_SPACE_PC.target[0].targetRotatePivot"
+          },
+          {
+            "other": "shoulder_spine_anim.rotatePivotTranslate",
+            "plug": "L_ARM_IK_SPACE_PC.target[0].targetRotateTranslate"
+          },
+          {
+            "other": "shoulder_spine_anim.rotate",
+            "plug": "L_ARM_IK_SPACE_PC.target[0].targetRotate"
+          },
+          {
+            "other": "shoulder_spine_anim.rotateOrder",
+            "plug": "L_ARM_IK_SPACE_PC.target[0].targetRotateOrder"
+          },
+          {
+            "other": "shoulder_spine_anim.scale",
+            "plug": "L_ARM_IK_SPACE_PC.target[0].targetScale"
+          },
+          {
+            "other": "shoulder_spine_anim.parentMatrix",
+            "plug": "L_ARM_IK_SPACE_PC.target[0].targetParentMatrix"
+          },
+          {
+            "other": "L_ARM_IK_SPACE_PC.shoulder_spine_animW0",
+            "plug": "L_ARM_IK_SPACE_PC.target[0].targetWeight"
+          },
+          {
+            "other": "ALL_anim.translate",
+            "plug": "L_ARM_IK_SPACE_PC.target[1].targetTranslate"
+          },
+          {
+            "other": "ALL_anim.rotatePivot",
+            "plug": "L_ARM_IK_SPACE_PC.target[1].targetRotatePivot"
+          },
+          {
+            "other": "ALL_anim.rotatePivotTranslate",
+            "plug": "L_ARM_IK_SPACE_PC.target[1].targetRotateTranslate"
+          },
+          {
+            "other": "ALL_anim.rotate",
+            "plug": "L_ARM_IK_SPACE_PC.target[1].targetRotate"
+          },
+          {
+            "other": "ALL_anim.rotateOrder",
+            "plug": "L_ARM_IK_SPACE_PC.target[1].targetRotateOrder"
+          },
+          {
+            "other": "ALL_anim.scale",
+            "plug": "L_ARM_IK_SPACE_PC.target[1].targetScale"
+          },
+          {
+            "other": "ALL_anim.parentMatrix",
+            "plug": "L_ARM_IK_SPACE_PC.target[1].targetParentMatrix"
+          },
+          {
+            "other": "L_ARM_IK_SPACE_PC.ALL_animW1",
+            "plug": "L_ARM_IK_SPACE_PC.target[1].targetWeight"
+          },
+          {
+            "other": "L_ARM_IK_SPACE_PC.target[0].targetWeight",
+            "plug": "L_ARM_IK_SPACE_PC.shoulder_spine_animW0"
+          },
+          {
+            "other": "L_ARM_IK_SPACE_REV.outputX",
+            "plug": "L_ARM_IK_SPACE_PC.shoulder_spine_animW0"
+          },
+          {
+            "other": "L_ARM_IK_SPACE_PC.target[1].targetWeight",
+            "plug": "L_ARM_IK_SPACE_PC.ALL_animW1"
+          },
+          {
+            "other": "L_arm_settings_anim.IK_Space",
+            "plug": "L_ARM_IK_SPACE_PC.ALL_animW1"
+          }
+        ],
+        "targets": [
+          {
+            "alias": "shoulder_spine_animW0",
+            "source": "L_ARM_IK_SPACE_REV.outputX",
+            "target": "shoulder_spine_anim",
+            "value": 1.0
+          },
+          {
+            "alias": "ALL_animW1",
+            "source": "L_arm_settings_anim.IK_Space",
+            "target": "ALL_anim",
+            "value": 0.0
+          }
+        ]
+      },
+      "fk_follow_reference": {
+        "base": [
+          2.0309919525744853,
+          -0.10983803975228078,
+          0.24732790752488978,
+          0.0,
+          -0.1495138528476251,
+          -2.0162730083424387,
+          0.3323440444418626,
+          0.0,
+          0.22556838569250515,
+          -0.3474803031722697,
+          -2.0066240660679244,
+          0.0,
+          -69.14309090670997,
+          88.53922723281494,
+          182.83134627829858,
+          1.0
+        ],
+        "upper_x_plus_5": [
+          2.0015961575017926,
+          -0.3613937933028769,
+          0.2473280183800488,
+          0.0,
+          -0.39893288462312637,
+          -1.9820603332719533,
+          0.33234498503171067,
+          0.0,
+          0.18063547846399275,
+          -0.3728205488859407,
+          -2.0066238966204044,
+          0.0,
+          -59.08249033133015,
+          84.91812114753085,
+          182.83134604976635,
+          1.0
+        ]
+      },
+      "fk_world": [
+        2.0309919525744853,
+        -0.10983803975228078,
+        0.24732790752488978,
+        0.0,
+        -0.1495138528476251,
+        -2.0162730083424387,
+        0.3323440444418626,
+        0.0,
+        0.22556838569250515,
+        -0.3474803031722697,
+        -2.0066240660679244,
+        0.0,
+        -69.14309090670997,
+        88.5392653797876,
+        182.83134627829858,
+        1.0
+      ],
+      "hand_world": [
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        -103.13238340124494,
+        -206.0070275744365,
+        194.7896419801919,
+        1.0
+      ],
+      "roots": {
+        "IK_L_elbow_anim": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "opm": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "opm_source": "",
+          "parent": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim",
+          "rotate": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "translate": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "world": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13571664974373,
+            -206.14490482775176,
+            194.805338518121,
+            1.0
+          ]
+        },
+        "L_clavice_jnt": {
+          "matrix": [
+            0.8065366029115638,
+            -0.31019829301337487,
+            -0.5032650665161083,
+            0.0,
+            0.2429351999585242,
+            0.9499901820703277,
+            -0.19621708027360288,
+            0.0,
+            0.5389630755302133,
+            0.03599545779086656,
+            0.8415599385863372,
+            0.0,
+            3.026894673457003,
+            146.5755684422861,
+            0.0,
+            1.0
+          ],
+          "opm": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "opm_source": "",
+          "parent": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim",
+          "rotate": [
+            [
+              -1.867605956623482,
+              4.778151266308011,
+              -21.3781464442806
+            ]
+          ],
+          "translate": [
+            [
+              3.026894673457003,
+              146.5755684422861,
+              0.0
+            ]
+          ],
+          "world": [
+            1.6130732058231276,
+            -0.6203965860267497,
+            -1.0065301330322165,
+            0.0,
+            0.4858703999170484,
+            1.8999803641406554,
+            -0.39243416054720576,
+            0.0,
+            1.0779261510604266,
+            0.07199091558173312,
+            1.6831198771726743,
+            0.0,
+            -92.08192730282973,
+            87.00623205682047,
+            194.805338518121,
+            1.0
+          ]
+        }
+      },
+      "setting_value": 0
+    },
+    "R": {
+      "constraint": {
+        "connections": [
+          {
+            "other": "IK_R_hand_anim_const.translateX",
+            "plug": "R_ARM_IK_SPACE_PC.constraintTranslateX"
+          },
+          {
+            "other": "IK_R_hand_anim_const.translateY",
+            "plug": "R_ARM_IK_SPACE_PC.constraintTranslateY"
+          },
+          {
+            "other": "IK_R_hand_anim_const.translateZ",
+            "plug": "R_ARM_IK_SPACE_PC.constraintTranslateZ"
+          },
+          {
+            "other": "IK_R_hand_anim_const.rotateX",
+            "plug": "R_ARM_IK_SPACE_PC.constraintRotateX"
+          },
+          {
+            "other": "IK_R_hand_anim_const.rotateY",
+            "plug": "R_ARM_IK_SPACE_PC.constraintRotateY"
+          },
+          {
+            "other": "IK_R_hand_anim_const.rotateZ",
+            "plug": "R_ARM_IK_SPACE_PC.constraintRotateZ"
+          },
+          {
+            "other": "IK_R_hand_anim_const.rotateOrder",
+            "plug": "R_ARM_IK_SPACE_PC.constraintRotateOrder"
+          },
+          {
+            "other": "IK_R_hand_anim_const.parentInverseMatrix",
+            "plug": "R_ARM_IK_SPACE_PC.constraintParentInverseMatrix"
+          },
+          {
+            "other": "IK_R_hand_anim_const.rotatePivot",
+            "plug": "R_ARM_IK_SPACE_PC.constraintRotatePivot"
+          },
+          {
+            "other": "IK_R_hand_anim_const.rotatePivotTranslate",
+            "plug": "R_ARM_IK_SPACE_PC.constraintRotateTranslate"
+          },
+          {
+            "other": "shoulder_spine_anim.translate",
+            "plug": "R_ARM_IK_SPACE_PC.target[0].targetTranslate"
+          },
+          {
+            "other": "shoulder_spine_anim.rotatePivot",
+            "plug": "R_ARM_IK_SPACE_PC.target[0].targetRotatePivot"
+          },
+          {
+            "other": "shoulder_spine_anim.rotatePivotTranslate",
+            "plug": "R_ARM_IK_SPACE_PC.target[0].targetRotateTranslate"
+          },
+          {
+            "other": "shoulder_spine_anim.rotate",
+            "plug": "R_ARM_IK_SPACE_PC.target[0].targetRotate"
+          },
+          {
+            "other": "shoulder_spine_anim.rotateOrder",
+            "plug": "R_ARM_IK_SPACE_PC.target[0].targetRotateOrder"
+          },
+          {
+            "other": "shoulder_spine_anim.scale",
+            "plug": "R_ARM_IK_SPACE_PC.target[0].targetScale"
+          },
+          {
+            "other": "shoulder_spine_anim.parentMatrix",
+            "plug": "R_ARM_IK_SPACE_PC.target[0].targetParentMatrix"
+          },
+          {
+            "other": "R_ARM_IK_SPACE_PC.shoulder_spine_animW0",
+            "plug": "R_ARM_IK_SPACE_PC.target[0].targetWeight"
+          },
+          {
+            "other": "ALL_anim.translate",
+            "plug": "R_ARM_IK_SPACE_PC.target[1].targetTranslate"
+          },
+          {
+            "other": "ALL_anim.rotatePivot",
+            "plug": "R_ARM_IK_SPACE_PC.target[1].targetRotatePivot"
+          },
+          {
+            "other": "ALL_anim.rotatePivotTranslate",
+            "plug": "R_ARM_IK_SPACE_PC.target[1].targetRotateTranslate"
+          },
+          {
+            "other": "ALL_anim.rotate",
+            "plug": "R_ARM_IK_SPACE_PC.target[1].targetRotate"
+          },
+          {
+            "other": "ALL_anim.rotateOrder",
+            "plug": "R_ARM_IK_SPACE_PC.target[1].targetRotateOrder"
+          },
+          {
+            "other": "ALL_anim.scale",
+            "plug": "R_ARM_IK_SPACE_PC.target[1].targetScale"
+          },
+          {
+            "other": "ALL_anim.parentMatrix",
+            "plug": "R_ARM_IK_SPACE_PC.target[1].targetParentMatrix"
+          },
+          {
+            "other": "R_ARM_IK_SPACE_PC.ALL_animW1",
+            "plug": "R_ARM_IK_SPACE_PC.target[1].targetWeight"
+          },
+          {
+            "other": "R_ARM_IK_SPACE_PC.target[0].targetWeight",
+            "plug": "R_ARM_IK_SPACE_PC.shoulder_spine_animW0"
+          },
+          {
+            "other": "R_ARM_IK_SPACE_REV.outputX",
+            "plug": "R_ARM_IK_SPACE_PC.shoulder_spine_animW0"
+          },
+          {
+            "other": "R_ARM_IK_SPACE_PC.target[1].targetWeight",
+            "plug": "R_ARM_IK_SPACE_PC.ALL_animW1"
+          },
+          {
+            "other": "R_arm_settings_anim.IK_Space",
+            "plug": "R_ARM_IK_SPACE_PC.ALL_animW1"
+          }
+        ],
+        "targets": [
+          {
+            "alias": "shoulder_spine_animW0",
+            "source": "R_ARM_IK_SPACE_REV.outputX",
+            "target": "shoulder_spine_anim",
+            "value": 0.0
+          },
+          {
+            "alias": "ALL_animW1",
+            "source": "R_arm_settings_anim.IK_Space",
+            "target": "ALL_anim",
+            "value": 1.0
+          }
+        ]
+      },
+      "fk_follow_reference": {
+        "base": [
+          2.0314139934966176,
+          0.22070305685856106,
+          -0.15103359877522307,
+          0.0,
+          -0.2649825477372995,
+          1.8173999810877026,
+          -0.9082980559137247,
+          0.0,
+          0.03612805918338403,
+          0.9200604706622756,
+          1.8303953927782755,
+          0.0,
+          -127.15793092138485,
+          89.92580425037715,
+          183.38854963695647,
+          1.0
+        ],
+        "upper_x_plus_5": [
+          2.043093864875111,
+          -0.03346786944739749,
+          -0.15103364282145476,
+          0.0,
+          -0.03706564975143668,
+          1.836241546774692,
+          -0.9082989154163813,
+          0.0,
+          0.1501912019985546,
+          0.9084385966331036,
+          1.830394962632134,
+          0.0,
+          -116.47524663481923,
+          93.50391081748037,
+          183.38854706247005,
+          1.0
+        ]
+      },
+      "fk_world": [
+        2.0314139934966176,
+        0.22070305685856106,
+        -0.15103359877522307,
+        0.0,
+        -0.2649825477372995,
+        1.8173999810877026,
+        -0.9082980559137247,
+        0.0,
+        0.03612805918338403,
+        0.9200604706622756,
+        1.8303953927782755,
+        0.0,
+        -127.15793092138485,
+        89.92584239734975,
+        183.38854963695647,
+        1.0
+      ],
+      "hand_world": [
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        -103.13238340124495,
+        -206.0070275744365,
+        194.78964198019187,
+        1.0
+      ],
+      "roots": {
+        "IK_R_elbow_anim": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "opm": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "opm_source": "",
+          "parent": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim",
+          "rotate": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "translate": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "world": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13571664974373,
+            -206.14490482775176,
+            194.805338518121,
+            1.0
+          ]
+        },
+        "R_clavice_jnt": {
+          "matrix": [
+            0.8718259544216755,
+            -0.02644528333650495,
+            0.4891013720957922,
+            0.0,
+            -0.12756593629658652,
+            -0.9763415363934629,
+            0.17459706815874054,
+            0.0,
+            0.4729127161469755,
+            -0.2146109300620652,
+            -0.8545734091372057,
+            0.0,
+            -3.02689,
+            146.576,
+            0.0,
+            1.0
+          ],
+          "opm": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "opm_source": "",
+          "parent": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim",
+          "rotate": [
+            [
+              -10.58270298993548,
+              1.731428659824153,
+              -1.8180001008589501
+            ]
+          ],
+          "translate": [
+            [
+              -3.02689,
+              146.576,
+              0.0
+            ]
+          ],
+          "world": [
+            1.743651908843351,
+            -0.0528905666730099,
+            0.9782027441915844,
+            0.0,
+            -0.25513187259317305,
+            -1.9526830727869258,
+            0.3491941363174811,
+            0.0,
+            0.945825432293951,
+            -0.4292218601241304,
+            -1.7091468182744114,
+            0.0,
+            -104.18949664974373,
+            87.00709517224823,
+            194.805338518121,
+            1.0
+          ]
+        }
+      },
+      "setting_value": 1
+    }
+  },
+  "stages": [
+    {
+      "body_target": "DIANA_SPINE_P5B_L_ARM_BODY_TARGET",
+      "constraint": "L_ARM_IK_SPACE_PC",
+      "drivers": [
+        {
+          "desired": "DIANA_SPINE_P5B_L_CLAVICE_DESIRED_WORLD_MM",
+          "offset": [
+            -0.31019829301337487,
+            -0.8065366029115638,
+            -0.5032650665161083,
+            0.0,
+            0.9499901820703277,
+            -0.2429351999585242,
+            -0.19621708027360288,
+            0.0,
+            0.03599545779086656,
+            -0.5389630755302133,
+            0.8415599385863372,
+            0.0,
+            0.3816452088301219,
+            -3.0275204927742294,
+            -0.2581115922976238,
+            1.0
+          ],
+          "opm": "DIANA_SPINE_P5B_L_CLAVICE_OPM_MM",
+          "target": "L_clavice_jnt"
+        },
+        {
+          "desired": "DIANA_SPINE_P5B_L_IK_ELBOW_DESIRED_WORLD_MM",
+          "offset": [
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -146.193923233456,
+            -0.0006258193172286042,
+            -0.2581115922976238,
+            1.0
+          ],
+          "opm": "DIANA_SPINE_P5B_L_IK_ELBOW_OPM_MM",
+          "target": "IK_L_elbow_anim"
+        }
+      ],
+      "new_alias": "DIANA_SPINE_P5B_L_ARM_BODY_TARGETW2",
+      "old_alias": "shoulder_spine_animW0",
+      "old_source": "L_ARM_IK_SPACE_REV.outputX",
+      "side": "L",
+      "targets_after": [
+        "shoulder_spine_anim",
+        "ALL_anim",
+        "DIANA_SPINE_P5B_L_ARM_BODY_TARGET"
+      ],
+      "targets_before": [
+        "shoulder_spine_anim",
+        "ALL_anim"
+      ]
+    },
+    {
+      "body_target": "DIANA_SPINE_P5B_R_ARM_BODY_TARGET",
+      "constraint": "R_ARM_IK_SPACE_PC",
+      "drivers": [
+        {
+          "desired": "DIANA_SPINE_P5B_R_CLAVICE_DESIRED_WORLD_MM",
+          "offset": [
+            -0.02644528333650495,
+            -0.8718259544216755,
+            0.4891013720957922,
+            0.0,
+            -0.9763415363934629,
+            0.12756593629658652,
+            0.17459706815874054,
+            0.0,
+            -0.2146109300620652,
+            -0.4729127161469755,
+            -0.8545734091372057,
+            0.0,
+            0.382076766544003,
+            3.026264180682773,
+            -0.2581115922976238,
+            1.0
+          ],
+          "opm": "DIANA_SPINE_P5B_R_CLAVICE_OPM_MM",
+          "target": "R_clavice_jnt"
+        },
+        {
+          "desired": "DIANA_SPINE_P5B_R_IK_ELBOW_DESIRED_WORLD_MM",
+          "offset": [
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -146.193923233456,
+            -0.0006258193172286042,
+            -0.2581115922976238,
+            1.0
+          ],
+          "opm": "DIANA_SPINE_P5B_R_IK_ELBOW_OPM_MM",
+          "target": "IK_R_elbow_anim"
+        }
+      ],
+      "new_alias": "DIANA_SPINE_P5B_R_ARM_BODY_TARGETW2",
+      "old_alias": "shoulder_spine_animW0",
+      "old_source": "R_ARM_IK_SPACE_REV.outputX",
+      "side": "R",
+      "targets_after": [
+        "shoulder_spine_anim",
+        "ALL_anim",
+        "DIANA_SPINE_P5B_R_ARM_BODY_TARGET"
+      ],
+      "targets_before": [
+        "shoulder_spine_anim",
+        "ALL_anim"
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,1353 @@
+{
+  "created_utc": "2026-11-02T16:19:36.652534Z",
+  "edge_count": 29724,
+  "fk_to_mode1_paths": {
+    "HIP": [
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim.inverseScale",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt.scale"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|Dont_Touch|back_spine_cv_1_cls_Handle|back_spine_cv_1_cls_Handle_parent_Constraint_1.target[0].targetTranslate",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim.translate"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|Dont_Touch|back_spine_cv_1_cls_Handle.translateX",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|Dont_Touch|back_spine_cv_1_cls_Handle|back_spine_cv_1_cls_Handle_parent_Constraint_1.constraintTranslateX"
+      },
+      {
+        "destination": "DIANA_SPINE_CV1_FK_SPACE_MM.matrixIn[0]",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|Dont_Touch|back_spine_cv_1_cls_Handle.worldMatrix"
+      },
+      {
+        "destination": "DIANA_SPINE_CV1_FK_DCM.inputMatrix",
+        "kind": "DG",
+        "source": "DIANA_SPINE_CV1_FK_SPACE_MM.matrixSum"
+      },
+      {
+        "destination": "DIANA_SPINE_CV1_FK_RESULT.input3D[1]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_CV1_FK_DCM.outputTranslate"
+      },
+      {
+        "destination": "DIANA_SPINE_CV1_MODE0_COND.colorIfTrue",
+        "kind": "DG",
+        "source": "DIANA_SPINE_CV1_FK_RESULT.output3D"
+      },
+      {
+        "destination": "DIANA_SPINE_CV1_MODE_RESULT.input3D[0]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_CV1_MODE0_COND.outColor"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve|back_spine_curve_Shape.controlPoints[1]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_CV1_MODE_RESULT.output3D"
+      },
+      {
+        "destination": "RIG_curveInfo1.inputCurve",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve|back_spine_curve_Shape.worldSpace"
+      },
+      {
+        "destination": "RIG_spineStretch_MD.input1X",
+        "kind": "DG",
+        "source": "RIG_curveInfo1.arcLength"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|IK_back_spine_jnt_1.scaleX",
+        "kind": "DG",
+        "source": "RIG_spineStretch_MD.outputX"
+      },
+      {
+        "destination": "DIANA_SPINE_HIP_IK_WORLD_POS_DCM.inputMatrix",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|IK_back_spine_jnt_1.worldMatrix"
+      },
+      {
+        "destination": "DIANA_SPINE_HIP_IK_POSITION_PMA.input3D[1]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_HIP_IK_WORLD_POS_DCM.outputTranslate"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|DIANA_SPINE_SYSTEMS_GRP|DIANA_SPINE_IK_DEFORM_TEST_GRP|DIANA_SPINE_hip_IK_DEFORM_DRV.translate",
+        "kind": "DG",
+        "source": "DIANA_SPINE_HIP_IK_POSITION_PMA.output3D"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_LIVE_DRIVER_DCM.inputMatrix",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|DIANA_SPINE_SYSTEMS_GRP|DIANA_SPINE_IK_DEFORM_TEST_GRP|DIANA_SPINE_hip_IK_DEFORM_DRV.worldMatrix"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_MODE1_POSITION_DELTA.input3D[0]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_DEFORM_HIP_LIVE_DRIVER_DCM.outputTranslate"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_MODE1_FINAL_POSITION.input3D[1]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_DEFORM_HIP_MODE1_POSITION_DELTA.output3D"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_MODE1_POS_CM.inputTranslate",
+        "kind": "DG",
+        "source": "DIANA_SPINE_DEFORM_HIP_MODE1_FINAL_POSITION.output3D"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_MODE1_FINAL_MM.matrixIn[1]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_DEFORM_HIP_MODE1_POS_CM.outputMatrix"
+      }
+    ],
+    "LOWER": [
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|Dont_Touch|back_spine_cv_1_cls_Handle|back_spine_cv_1_cls_Handle_parent_Constraint_1.target[0].targetTranslate",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim.translate"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|Dont_Touch|back_spine_cv_1_cls_Handle.translateX",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|Dont_Touch|back_spine_cv_1_cls_Handle|back_spine_cv_1_cls_Handle_parent_Constraint_1.constraintTranslateX"
+      },
+      {
+        "destination": "DIANA_SPINE_CV1_FK_SPACE_MM.matrixIn[0]",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|Dont_Touch|back_spine_cv_1_cls_Handle.worldMatrix"
+      },
+      {
+        "destination": "DIANA_SPINE_CV1_FK_DCM.inputMatrix",
+        "kind": "DG",
+        "source": "DIANA_SPINE_CV1_FK_SPACE_MM.matrixSum"
+      },
+      {
+        "destination": "DIANA_SPINE_CV1_FK_RESULT.input3D[1]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_CV1_FK_DCM.outputTranslate"
+      },
+      {
+        "destination": "DIANA_SPINE_CV1_MODE0_COND.colorIfTrue",
+        "kind": "DG",
+        "source": "DIANA_SPINE_CV1_FK_RESULT.output3D"
+      },
+      {
+        "destination": "DIANA_SPINE_CV1_MODE_RESULT.input3D[0]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_CV1_MODE0_COND.outColor"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve|back_spine_curve_Shape.controlPoints[1]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_CV1_MODE_RESULT.output3D"
+      },
+      {
+        "destination": "RIG_curveInfo1.inputCurve",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve|back_spine_curve_Shape.worldSpace"
+      },
+      {
+        "destination": "RIG_spineStretch_MD.input1X",
+        "kind": "DG",
+        "source": "RIG_curveInfo1.arcLength"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|IK_back_spine_jnt_1.scaleX",
+        "kind": "DG",
+        "source": "RIG_spineStretch_MD.outputX"
+      },
+      {
+        "destination": "DIANA_SPINE_HIP_IK_WORLD_POS_DCM.inputMatrix",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|IK_back_spine_jnt_1.worldMatrix"
+      },
+      {
+        "destination": "DIANA_SPINE_HIP_IK_POSITION_PMA.input3D[1]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_HIP_IK_WORLD_POS_DCM.outputTranslate"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|DIANA_SPINE_SYSTEMS_GRP|DIANA_SPINE_IK_DEFORM_TEST_GRP|DIANA_SPINE_hip_IK_DEFORM_DRV.translate",
+        "kind": "DG",
+        "source": "DIANA_SPINE_HIP_IK_POSITION_PMA.output3D"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_LIVE_DRIVER_DCM.inputMatrix",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|DIANA_SPINE_SYSTEMS_GRP|DIANA_SPINE_IK_DEFORM_TEST_GRP|DIANA_SPINE_hip_IK_DEFORM_DRV.worldMatrix"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_MODE1_POSITION_DELTA.input3D[0]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_DEFORM_HIP_LIVE_DRIVER_DCM.outputTranslate"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_MODE1_FINAL_POSITION.input3D[1]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_DEFORM_HIP_MODE1_POSITION_DELTA.output3D"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_MODE1_POS_CM.inputTranslate",
+        "kind": "DG",
+        "source": "DIANA_SPINE_DEFORM_HIP_MODE1_FINAL_POSITION.output3D"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_MODE1_FINAL_MM.matrixIn[1]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_DEFORM_HIP_MODE1_POS_CM.outputMatrix"
+      }
+    ],
+    "MIDDLE": [
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt.inverseScale",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim.scale"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad.parentMatrix[0]",
+        "kind": "DAG_PARENT",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt.worldMatrix[0]"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim.parentMatrix[0]",
+        "kind": "DAG_PARENT",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad.worldMatrix[0]"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim|Terminal.parentMatrix[0]",
+        "kind": "DAG_PARENT",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim.worldMatrix[0]"
+      },
+      {
+        "destination": "DIANA_SPINE_CV0_MODE0_COND.firstTerm",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim|Terminal.Spine_Mode"
+      },
+      {
+        "destination": "DIANA_SPINE_CV0_MODE_RESULT.input3D[0]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_CV0_MODE0_COND.outColor"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve|back_spine_curve_Shape.controlPoints[0]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_CV0_MODE_RESULT.output3D"
+      },
+      {
+        "destination": "RIG_curveInfo1.inputCurve",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve|back_spine_curve_Shape.worldSpace"
+      },
+      {
+        "destination": "RIG_spineStretch_MD.input1X",
+        "kind": "DG",
+        "source": "RIG_curveInfo1.arcLength"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|IK_back_spine_jnt_1.scaleX",
+        "kind": "DG",
+        "source": "RIG_spineStretch_MD.outputX"
+      },
+      {
+        "destination": "DIANA_SPINE_HIP_IK_WORLD_POS_DCM.inputMatrix",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|IK_back_spine_jnt_1.worldMatrix"
+      },
+      {
+        "destination": "DIANA_SPINE_HIP_IK_POSITION_PMA.input3D[1]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_HIP_IK_WORLD_POS_DCM.outputTranslate"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|DIANA_SPINE_SYSTEMS_GRP|DIANA_SPINE_IK_DEFORM_TEST_GRP|DIANA_SPINE_hip_IK_DEFORM_DRV.translate",
+        "kind": "DG",
+        "source": "DIANA_SPINE_HIP_IK_POSITION_PMA.output3D"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_LIVE_DRIVER_DCM.inputMatrix",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|DIANA_SPINE_SYSTEMS_GRP|DIANA_SPINE_IK_DEFORM_TEST_GRP|DIANA_SPINE_hip_IK_DEFORM_DRV.worldMatrix"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_MODE1_POSITION_DELTA.input3D[0]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_DEFORM_HIP_LIVE_DRIVER_DCM.outputTranslate"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_MODE1_FINAL_POSITION.input3D[1]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_DEFORM_HIP_MODE1_POSITION_DELTA.output3D"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_MODE1_POS_CM.inputTranslate",
+        "kind": "DG",
+        "source": "DIANA_SPINE_DEFORM_HIP_MODE1_FINAL_POSITION.output3D"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_MODE1_FINAL_MM.matrixIn[1]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_DEFORM_HIP_MODE1_POS_CM.outputMatrix"
+      }
+    ],
+    "SHOULDER": [
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad.parentMatrix[0]",
+        "kind": "DAG_PARENT",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt.worldMatrix[0]"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim.parentMatrix[0]",
+        "kind": "DAG_PARENT",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad.worldMatrix[0]"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim|Terminal.parentMatrix[0]",
+        "kind": "DAG_PARENT",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim.worldMatrix[0]"
+      },
+      {
+        "destination": "DIANA_SPINE_CV0_MODE0_COND.firstTerm",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim|Terminal.Spine_Mode"
+      },
+      {
+        "destination": "DIANA_SPINE_CV0_MODE_RESULT.input3D[0]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_CV0_MODE0_COND.outColor"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve|back_spine_curve_Shape.controlPoints[0]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_CV0_MODE_RESULT.output3D"
+      },
+      {
+        "destination": "RIG_curveInfo1.inputCurve",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve|back_spine_curve_Shape.worldSpace"
+      },
+      {
+        "destination": "RIG_spineStretch_MD.input1X",
+        "kind": "DG",
+        "source": "RIG_curveInfo1.arcLength"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|IK_back_spine_jnt_1.scaleX",
+        "kind": "DG",
+        "source": "RIG_spineStretch_MD.outputX"
+      },
+      {
+        "destination": "DIANA_SPINE_HIP_IK_WORLD_POS_DCM.inputMatrix",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|IK_back_spine_jnt_1.worldMatrix"
+      },
+      {
+        "destination": "DIANA_SPINE_HIP_IK_POSITION_PMA.input3D[1]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_HIP_IK_WORLD_POS_DCM.outputTranslate"
+      },
+      {
+        "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|DIANA_SPINE_SYSTEMS_GRP|DIANA_SPINE_IK_DEFORM_TEST_GRP|DIANA_SPINE_hip_IK_DEFORM_DRV.translate",
+        "kind": "DG",
+        "source": "DIANA_SPINE_HIP_IK_POSITION_PMA.output3D"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_LIVE_DRIVER_DCM.inputMatrix",
+        "kind": "DG",
+        "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|DIANA_SPINE_SYSTEMS_GRP|DIANA_SPINE_IK_DEFORM_TEST_GRP|DIANA_SPINE_hip_IK_DEFORM_DRV.worldMatrix"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_MODE1_POSITION_DELTA.input3D[0]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_DEFORM_HIP_LIVE_DRIVER_DCM.outputTranslate"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_MODE1_FINAL_POSITION.input3D[1]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_DEFORM_HIP_MODE1_POSITION_DELTA.output3D"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_MODE1_POS_CM.inputTranslate",
+        "kind": "DG",
+        "source": "DIANA_SPINE_DEFORM_HIP_MODE1_FINAL_POSITION.output3D"
+      },
+      {
+        "destination": "DIANA_SPINE_DEFORM_HIP_MODE1_FINAL_MM.matrixIn[1]",
+        "kind": "DG",
+        "source": "DIANA_SPINE_DEFORM_HIP_MODE1_POS_CM.outputMatrix"
+      }
+    ]
+  },
+  "focus_connections": {
+    "DIANA_SPINE_INDEPENDENT_IK_CURVE": [],
+    "DIANA_SPINE_LOWER_LIVE_DRIVER": [
+      "|DIANA_SPINE_LIVE_FOLLOW_TEST_GRP|DIANA_SPINE_LOWER_LIVE_DRIVER.translate",
+      "DIANA_SPINE_LOWER_LIVE_DECOMPOSE.outputTranslate",
+      "|DIANA_SPINE_LIVE_FOLLOW_TEST_GRP|DIANA_SPINE_LOWER_LIVE_DRIVER.rotate",
+      "DIANA_SPINE_LOWER_LIVE_DECOMPOSE.outputRotate"
+    ],
+    "DIANA_SPINE_MIDDLE_LIVE_DRIVER": [
+      "|DIANA_SPINE_LIVE_FOLLOW_TEST_GRP|DIANA_SPINE_MIDDLE_LIVE_DRIVER.translate",
+      "DIANA_SPINE_MIDDLE_LIVE_DECOMPOSE.outputTranslate",
+      "|DIANA_SPINE_LIVE_FOLLOW_TEST_GRP|DIANA_SPINE_MIDDLE_LIVE_DRIVER.rotate",
+      "DIANA_SPINE_MIDDLE_LIVE_DECOMPOSE.outputRotate"
+    ],
+    "DIANA_SPINE_SHOULDER_LIVE_DRIVER": [
+      "|DIANA_SPINE_LIVE_FOLLOW_TEST_GRP|DIANA_SPINE_SHOULDER_LIVE_DRIVER.translate",
+      "DIANA_SPINE_SHOULDER_LIVE_DECOMPOSE.outputTranslate",
+      "|DIANA_SPINE_LIVE_FOLLOW_TEST_GRP|DIANA_SPINE_SHOULDER_LIVE_DRIVER.rotate",
+      "DIANA_SPINE_SHOULDER_LIVE_DECOMPOSE.outputRotate"
+    ],
+    "RIG_spineStretch_MD": [
+      "RIG_spineStretch_MD.outputX",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|IK_back_spine_jnt_1|IK_back_spine_jnt_2.scaleX",
+      "RIG_spineStretch_MD.outputX",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|IK_back_spine_jnt_1.scaleX",
+      "RIG_spineStretch_MD.outputX",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|IK_back_spine_jnt_1|IK_back_spine_jnt_2|IK_back_spine_jnt_3.scaleX",
+      "RIG_spineStretch_MD.outputX",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|IK_back_spine_jnt_1|IK_back_spine_jnt_2|IK_back_spine_jnt_3|IK_back_spine_jnt_4.scaleX",
+      "RIG_spineStretch_MD.outputX",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|IK_back_spine_jnt_1|IK_back_spine_jnt_2|IK_back_spine_jnt_3|IK_back_spine_jnt_4|IK_back_spine_jnt_5.scaleX",
+      "RIG_spineStretch_MD.outputX",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|IK_back_spine_jnt_1|IK_back_spine_jnt_2|IK_back_spine_jnt_3|IK_back_spine_jnt_4|IK_back_spine_jnt_5|IK_back_spine_jnt_6.scaleX",
+      "RIG_spineStretch_MD.outputX",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|IK_back_spine_jnt_1|IK_back_spine_jnt_2|IK_back_spine_jnt_3|IK_back_spine_jnt_4|IK_back_spine_jnt_5|IK_back_spine_jnt_6|IK_back_spine_jnt_7.scaleX",
+      "RIG_spineStretch_MD.outputX",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|IK_back_spine_jnt_1|IK_back_spine_jnt_2|IK_back_spine_jnt_3|IK_back_spine_jnt_4|IK_back_spine_jnt_5|IK_back_spine_jnt_6|IK_back_spine_jnt_7|IK_back_spine_jnt_8.scaleX",
+      "RIG_spineStretch_MD.outputX",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|IK_back_spine_jnt_1|IK_back_spine_jnt_2|IK_back_spine_jnt_3|IK_back_spine_jnt_4|IK_back_spine_jnt_5|IK_back_spine_jnt_6|IK_back_spine_jnt_7|IK_back_spine_jnt_8|IK_back_spine_jnt_9.scaleX",
+      "RIG_spineStretch_MD.input1X",
+      "RIG_curveInfo1.arcLength"
+    ],
+    "back_spine_curve": [
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve.worldInverseMatrix",
+      "DIANA_SPINE_CV1_SPACE_MM.matrixIn[1]",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve.worldInverseMatrix",
+      "DIANA_SPINE_CV0_SPACE_MM.matrixIn[1]",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve.worldInverseMatrix",
+      "DIANA_SPINE_CV2_SPACE_MM.matrixIn[1]",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve.worldInverseMatrix",
+      "DIANA_SPINE_CV3_SPACE_MM.matrixIn[1]",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve.worldInverseMatrix",
+      "DIANA_SPINE_CV0_FK_SPACE_MM.matrixIn[1]",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve.worldInverseMatrix",
+      "DIANA_SPINE_CV1_FK_SPACE_MM.matrixIn[1]",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve.worldInverseMatrix",
+      "DIANA_SPINE_CV2_FK_SPACE_MM.matrixIn[1]",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve.worldInverseMatrix",
+      "DIANA_SPINE_CV3_FK_SPACE_MM.matrixIn[1]"
+    ]
+  },
+  "independent_ik_curve": {
+    "controller_paths": {
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV0_DRV|DIANA_SPINE_IK_HIP_TO_CV0_PC": [
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV0_DRV.translateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV0_DRV|DIANA_SPINE_IK_HIP_TO_CV0_PC.constraintTranslateX"
+        },
+        {
+          "destination": "DIANA_SPINE_CV0_SPACE_MM.matrixIn[0]",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV0_DRV.worldMatrix"
+        },
+        {
+          "destination": "DIANA_SPINE_CV0_DELTA_DCM.inputMatrix",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV0_SPACE_MM.matrixSum"
+        },
+        {
+          "destination": "DIANA_SPINE_CV0_DELTA_RESULT.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV0_DELTA_DCM.outputTranslate"
+        },
+        {
+          "destination": "DIANA_SPINE_INDEPENDENT_CV0_ADD.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV0_DELTA_RESULT.output3D"
+        },
+        {
+          "destination": "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[0]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_INDEPENDENT_CV0_ADD.output3D"
+        }
+      ],
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV1_DRV|DIANA_SPINE_IK_CV1_POINT_PC": [
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV1_DRV.translateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV1_DRV|DIANA_SPINE_IK_CV1_POINT_PC.constraintTranslateX"
+        },
+        {
+          "destination": "DIANA_SPINE_CV1_SPACE_MM.matrixIn[0]",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV1_DRV.worldMatrix"
+        },
+        {
+          "destination": "DIANA_SPINE_CV1_DELTA_DCM.inputMatrix",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV1_SPACE_MM.matrixSum"
+        },
+        {
+          "destination": "DIANA_SPINE_CV1_DELTA_RESULT.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV1_DELTA_DCM.outputTranslate"
+        },
+        {
+          "destination": "DIANA_SPINE_INDEPENDENT_CV1_ADD.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV1_DELTA_RESULT.output3D"
+        },
+        {
+          "destination": "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_INDEPENDENT_CV1_ADD.output3D"
+        }
+      ],
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV2_DRV|DIANA_SPINE_IK_CV2_POINT_PC": [
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV2_DRV.translateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV2_DRV|DIANA_SPINE_IK_CV2_POINT_PC.constraintTranslateX"
+        },
+        {
+          "destination": "DIANA_SPINE_CV2_SPACE_MM.matrixIn[0]",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV2_DRV.worldMatrix"
+        },
+        {
+          "destination": "DIANA_SPINE_CV2_DELTA_DCM.inputMatrix",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV2_SPACE_MM.matrixSum"
+        },
+        {
+          "destination": "DIANA_SPINE_CV2_DELTA_RESULT.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV2_DELTA_DCM.outputTranslate"
+        },
+        {
+          "destination": "DIANA_SPINE_INDEPENDENT_CV2_ADD.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV2_DELTA_RESULT.output3D"
+        },
+        {
+          "destination": "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[2]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_INDEPENDENT_CV2_ADD.output3D"
+        }
+      ],
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC": [
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.translateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC.constraintTranslateX"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_SPACE_MM.matrixIn[0]",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.worldMatrix"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_DCM.inputMatrix",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_SPACE_MM.matrixSum"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_RESULT.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_DCM.outputTranslate"
+        },
+        {
+          "destination": "DIANA_SPINE_INDEPENDENT_CV3_ADD.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_RESULT.output3D"
+        },
+        {
+          "destination": "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[3]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_INDEPENDENT_CV3_ADD.output3D"
+        }
+      ],
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO": [
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL.parentMatrix[0]",
+          "kind": "DAG_PARENT",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO.worldMatrix[0]"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC.target[0].targetTranslate",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL.translate"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.translateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC.constraintTranslateX"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_SPACE_MM.matrixIn[0]",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.worldMatrix"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_DCM.inputMatrix",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_SPACE_MM.matrixSum"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_RESULT.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_DCM.outputTranslate"
+        },
+        {
+          "destination": "DIANA_SPINE_INDEPENDENT_CV3_ADD.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_RESULT.output3D"
+        },
+        {
+          "destination": "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[3]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_INDEPENDENT_CV3_ADD.output3D"
+        }
+      ],
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL": [
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC.target[0].targetTranslate",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL.translate"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.translateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC.constraintTranslateX"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_SPACE_MM.matrixIn[0]",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.worldMatrix"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_DCM.inputMatrix",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_SPACE_MM.matrixSum"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_RESULT.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_DCM.outputTranslate"
+        },
+        {
+          "destination": "DIANA_SPINE_INDEPENDENT_CV3_ADD.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_RESULT.output3D"
+        },
+        {
+          "destination": "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[3]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_INDEPENDENT_CV3_ADD.output3D"
+        }
+      ],
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_HIP_ZERO": [
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_HIP_ZERO|DIANA_SPINE_IK_HIP_CTRL.parentMatrix[0]",
+          "kind": "DAG_PARENT",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_HIP_ZERO.worldMatrix[0]"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV0_DRV|DIANA_SPINE_IK_HIP_TO_CV0_PC.target[0].targetTranslate",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_HIP_ZERO|DIANA_SPINE_IK_HIP_CTRL.translate"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV0_DRV.translateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV0_DRV|DIANA_SPINE_IK_HIP_TO_CV0_PC.constraintTranslateX"
+        },
+        {
+          "destination": "DIANA_SPINE_CV0_SPACE_MM.matrixIn[0]",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV0_DRV.worldMatrix"
+        },
+        {
+          "destination": "DIANA_SPINE_CV0_DELTA_DCM.inputMatrix",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV0_SPACE_MM.matrixSum"
+        },
+        {
+          "destination": "DIANA_SPINE_CV0_DELTA_RESULT.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV0_DELTA_DCM.outputTranslate"
+        },
+        {
+          "destination": "DIANA_SPINE_INDEPENDENT_CV0_ADD.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV0_DELTA_RESULT.output3D"
+        },
+        {
+          "destination": "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[0]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_INDEPENDENT_CV0_ADD.output3D"
+        }
+      ],
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_HIP_ZERO|DIANA_SPINE_IK_HIP_CTRL": [
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV0_DRV|DIANA_SPINE_IK_HIP_TO_CV0_PC.target[0].targetTranslate",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_HIP_ZERO|DIANA_SPINE_IK_HIP_CTRL.translate"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV0_DRV.translateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV0_DRV|DIANA_SPINE_IK_HIP_TO_CV0_PC.constraintTranslateX"
+        },
+        {
+          "destination": "DIANA_SPINE_CV0_SPACE_MM.matrixIn[0]",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV0_DRV.worldMatrix"
+        },
+        {
+          "destination": "DIANA_SPINE_CV0_DELTA_DCM.inputMatrix",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV0_SPACE_MM.matrixSum"
+        },
+        {
+          "destination": "DIANA_SPINE_CV0_DELTA_RESULT.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV0_DELTA_DCM.outputTranslate"
+        },
+        {
+          "destination": "DIANA_SPINE_INDEPENDENT_CV0_ADD.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV0_DELTA_RESULT.output3D"
+        },
+        {
+          "destination": "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[0]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_INDEPENDENT_CV0_ADD.output3D"
+        }
+      ],
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO": [
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO|DIANA_SPINE_IK_UPPER_CTRL.parentMatrix[0]",
+          "kind": "DAG_PARENT",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO.worldMatrix[0]"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL.rotateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO|DIANA_SPINE_IK_UPPER_CTRL.rotateX"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC.target[0].targetTranslate",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL.translate"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.translateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC.constraintTranslateX"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_SPACE_MM.matrixIn[0]",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.worldMatrix"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_DCM.inputMatrix",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_SPACE_MM.matrixSum"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_RESULT.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_DCM.outputTranslate"
+        },
+        {
+          "destination": "DIANA_SPINE_INDEPENDENT_CV3_ADD.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_RESULT.output3D"
+        },
+        {
+          "destination": "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[3]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_INDEPENDENT_CV3_ADD.output3D"
+        }
+      ],
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO|DIANA_SPINE_IK_UPPER_CTRL": [
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL.rotateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO|DIANA_SPINE_IK_UPPER_CTRL.rotateX"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC.target[0].targetTranslate",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL.translate"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.translateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC.constraintTranslateX"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_SPACE_MM.matrixIn[0]",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.worldMatrix"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_DCM.inputMatrix",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_SPACE_MM.matrixSum"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_RESULT.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_DCM.outputTranslate"
+        },
+        {
+          "destination": "DIANA_SPINE_INDEPENDENT_CV3_ADD.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_RESULT.output3D"
+        },
+        {
+          "destination": "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[3]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_INDEPENDENT_CV3_ADD.output3D"
+        }
+      ]
+    },
+    "cv_plug_level_production_fk_hits": [],
+    "cv_plug_level_upstream": {
+      "0": [
+        "DIANA_SPINE_CV0_DELTA_DCM.outputTranslate",
+        "DIANA_SPINE_CV0_DELTA_RESULT.output3D",
+        "DIANA_SPINE_CV0_DRV.worldMatrix[0]",
+        "DIANA_SPINE_CV0_SPACE_MM.matrixSum",
+        "DIANA_SPINE_INDEPENDENT_CV0_ADD.output3D",
+        "back_spine_curve.worldInverseMatrix[0]",
+        "curveShape39.controlPoints[0]"
+      ],
+      "1": [
+        "DIANA_SPINE_CV1_DELTA_DCM.outputTranslate",
+        "DIANA_SPINE_CV1_DELTA_RESULT.output3D",
+        "DIANA_SPINE_CV1_DRV.worldMatrix[0]",
+        "DIANA_SPINE_CV1_SPACE_MM.matrixSum",
+        "DIANA_SPINE_INDEPENDENT_CV1_ADD.output3D",
+        "back_spine_curve.worldInverseMatrix[0]",
+        "curveShape39.controlPoints[1]"
+      ],
+      "2": [
+        "DIANA_SPINE_CV2_DELTA_DCM.outputTranslate",
+        "DIANA_SPINE_CV2_DELTA_RESULT.output3D",
+        "DIANA_SPINE_CV2_DRV.worldMatrix[0]",
+        "DIANA_SPINE_CV2_SPACE_MM.matrixSum",
+        "DIANA_SPINE_INDEPENDENT_CV2_ADD.output3D",
+        "back_spine_curve.worldInverseMatrix[0]",
+        "curveShape39.controlPoints[2]"
+      ],
+      "3": [
+        "DIANA_SPINE_CV3_DELTA_DCM.outputTranslate",
+        "DIANA_SPINE_CV3_DELTA_RESULT.output3D",
+        "DIANA_SPINE_CV3_DRV.worldMatrix[0]",
+        "DIANA_SPINE_CV3_SPACE_MM.matrixSum",
+        "DIANA_SPINE_INDEPENDENT_CV3_ADD.output3D",
+        "back_spine_curve.worldInverseMatrix[0]",
+        "curveShape39.controlPoints[3]"
+      ]
+    },
+    "ik_named_hits": [
+      "DIANA_SPINE_IK_UPPER_TRANSLATE_ADD_PMA",
+      "DIANA_SPINE_IK_UPPER_TRANSLATE_SCALE_MD",
+      "DIANA_SPINE_IK_UPPER_VIS_COND",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV0_DRV|DIANA_SPINE_IK_HIP_TO_CV0_PC",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV1_DRV|DIANA_SPINE_IK_CV1_POINT_PC",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV2_DRV|DIANA_SPINE_IK_CV2_POINT_PC",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL|DIANA_SPINE_CV1_CHEST_TARGET",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL|DIANA_SPINE_CV2_CHEST_TARGET",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_HIP_ZERO",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_HIP_ZERO|DIANA_SPINE_IK_HIP_CTRL",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_HIP_ZERO|DIANA_SPINE_IK_HIP_CTRL|DIANA_SPINE_CV1_HIP_TARGET",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_HIP_ZERO|DIANA_SPINE_IK_HIP_CTRL|DIANA_SPINE_CV2_HIP_TARGET",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO|DIANA_SPINE_IK_UPPER_CTRL",
+      "|DIANA_SPINE_INDEPENDENT_IK_CURVE",
+      "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39"
+    ],
+    "production_fk_hits": [
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim|Terminal"
+    ],
+    "production_fk_paths": {
+      "HIP": [
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim.inverseScale",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt.scale"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim.inverseScale",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim.scale"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt.inverseScale",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim.scale"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad.parentMatrix[0]",
+          "kind": "DAG_PARENT",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt.worldMatrix[0]"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim.parentMatrix[0]",
+          "kind": "DAG_PARENT",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad.worldMatrix[0]"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim|Terminal.parentMatrix[0]",
+          "kind": "DAG_PARENT",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim.worldMatrix[0]"
+        },
+        {
+          "destination": "DIANA_SPINE_IK_UPPER_VIS_COND.firstTerm",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim|Terminal.Spine_Mode"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO|DIANA_SPINE_IK_UPPER_CTRL.visibility",
+          "kind": "DG",
+          "source": "DIANA_SPINE_IK_UPPER_VIS_COND.outColorR"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL.rotateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO|DIANA_SPINE_IK_UPPER_CTRL.rotateX"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC.target[0].targetTranslate",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL.translate"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.translateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC.constraintTranslateX"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_SPACE_MM.matrixIn[0]",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.worldMatrix"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_DCM.inputMatrix",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_SPACE_MM.matrixSum"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_RESULT.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_DCM.outputTranslate"
+        },
+        {
+          "destination": "DIANA_SPINE_INDEPENDENT_CV3_ADD.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_RESULT.output3D"
+        },
+        {
+          "destination": "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[3]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_INDEPENDENT_CV3_ADD.output3D"
+        }
+      ],
+      "LOWER": [
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim.inverseScale",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim.scale"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt.inverseScale",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim.scale"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad.parentMatrix[0]",
+          "kind": "DAG_PARENT",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt.worldMatrix[0]"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim.parentMatrix[0]",
+          "kind": "DAG_PARENT",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad.worldMatrix[0]"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim|Terminal.parentMatrix[0]",
+          "kind": "DAG_PARENT",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim.worldMatrix[0]"
+        },
+        {
+          "destination": "DIANA_SPINE_IK_UPPER_VIS_COND.firstTerm",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim|Terminal.Spine_Mode"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO|DIANA_SPINE_IK_UPPER_CTRL.visibility",
+          "kind": "DG",
+          "source": "DIANA_SPINE_IK_UPPER_VIS_COND.outColorR"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL.rotateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO|DIANA_SPINE_IK_UPPER_CTRL.rotateX"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC.target[0].targetTranslate",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL.translate"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.translateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC.constraintTranslateX"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_SPACE_MM.matrixIn[0]",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.worldMatrix"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_DCM.inputMatrix",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_SPACE_MM.matrixSum"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_RESULT.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_DCM.outputTranslate"
+        },
+        {
+          "destination": "DIANA_SPINE_INDEPENDENT_CV3_ADD.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_RESULT.output3D"
+        },
+        {
+          "destination": "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[3]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_INDEPENDENT_CV3_ADD.output3D"
+        }
+      ],
+      "MIDDLE": [
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt.inverseScale",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim.scale"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad.parentMatrix[0]",
+          "kind": "DAG_PARENT",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt.worldMatrix[0]"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim.parentMatrix[0]",
+          "kind": "DAG_PARENT",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad.worldMatrix[0]"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim|Terminal.parentMatrix[0]",
+          "kind": "DAG_PARENT",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim.worldMatrix[0]"
+        },
+        {
+          "destination": "DIANA_SPINE_IK_UPPER_VIS_COND.firstTerm",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim|Terminal.Spine_Mode"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO|DIANA_SPINE_IK_UPPER_CTRL.visibility",
+          "kind": "DG",
+          "source": "DIANA_SPINE_IK_UPPER_VIS_COND.outColorR"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL.rotateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO|DIANA_SPINE_IK_UPPER_CTRL.rotateX"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC.target[0].targetTranslate",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL.translate"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.translateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC.constraintTranslateX"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_SPACE_MM.matrixIn[0]",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.worldMatrix"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_DCM.inputMatrix",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_SPACE_MM.matrixSum"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_RESULT.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_DCM.outputTranslate"
+        },
+        {
+          "destination": "DIANA_SPINE_INDEPENDENT_CV3_ADD.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_RESULT.output3D"
+        },
+        {
+          "destination": "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[3]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_INDEPENDENT_CV3_ADD.output3D"
+        }
+      ],
+      "SHOULDER": [
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad.parentMatrix[0]",
+          "kind": "DAG_PARENT",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt.worldMatrix[0]"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim.parentMatrix[0]",
+          "kind": "DAG_PARENT",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad.worldMatrix[0]"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim|Terminal.parentMatrix[0]",
+          "kind": "DAG_PARENT",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim.worldMatrix[0]"
+        },
+        {
+          "destination": "DIANA_SPINE_IK_UPPER_VIS_COND.firstTerm",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim|Terminal.Spine_Mode"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO|DIANA_SPINE_IK_UPPER_CTRL.visibility",
+          "kind": "DG",
+          "source": "DIANA_SPINE_IK_UPPER_VIS_COND.outColorR"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL.rotateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO|DIANA_SPINE_IK_UPPER_CTRL.rotateX"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC.target[0].targetTranslate",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL.translate"
+        },
+        {
+          "destination": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.translateX",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC.constraintTranslateX"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_SPACE_MM.matrixIn[0]",
+          "kind": "DG",
+          "source": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV.worldMatrix"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_DCM.inputMatrix",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_SPACE_MM.matrixSum"
+        },
+        {
+          "destination": "DIANA_SPINE_CV3_DELTA_RESULT.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_DCM.outputTranslate"
+        },
+        {
+          "destination": "DIANA_SPINE_INDEPENDENT_CV3_ADD.input3D[1]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_CV3_DELTA_RESULT.output3D"
+        },
+        {
+          "destination": "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[3]",
+          "kind": "DG",
+          "source": "DIANA_SPINE_INDEPENDENT_CV3_ADD.output3D"
+        }
+      ]
+    },
+    "shape": "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39",
+    "shape_connections": [
+      "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[0]",
+      "DIANA_SPINE_INDEPENDENT_CV0_ADD.output3D",
+      "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[1]",
+      "DIANA_SPINE_INDEPENDENT_CV1_ADD.output3D",
+      "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[2]",
+      "DIANA_SPINE_INDEPENDENT_CV2_ADD.output3D",
+      "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.controlPoints[3]",
+      "DIANA_SPINE_INDEPENDENT_CV3_ADD.output3D",
+      "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.worldSpace",
+      "|DIANA_SPINE_IK_REBUILD_GRP|DIANA_SPINE_IK_REBUILD_HANDLE.inCurve",
+      "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.worldSpace",
+      "|DIANA_SPINE_INDEPENDENT_IK_JOINT_GRP|DIANA_SPINE_INDEPENDENT_IK_HANDLE.inCurve",
+      "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.worldSpace",
+      "|DIANA_SPINE_IK_LOCAL_TEST_GRP|DIANA_SPINE_IK_LOCAL_TEST_HANDLE.inCurve",
+      "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.worldSpace",
+      "DIANA_SPINE_LOWER_FOLLOW_POCI.inputCurve",
+      "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.worldSpace",
+      "DIANA_SPINE_MIDDLE_FOLLOW_POCI.inputCurve",
+      "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39.worldSpace",
+      "DIANA_SPINE_SHOULDER_FOLLOW_POCI.inputCurve"
+    ],
+    "transform": "|DIANA_SPINE_INDEPENDENT_IK_CURVE",
+    "transform_connections": [],
+    "upstream_count": 78,
+    "upstream_nodes": [
+      "ALL",
+      "ALL_anim_scaleX",
+      "ALL_anim_scaleY",
+      "ALL_anim_scaleZ",
+      "ALL_anim_visibility",
+      "DIANA_PivotOffset_X_ADD",
+      "DIANA_PivotOffset_Y_ADD",
+      "DIANA_PivotOffset_Z_ADD",
+      "DIANA_SPINE_CV0_DELTA_DCM",
+      "DIANA_SPINE_CV0_DELTA_RESULT",
+      "DIANA_SPINE_CV0_SPACE_MM",
+      "DIANA_SPINE_CV1_DELTA_DCM",
+      "DIANA_SPINE_CV1_DELTA_RESULT",
+      "DIANA_SPINE_CV1_SPACE_MM",
+      "DIANA_SPINE_CV2_DELTA_DCM",
+      "DIANA_SPINE_CV2_DELTA_RESULT",
+      "DIANA_SPINE_CV2_SPACE_MM",
+      "DIANA_SPINE_CV3_DELTA_DCM",
+      "DIANA_SPINE_CV3_DELTA_RESULT",
+      "DIANA_SPINE_CV3_SPACE_MM",
+      "DIANA_SPINE_IK_UPPER_TRANSLATE_ADD_PMA",
+      "DIANA_SPINE_IK_UPPER_TRANSLATE_SCALE_MD",
+      "DIANA_SPINE_IK_UPPER_VIS_COND",
+      "DIANA_SPINE_INDEPENDENT_CV0_ADD",
+      "DIANA_SPINE_INDEPENDENT_CV1_ADD",
+      "DIANA_SPINE_INDEPENDENT_CV2_ADD",
+      "DIANA_SPINE_INDEPENDENT_CV3_ADD",
+      "RIG_group61_rotateX",
+      "RIG_group61_rotateY",
+      "RIG_group61_rotateZ",
+      "RIG_group61_scaleX",
+      "RIG_group61_scaleY",
+      "RIG_group61_scaleZ",
+      "RIG_group61_visibility",
+      "layerManager",
+      "|DIANA_RIG_GRP",
+      "|DIANA_RIG_GRP|DIANA_CONTROLS_GRP",
+      "|DIANA_RIG_GRP|DIANA_CONTROLS_GRP|Body_Rot_Pivot_anim",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV0_DRV",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV0_DRV|DIANA_SPINE_IK_HIP_TO_CV0_PC",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV1_DRV",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV1_DRV|DIANA_SPINE_IK_CV1_POINT_PC",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV2_DRV",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV2_DRV|DIANA_SPINE_IK_CV2_POINT_PC",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_CV_DRIVERS_GRP|DIANA_SPINE_CV3_DRV|DIANA_SPINE_IK_CHEST_TO_CV3_PC",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL|DIANA_SPINE_CV1_CHEST_TARGET",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_CHEST_ZERO|DIANA_SPINE_IK_CHEST_CTRL|DIANA_SPINE_CV2_CHEST_TARGET",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_HIP_ZERO",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_HIP_ZERO|DIANA_SPINE_IK_HIP_CTRL",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_HIP_ZERO|DIANA_SPINE_IK_HIP_CTRL|DIANA_SPINE_CV1_HIP_TARGET",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_HIP_ZERO|DIANA_SPINE_IK_HIP_CTRL|DIANA_SPINE_CV2_HIP_TARGET",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|DIANA_SPINE_MODE_GRP|DIANA_SPINE_IK_UPPER_ZERO|DIANA_SPINE_IK_UPPER_CTRL",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim|Terminal",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve",
+      "|DIANA_SPINE_INDEPENDENT_IK_CURVE",
+      "|DIANA_SPINE_INDEPENDENT_IK_CURVE|curveShape39"
+    ]
+  },
+  "interpretation": {
+    "cycle_closure": "Adding MODE1 -> Follow -> production FK closes any existing production FK -> MODE1 path.",
+    "inactive_branches": "All DG connections were traversed without evaluating selector values."
+  },
+  "legacy_curve_shapes": {
+    "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve|back_spine_curve_Shape": [
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve|back_spine_curve_Shape.worldSpace",
+      "RIG_curveInfo1.inputCurve",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve|back_spine_curve_Shape.worldSpace",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_ik_Handle.inCurve",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve|back_spine_curve_Shape.worldSpace",
+      "DIANA_SPINE_DEFORM_NEUTRAL_CURVE_INFO.inputCurve",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve|back_spine_curve_Shape.controlPoints[0]",
+      "DIANA_SPINE_CV0_MODE_RESULT.output3D",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve|back_spine_curve_Shape.controlPoints[1]",
+      "DIANA_SPINE_CV1_MODE_RESULT.output3D",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve|back_spine_curve_Shape.controlPoints[2]",
+      "DIANA_SPINE_CV2_MODE_RESULT.output3D",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|spine_do_Not_Touch_GRP|back_spine_curve|back_spine_curve_Shape.controlPoints[3]",
+      "DIANA_SPINE_CV3_MODE_RESULT.output3D"
+    ]
+  },
+  "mode1_upstream_fk_hits": {
+    "HIP": [
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt"
+    ],
+    "LOWER": [
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt"
+    ],
+    "MIDDLE": [
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt"
+    ],
+    "SHOULDER": [
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim",
+      "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt"
+    ]
+  },
+  "p4_nodes_present": [],
+  "read_only": true,
+  "scene": "C:/Users/draco/OneDrive/ドキュメント/maya/projects/JAM_rig/scenes/Character_spine37_PHASE4_VALIDATION.ma",
+  "version": 1
+}

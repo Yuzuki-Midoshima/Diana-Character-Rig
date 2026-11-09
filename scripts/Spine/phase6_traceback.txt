@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\draco\OneDrive\ドキュメント\GitHub\Diana-Character-Rig\scripts\Spine\diana_spine_phase6_runner.py", line 298, in <module>
+    main()
+  File "C:\Users\draco\OneDrive\ドキュメント\GitHub\Diana-Character-Rig\scripts\Spine\diana_spine_phase6_runner.py", line 227, in main
+    mode_result = mode_switch_validation()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\draco\OneDrive\ドキュメント\GitHub\Diana-Character-Rig\scripts\Spine\diana_spine_phase6_runner.py", line 110, in mode_switch_validation
+    cmds.setAttr("Terminal.Twist", 8.0)
+RuntimeError: setAttr: 名前と一致するオブジェクトがありません: Terminal.Twist
+

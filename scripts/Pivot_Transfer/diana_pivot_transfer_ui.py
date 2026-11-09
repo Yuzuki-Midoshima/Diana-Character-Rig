@@ -1,7 +1,7 @@
 import maya.cmds as cmds
 import importlib
 
-import scripts.Pivot_Transfer.diana_pivot_to_all as pta
+from . import diana_pivot_to_all as pta
 
 
 # ============================================================

@@ -1,0 +1,1737 @@
+{
+  "created_nodes": [
+    "DIANA_SPINE_P4_HIP_FK_DELTA_CM",
+    "DIANA_SPINE_P4_HIP_FK_LOCAL_INV",
+    "DIANA_SPINE_P4_HIP_FK_LOCAL_PREDICT_MM",
+    "DIANA_SPINE_P4_HIP_FK_REST_LOCAL_FBF",
+    "DIANA_SPINE_P4_HIP_FOLLOW",
+    "DIANA_SPINE_P4_HIP_FOLLOW_MODE_CHOICE",
+    "DIANA_SPINE_P4_HIP_IDENTITY_FBF",
+    "DIANA_SPINE_P4_HIP_IKFK_WORLD_MM",
+    "DIANA_SPINE_P4_HIP_MODE1_FOLLOW_LOCAL_MM",
+    "DIANA_SPINE_P4_HIP_MODE2_FOLLOW_LOCAL_MM",
+    "DIANA_SPINE_P4_INTEGRATION_GRP",
+    "DIANA_SPINE_P4_LOWER_FK_DELTA_CM",
+    "DIANA_SPINE_P4_LOWER_FK_LOCAL_INV",
+    "DIANA_SPINE_P4_LOWER_FK_LOCAL_PREDICT_MM",
+    "DIANA_SPINE_P4_LOWER_FK_REST_LOCAL_FBF",
+    "DIANA_SPINE_P4_LOWER_FOLLOW",
+    "DIANA_SPINE_P4_LOWER_FOLLOW_MODE_CHOICE",
+    "DIANA_SPINE_P4_LOWER_IDENTITY_FBF",
+    "DIANA_SPINE_P4_LOWER_IKFK_WORLD_MM",
+    "DIANA_SPINE_P4_LOWER_MODE1_FOLLOW_LOCAL_MM",
+    "DIANA_SPINE_P4_LOWER_MODE2_FOLLOW_LOCAL_MM",
+    "DIANA_SPINE_P4_MIDDLE_FK_DELTA_CM",
+    "DIANA_SPINE_P4_MIDDLE_FK_LOCAL_INV",
+    "DIANA_SPINE_P4_MIDDLE_FK_LOCAL_PREDICT_MM",
+    "DIANA_SPINE_P4_MIDDLE_FK_REST_LOCAL_FBF",
+    "DIANA_SPINE_P4_MIDDLE_FOLLOW",
+    "DIANA_SPINE_P4_MIDDLE_FOLLOW_MODE_CHOICE",
+    "DIANA_SPINE_P4_MIDDLE_IDENTITY_FBF",
+    "DIANA_SPINE_P4_MIDDLE_IKFK_WORLD_MM",
+    "DIANA_SPINE_P4_MIDDLE_MODE1_FOLLOW_LOCAL_MM",
+    "DIANA_SPINE_P4_MIDDLE_MODE2_FOLLOW_LOCAL_MM",
+    "DIANA_SPINE_P4_SHOULDER_FK_DELTA_CM",
+    "DIANA_SPINE_P4_SHOULDER_FK_LOCAL_INV",
+    "DIANA_SPINE_P4_SHOULDER_FK_LOCAL_PREDICT_MM",
+    "DIANA_SPINE_P4_SHOULDER_FK_REST_LOCAL_FBF",
+    "DIANA_SPINE_P4_SHOULDER_FOLLOW",
+    "DIANA_SPINE_P4_SHOULDER_FOLLOW_MODE_CHOICE",
+    "DIANA_SPINE_P4_SHOULDER_IDENTITY_FBF",
+    "DIANA_SPINE_P4_SHOULDER_IKFK_WORLD_MM",
+    "DIANA_SPINE_P4_SHOULDER_MODE1_FOLLOW_LOCAL_MM",
+    "DIANA_SPINE_P4_SHOULDER_MODE2_FOLLOW_LOCAL_MM"
+  ],
+  "created_utc": "2026-11-02T16:10:39.830518Z",
+  "dependency": {
+    "HIP": {
+      "fk_hits": [],
+      "upstream_count": 46
+    },
+    "LOWER": {
+      "fk_hits": [],
+      "upstream_count": 64
+    },
+    "MIDDLE": {
+      "fk_hits": [],
+      "upstream_count": 65
+    },
+    "SHOULDER": {
+      "fk_hits": [],
+      "upstream_count": 52
+    }
+  },
+  "downstream": {
+    "shoulder_fk_Spine_anim_jnt": [
+      {
+        "other": "middle_fk_Spine_anim.scale",
+        "plug": "shoulder_fk_Spine_anim_jnt.inverseScale"
+      },
+      {
+        "other": "neck_root_jnt.inverseScale",
+        "plug": "shoulder_fk_Spine_anim_jnt.scale"
+      },
+      {
+        "other": "bindPose20.members[54]",
+        "plug": "shoulder_fk_Spine_anim_jnt.message"
+      },
+      {
+        "other": "bindPose9.members[14]",
+        "plug": "shoulder_fk_Spine_anim_jnt.message"
+      },
+      {
+        "other": "bindPose20.parents[55]",
+        "plug": "shoulder_fk_Spine_anim_jnt.message"
+      },
+      {
+        "other": "bindPose26.members[8]",
+        "plug": "shoulder_fk_Spine_anim_jnt.message"
+      },
+      {
+        "other": "bindPose28.members[8]",
+        "plug": "shoulder_fk_Spine_anim_jnt.message"
+      },
+      {
+        "other": "bindPose46.members[10]",
+        "plug": "shoulder_fk_Spine_anim_jnt.message"
+      },
+      {
+        "other": "bindPose47.members[10]",
+        "plug": "shoulder_fk_Spine_anim_jnt.message"
+      },
+      {
+        "other": "bindPose50.members[10]",
+        "plug": "shoulder_fk_Spine_anim_jnt.message"
+      },
+      {
+        "other": "bindPose51.members[10]",
+        "plug": "shoulder_fk_Spine_anim_jnt.message"
+      },
+      {
+        "other": "bindPose20.worldMatrix[54]",
+        "plug": "shoulder_fk_Spine_anim_jnt.bindPose"
+      },
+      {
+        "other": "bindPose9.worldMatrix[14]",
+        "plug": "shoulder_fk_Spine_anim_jnt.bindPose"
+      },
+      {
+        "other": "body_BAKED_skinCluster.lockWeights[68]",
+        "plug": "shoulder_fk_Spine_anim_jnt.lockInfluenceWeights"
+      },
+      {
+        "other": "body_BAKED_skinCluster.influenceColor[68]",
+        "plug": "shoulder_fk_Spine_anim_jnt.objectColorRGB"
+      },
+      {
+        "other": "skinJoint.dagSetMembers[72]",
+        "plug": "shoulder_fk_Spine_anim_jnt.instObjGroups"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_SHOULDER_MODE2_ROT_SCALE_MM.matrixIn[0]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_SHOULDER_LIVE_FK_DCM.inputMatrix",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_SHOULDER_MODE_CHOICE.input[0]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_DESC_02_FINAL_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_DESC_01_FINAL_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_DESC_03_FINAL_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_DESC_04_FINAL_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_DESC_05_FINAL_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_DESC_06_FINAL_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_DESC_07_FINAL_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_DESC_08_FINAL_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_DESC_34_FINAL_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_DESC_35_FINAL_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_DESC_36_FINAL_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_DESC_37_FINAL_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_DESC_38_FINAL_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_DESC_64_FINAL_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_DEFORM_DESC_65_FINAL_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_001_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_002_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_003_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_004_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_005_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_006_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_007_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_008_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_009_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_010_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_011_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_012_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_013_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_014_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_015_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_016_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_017_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_018_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_019_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_020_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_021_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_022_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_023_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_024_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_025_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_026_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_027_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_028_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_029_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_030_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_031_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_032_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_033_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_034_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_035_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_036_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_037_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_038_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_039_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_040_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_041_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_042_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_043_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_044_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_045_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_046_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_047_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_048_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_049_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_050_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_051_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_052_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_053_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_054_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_055_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_056_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_057_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_058_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_059_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_060_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_061_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_062_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_063_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_064_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_065_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_066_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_067_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_068_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_069_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_070_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_071_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_072_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_073_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_074_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_075_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_076_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_077_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_078_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_079_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_080_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_081_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_082_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_083_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_084_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_085_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_086_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_087_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_088_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_089_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_090_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_091_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_092_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_093_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_094_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_095_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_096_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_097_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_098_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_099_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_100_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_101_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_102_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_103_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_104_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_105_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_106_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_107_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_108_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_109_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_110_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_111_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_112_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_113_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_114_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_115_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_116_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_117_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_118_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_119_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_120_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_121_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_122_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_123_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_124_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_125_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_126_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_127_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_128_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_129_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_130_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_131_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_132_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_133_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_134_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_135_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_136_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_137_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_138_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_139_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HAIR_FOLLOW_INF_140_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_CROWN_FOLLOW_INF_001_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_CROWN_FOLLOW_INF_002_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_CROWN_FOLLOW_INF_003_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_CROWN_FOLLOW_INF_004_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_CROWN_FOLLOW_INF_005_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_000_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_001_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_002_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_003_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_004_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_005_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_006_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_007_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_008_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_009_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_010_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_011_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_012_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_013_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_014_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_015_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_016_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_017_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_018_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_019_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_020_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_021_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_022_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_023_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_024_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_025_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_026_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_027_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_028_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_029_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_030_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_031_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_032_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_033_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_034_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_035_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_036_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_037_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_038_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_FACE_FOLLOW_INF_039_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_NECK_FINAL_FOLLOW_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_HEAD_FINAL_FOLLOW_MM.matrixIn[1]",
+        "plug": "shoulder_fk_Spine_anim_jnt.worldInverseMatrix"
+      },
+      {
+        "other": "DIANA_SPINE_SHOULDER_FK_LOCAL_ROT_CM.inputRotate",
+        "plug": "shoulder_fk_Spine_anim_jnt.rotate"
+      }
+    ],
+    "shoulder_spine_anim": [
+      {
+        "other": "back_spine_cv_3_cls_Handle_parent_Constraint_1.target[0].targetTranslate",
+        "plug": "shoulder_spine_anim.translate"
+      },
+      {
+        "other": "back_spine_cv_2_cls_Handle_parent_Constraint_1.target[1].targetTranslate",
+        "plug": "shoulder_spine_anim.translate"
+      },
+      {
+        "other": "DSS_Head_POSITION_PC.target[0].targetTranslate",
+        "plug": "shoulder_spine_anim.translate"
+      },
+      {
+        "other": "head_anim_constraint_grp_point_Constraint_1.target[0].targetTranslate",
+        "plug": "shoulder_spine_anim.translate"
+      },
+      {
+        "other": "L_ARM_IK_SPACE_PC.target[0].targetTranslate",
+        "plug": "shoulder_spine_anim.translate"
+      },
+      {
+        "other": "R_ARM_IK_SPACE_PC.target[0].targetTranslate",
+        "plug": "shoulder_spine_anim.translate"
+      },
+      {
+        "other": "back_spine_cv_3_cls_Handle_parent_Constraint_1.target[0].targetScale",
+        "plug": "shoulder_spine_anim.scale"
+      },
+      {
+        "other": "back_spine_cv_2_cls_Handle_parent_Constraint_1.target[1].targetScale",
+        "plug": "shoulder_spine_anim.scale"
+      },
+      {
+        "other": "L_ARM_IK_SPACE_PC.target[0].targetScale",
+        "plug": "shoulder_spine_anim.scale"
+      },
+      {
+        "other": "R_ARM_IK_SPACE_PC.target[0].targetScale",
+        "plug": "shoulder_spine_anim.scale"
+      },
+      {
+        "other": "back_spine_cv_3_cls_Handle_parent_Constraint_1.target[0].targetRotatePivot",
+        "plug": "shoulder_spine_anim.rotatePivot"
+      },
+      {
+        "other": "back_spine_cv_2_cls_Handle_parent_Constraint_1.target[1].targetRotatePivot",
+        "plug": "shoulder_spine_anim.rotatePivot"
+      },
+      {
+        "other": "DSS_Head_POSITION_PC.target[0].targetRotatePivot",
+        "plug": "shoulder_spine_anim.rotatePivot"
+      },
+      {
+        "other": "head_anim_constraint_grp_point_Constraint_1.target[0].targetRotatePivot",
+        "plug": "shoulder_spine_anim.rotatePivot"
+      },
+      {
+        "other": "L_ARM_IK_SPACE_PC.target[0].targetRotatePivot",
+        "plug": "shoulder_spine_anim.rotatePivot"
+      },
+      {
+        "other": "R_ARM_IK_SPACE_PC.target[0].targetRotatePivot",
+        "plug": "shoulder_spine_anim.rotatePivot"
+      },
+      {
+        "other": "back_spine_cv_3_cls_Handle_parent_Constraint_1.target[0].targetRotateTranslate",
+        "plug": "shoulder_spine_anim.rotatePivotTranslate"
+      },
+      {
+        "other": "back_spine_cv_2_cls_Handle_parent_Constraint_1.target[1].targetRotateTranslate",
+        "plug": "shoulder_spine_anim.rotatePivotTranslate"
+      },
+      {
+        "other": "DSS_Head_POSITION_PC.target[0].targetRotateTranslate",
+        "plug": "shoulder_spine_anim.rotatePivotTranslate"
+      },
+      {
+        "other": "head_anim_constraint_grp_point_Constraint_1.target[0].targetRotateTranslate",
+        "plug": "shoulder_spine_anim.rotatePivotTranslate"
+      },
+      {
+        "other": "L_ARM_IK_SPACE_PC.target[0].targetRotateTranslate",
+        "plug": "shoulder_spine_anim.rotatePivotTranslate"
+      },
+      {
+        "other": "R_ARM_IK_SPACE_PC.target[0].targetRotateTranslate",
+        "plug": "shoulder_spine_anim.rotatePivotTranslate"
+      },
+      {
+        "other": "back_spine_cv_3_cls_Handle_parent_Constraint_1.target[0].targetRotate",
+        "plug": "shoulder_spine_anim.rotate"
+      },
+      {
+        "other": "back_spine_cv_2_cls_Handle_parent_Constraint_1.target[1].targetRotate",
+        "plug": "shoulder_spine_anim.rotate"
+      },
+      {
+        "other": "head_anim_constraint_grp_orient_Constraint_1.target[0].targetRotate",
+        "plug": "shoulder_spine_anim.rotate"
+      },
+      {
+        "other": "L_ARM_IK_SPACE_PC.target[0].targetRotate",
+        "plug": "shoulder_spine_anim.rotate"
+      },
+      {
+        "other": "R_ARM_IK_SPACE_PC.target[0].targetRotate",
+        "plug": "shoulder_spine_anim.rotate"
+      },
+      {
+        "other": "RIG_unitConversion1030.input",
+        "plug": "shoulder_spine_anim.rotateY"
+      },
+      {
+        "other": "RIG_unitConversion1025.input",
+        "plug": "shoulder_spine_anim.rotateX"
+      },
+      {
+        "other": "RIG_unitConversion1024.input",
+        "plug": "shoulder_spine_anim.rotateX"
+      },
+      {
+        "other": "RIG_unitConversion1026.input",
+        "plug": "shoulder_spine_anim.rotateX"
+      },
+      {
+        "other": "RIG_unitConversion1028.input",
+        "plug": "shoulder_spine_anim.rotateZ"
+      },
+      {
+        "other": "RIG_unitConversion1029.input",
+        "plug": "shoulder_spine_anim.rotateZ"
+      },
+      {
+        "other": "RIG_unitConversion1027.input",
+        "plug": "shoulder_spine_anim.rotateZ"
+      },
+      {
+        "other": "back_spine_cv_3_cls_Handle_parent_Constraint_1.target[0].targetRotateOrder",
+        "plug": "shoulder_spine_anim.rotateOrder"
+      },
+      {
+        "other": "back_spine_cv_2_cls_Handle_parent_Constraint_1.target[1].targetRotateOrder",
+        "plug": "shoulder_spine_anim.rotateOrder"
+      },
+      {
+        "other": "head_anim_constraint_grp_orient_Constraint_1.target[0].targetRotateOrder",
+        "plug": "shoulder_spine_anim.rotateOrder"
+      },
+      {
+        "other": "L_ARM_IK_SPACE_PC.target[0].targetRotateOrder",
+        "plug": "shoulder_spine_anim.rotateOrder"
+      },
+      {
+        "other": "R_ARM_IK_SPACE_PC.target[0].targetRotateOrder",
+        "plug": "shoulder_spine_anim.rotateOrder"
+      },
+      {
+        "other": "back_spine_cv_3_cls_Handle_parent_Constraint_1.target[0].targetParentMatrix",
+        "plug": "shoulder_spine_anim.parentMatrix"
+      },
+      {
+        "other": "back_spine_cv_2_cls_Handle_parent_Constraint_1.target[1].targetParentMatrix",
+        "plug": "shoulder_spine_anim.parentMatrix"
+      },
+      {
+        "other": "DSS_Head_POSITION_PC.target[0].targetParentMatrix",
+        "plug": "shoulder_spine_anim.parentMatrix"
+      },
+      {
+        "other": "head_anim_constraint_grp_point_Constraint_1.target[0].targetParentMatrix",
+        "plug": "shoulder_spine_anim.parentMatrix"
+      },
+      {
+        "other": "head_anim_constraint_grp_orient_Constraint_1.target[0].targetParentMatrix",
+        "plug": "shoulder_spine_anim.parentMatrix"
+      },
+      {
+        "other": "L_ARM_IK_SPACE_PC.target[0].targetParentMatrix",
+        "plug": "shoulder_spine_anim.parentMatrix"
+      },
+      {
+        "other": "R_ARM_IK_SPACE_PC.target[0].targetParentMatrix",
+        "plug": "shoulder_spine_anim.parentMatrix"
+      },
+      {
+        "other": "bindPose20.members[56]",
+        "plug": "shoulder_spine_anim.message"
+      },
+      {
+        "other": "bindPose9.members[16]",
+        "plug": "shoulder_spine_anim.message"
+      },
+      {
+        "other": "bindPose20.parents[57]",
+        "plug": "shoulder_spine_anim.message"
+      }
+    ]
+  },
+  "parts": {
+    "HIP": {
+      "attrs": {
+        "jointOrient": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "rotate": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "rotateOrder": 0,
+        "scale": [
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "shear": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "translate": [
+          [
+            0.00047718295381926623,
+            102.05027024148995,
+            0.265959861262548
+          ]
+        ]
+      },
+      "fk": "hip_fk_Spine_anim_jnt",
+      "mode1_connections": [
+        {
+          "other": "DIANA_SPINE_DEFORM_HIP_MODE1_NO_TRANSLATE_PM.outputMatrix",
+          "plug": "DIANA_SPINE_DEFORM_HIP_MODE1_FINAL_MM.matrixIn[0]"
+        },
+        {
+          "other": "DIANA_SPINE_DEFORM_HIP_MODE1_POS_CM.outputMatrix",
+          "plug": "DIANA_SPINE_DEFORM_HIP_MODE1_FINAL_MM.matrixIn[1]"
+        },
+        {
+          "other": "DIANA_SPINE_HIP_IK_FK_LOCAL_TEST_MM.matrixIn[1]",
+          "plug": "DIANA_SPINE_DEFORM_HIP_MODE1_FINAL_MM.matrixSum"
+        },
+        {
+          "other": "DIANA_SPINE_DEFORM_HIP_MODE_CHOICE.input[1]",
+          "plug": "DIANA_SPINE_DEFORM_HIP_MODE1_FINAL_MM.matrixSum"
+        }
+      ],
+      "mode2_connections": [
+        {
+          "other": "DIANA_SPINE_DEFORM_HIP_MODE2_NO_TRANSLATE_PM.outputMatrix",
+          "plug": "DIANA_SPINE_DEFORM_HIP_MODE2_FINAL_MM.matrixIn[0]"
+        },
+        {
+          "other": "DIANA_SPINE_DEFORM_HIP_MODE2_POS_CM.outputMatrix",
+          "plug": "DIANA_SPINE_DEFORM_HIP_MODE2_FINAL_MM.matrixIn[1]"
+        },
+        {
+          "other": "DIANA_SPINE_DEFORM_HIP_MODE_CHOICE.input[2]",
+          "plug": "DIANA_SPINE_DEFORM_HIP_MODE2_FINAL_MM.matrixSum"
+        }
+      ],
+      "mode_choice_inputs": {
+        "0": "hip_fk_Spine_anim_jnt.worldMatrix[0]",
+        "1": "DIANA_SPINE_DEFORM_HIP_MODE1_FINAL_MM.matrixSum",
+        "2": "DIANA_SPINE_DEFORM_HIP_MODE2_FINAL_MM.matrixSum"
+      },
+      "parent": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim",
+      "worldMatrix": [
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        -98.13696828837817,
+        -1.9064870914668575,
+        195.32156170271625,
+        1.0
+      ]
+    },
+    "LOWER": {
+      "attrs": {
+        "jointOrient": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "rotate": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "rotateOrder": 2,
+        "scale": [
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "shear": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "translate": [
+          [
+            -2.2826209713468665e-16,
+            0.0,
+            -1.678420385385291e-17
+          ]
+        ]
+      },
+      "fk": "lower_fk_Spine_anim",
+      "mode1_connections": [
+        {
+          "other": "DIANA_SPINE_DEFORM_LOWER_MODE1_NO_TRANSLATE_PM.outputMatrix",
+          "plug": "DIANA_SPINE_DEFORM_LOWER_MODE1_FINAL_MM.matrixIn[0]"
+        },
+        {
+          "other": "DIANA_SPINE_DEFORM_LOWER_MODE1_POS_CM.outputMatrix",
+          "plug": "DIANA_SPINE_DEFORM_LOWER_MODE1_FINAL_MM.matrixIn[1]"
+        },
+        {
+          "other": "DIANA_SPINE_LOWER_IK_FK_LOCAL_TEST_MM.matrixIn[1]",
+          "plug": "DIANA_SPINE_DEFORM_LOWER_MODE1_FINAL_MM.matrixSum"
+        },
+        {
+          "other": "DIANA_SPINE_DEFORM_LOWER_MODE_CHOICE.input[1]",
+          "plug": "DIANA_SPINE_DEFORM_LOWER_MODE1_FINAL_MM.matrixSum"
+        },
+        {
+          "other": "DIANA_SPINE_LOWER_IK_FOLLOW_MM.matrixIn[1]",
+          "plug": "DIANA_SPINE_DEFORM_LOWER_MODE1_FINAL_MM.matrixSum"
+        }
+      ],
+      "mode2_connections": [
+        {
+          "other": "DIANA_SPINE_DEFORM_LOWER_MODE2_NO_TRANSLATE_PM.outputMatrix",
+          "plug": "DIANA_SPINE_DEFORM_LOWER_MODE2_FINAL_MM.matrixIn[0]"
+        },
+        {
+          "other": "DIANA_SPINE_DEFORM_LOWER_MODE2_POS_CM.outputMatrix",
+          "plug": "DIANA_SPINE_DEFORM_LOWER_MODE2_FINAL_MM.matrixIn[1]"
+        },
+        {
+          "other": "DIANA_SPINE_DEFORM_LOWER_MODE_CHOICE.input[2]",
+          "plug": "DIANA_SPINE_DEFORM_LOWER_MODE2_FINAL_MM.matrixSum"
+        }
+      ],
+      "mode_choice_inputs": {
+        "0": "lower_fk_Spine_anim.worldMatrix[0]",
+        "1": "DIANA_SPINE_DEFORM_LOWER_MODE1_FINAL_MM.matrixSum",
+        "2": "DIANA_SPINE_DEFORM_LOWER_MODE2_FINAL_MM.matrixSum"
+      },
+      "parent": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68",
+      "worldMatrix": [
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        -98.13696828837817,
+        25.97351290853314,
+        195.32156170271625,
+        1.0
+      ]
+    },
+    "MIDDLE": {
+      "attrs": {
+        "jointOrient": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "rotate": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "rotateOrder": 2,
+        "scale": [
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "shear": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "translate": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "fk": "middle_fk_Spine_anim",
+      "mode1_connections": [
+        {
+          "other": "DIANA_SPINE_DEFORM_MIDDLE_MODE1_NO_TRANSLATE_PM.outputMatrix",
+          "plug": "DIANA_SPINE_DEFORM_MIDDLE_MODE1_FINAL_MM.matrixIn[0]"
+        },
+        {
+          "other": "DIANA_SPINE_DEFORM_MIDDLE_MODE1_POS_CM.outputMatrix",
+          "plug": "DIANA_SPINE_DEFORM_MIDDLE_MODE1_FINAL_MM.matrixIn[1]"
+        },
+        {
+          "other": "DIANA_SPINE_MIDDLE_IK_FK_LOCAL_TEST_MM.matrixIn[1]",
+          "plug": "DIANA_SPINE_DEFORM_MIDDLE_MODE1_FINAL_MM.matrixSum"
+        },
+        {
+          "other": "DIANA_SPINE_DEFORM_MIDDLE_MODE_CHOICE.input[1]",
+          "plug": "DIANA_SPINE_DEFORM_MIDDLE_MODE1_FINAL_MM.matrixSum"
+        }
+      ],
+      "mode2_connections": [
+        {
+          "other": "DIANA_SPINE_DEFORM_MIDDLE_MODE2_NO_TRANSLATE_PM.outputMatrix",
+          "plug": "DIANA_SPINE_DEFORM_MIDDLE_MODE2_FINAL_MM.matrixIn[0]"
+        },
+        {
+          "other": "DIANA_SPINE_DEFORM_MIDDLE_MODE2_POS_CM.outputMatrix",
+          "plug": "DIANA_SPINE_DEFORM_MIDDLE_MODE2_FINAL_MM.matrixIn[1]"
+        },
+        {
+          "other": "DIANA_SPINE_DEFORM_MIDDLE_MODE_CHOICE.input[2]",
+          "plug": "DIANA_SPINE_DEFORM_MIDDLE_MODE2_FINAL_MM.matrixSum"
+        }
+      ],
+      "mode_choice_inputs": {
+        "0": "middle_fk_Spine_anim.worldMatrix[0]",
+        "1": "DIANA_SPINE_DEFORM_MIDDLE_MODE1_FINAL_MM.matrixSum",
+        "2": "DIANA_SPINE_DEFORM_MIDDLE_MODE2_FINAL_MM.matrixSum"
+      },
+      "parent": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET",
+      "worldMatrix": [
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        -98.13696828837817,
+        53.93751290853314,
+        195.32156170271625,
+        1.0
+      ]
+    },
+    "SHOULDER": {
+      "attrs": {
+        "jointOrient": [
+          [
+            0.0,
+            0.0,
+            90.0
+          ]
+        ],
+        "rotate": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "rotateOrder": 0,
+        "scale": [
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "shear": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "translate": [
+          [
+            -4.237362483710162e-57,
+            16.152714365313543,
+            4.3390591833206895e-54
+          ]
+        ]
+      },
+      "fk": "shoulder_fk_Spine_anim_jnt",
+      "mode1_connections": [
+        {
+          "other": "DIANA_SPINE_DEFORM_SHOULDER_MODE1_NO_TRANSLATE_PM.outputMatrix",
+          "plug": "DIANA_SPINE_DEFORM_SHOULDER_MODE1_FINAL_MM.matrixIn[0]"
+        },
+        {
+          "other": "DIANA_SPINE_DEFORM_SHOULDER_MODE1_POS_CM.outputMatrix",
+          "plug": "DIANA_SPINE_DEFORM_SHOULDER_MODE1_FINAL_MM.matrixIn[1]"
+        },
+        {
+          "other": "DIANA_SPINE_SHOULDER_IK_FK_LOCAL_TEST_MM.matrixIn[1]",
+          "plug": "DIANA_SPINE_DEFORM_SHOULDER_MODE1_FINAL_MM.matrixSum"
+        },
+        {
+          "other": "DIANA_SPINE_DEFORM_SHOULDER_MODE_CHOICE.input[1]",
+          "plug": "DIANA_SPINE_DEFORM_SHOULDER_MODE1_FINAL_MM.matrixSum"
+        }
+      ],
+      "mode2_connections": [
+        {
+          "other": "DIANA_SPINE_DEFORM_SHOULDER_MODE2_NO_TRANSLATE_PM.outputMatrix",
+          "plug": "DIANA_SPINE_DEFORM_SHOULDER_MODE2_FINAL_MM.matrixIn[0]"
+        },
+        {
+          "other": "DIANA_SPINE_DEFORM_SHOULDER_MODE2_POS_CM.outputMatrix",
+          "plug": "DIANA_SPINE_DEFORM_SHOULDER_MODE2_FINAL_MM.matrixIn[1]"
+        },
+        {
+          "other": "DIANA_SPINE_DEFORM_SHOULDER_MODE_CHOICE.input[2]",
+          "plug": "DIANA_SPINE_DEFORM_SHOULDER_MODE2_FINAL_MM.matrixSum"
+        }
+      ],
+      "mode_choice_inputs": {
+        "0": "shoulder_fk_Spine_anim_jnt.worldMatrix[0]",
+        "1": "DIANA_SPINE_DEFORM_SHOULDER_MODE1_FINAL_MM.matrixSum",
+        "2": "DIANA_SPINE_DEFORM_SHOULDER_MODE2_FINAL_MM.matrixSum"
+      },
+      "parent": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim",
+      "worldMatrix": [
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        -2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        -98.13696828837817,
+        86.24294163916022,
+        195.32156170271625,
+        1.0
+      ]
+    }
+  },
+  "scene": "C:/Users/draco/OneDrive/ドキュメント/maya/projects/JAM_rig/scenes/Character_spine37_PHASE4_VALIDATION.ma",
+  "shoulder_pivot_local": [
+    0.0,
+    145.98902893066406,
+    0.0
+  ],
+  "skinClusters": {
+    "body_BAKED_skinCluster": {
+      "geometry": [
+        "bodyShape"
+      ],
+      "influences": [
+        "L_ankle_jnt",
+        "L_ball_jnt",
+        "DIANA_SPINE_DEFORM_DESC_08_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_06_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_07_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_34_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_35_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_10_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_11_FINAL_PROXY",
+        "L_hip_jnt",
+        "DIANA_SPINE_DEFORM_DESC_14_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_15_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_16_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_17_FINAL_PROXY",
+        "L_knee_jnt",
+        "DIANA_SPINE_DEFORM_DESC_18_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_19_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_20_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_21_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_13_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_23_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_24_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_25_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_26_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_22_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_27_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_28_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_29_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_09_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_31_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_32_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_33_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_30_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_12_FINAL_PROXY",
+        "R_ankle_jnt",
+        "DIANA_SPINE_DEFORM_DESC_64_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_65_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_41_FINAL_PROXY",
+        "R_hip_jnt",
+        "DIANA_SPINE_DEFORM_DESC_43_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_44_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_45_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_46_FINAL_PROXY",
+        "R_knee_jnt",
+        "DIANA_SPINE_DEFORM_DESC_47_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_48_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_49_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_50_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_52_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_53_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_54_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_55_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_51_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_56_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_57_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_58_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_59_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_39_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_61_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_62_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_63_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_60_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_42_FINAL_PROXY",
+        "neck_root_jnt",
+        "neck_mid_jnt",
+        "head_end_jnt",
+        "head_jnt",
+        "neck_tip_jnt",
+        "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_38_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_36_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_37_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY",
+        "DIANA_SPINE_DEFORM_DESC_40_FINAL_PROXY",
+        "L_hip_jnt_1",
+        "L_hip_jnt_2",
+        "L_hip_jnt_3",
+        "R_hip_jnt_1",
+        "R_hip_jnt_2",
+        "R_hip_jnt_3",
+        "R_ball_jnt",
+        "R_toe_jnt"
+      ]
+    },
+    "hair_short_skinCluster27": {
+      "geometry": [
+        "hair_short_short_backShape"
+      ],
+      "influences": [
+        "hair_short_back_jnt_1",
+        "hair_short_back_jnt_2",
+        "hair_short_back_jnt_3",
+        "hair_short_back_jnt_4",
+        "hair_short_back_jnt_5",
+        "hair_short_back_jnt_6",
+        "hair_short_L_back_jnt_1",
+        "hair_short_L_back_jnt_2",
+        "hair_short_L_back_jnt_3",
+        "hair_short_L_back_jnt_4",
+        "hair_short_L_back_jnt_5",
+        "hair_short_L_back_jnt_6",
+        "hair_short_R_back_jnt_1",
+        "hair_short_R_back_jnt_3",
+        "hair_short_R_back_jnt_2",
+        "hair_short_R_back_jnt_4",
+        "hair_short_R_back_jnt_5"
+      ]
+    },
+    "skinCluster40": {
+      "geometry": [
+        "short_backShape"
+      ],
+      "influences": [
+        "head_end_jnt|short_under_jnt|short_under_jnt",
+        "R_Short_under_jnt_4",
+        "R_Short_under_jnt_6",
+        "R_Short_under_jnt_5",
+        "L_Short_under_jnt_2",
+        "L_Short_under_jnt_3",
+        "L_Short_under_jnt_4",
+        "L_Short_under_jnt_5",
+        "L_Short_under_jnt_6",
+        "L_Short_under_jnt_7",
+        "Back_Short_under_jnt_0",
+        "Back_Short_under_jnt_0|Back_Short_under_jnt_1",
+        "Back_Short_under_jnt_0|Back_Short_under_jnt_1|Back_Short_under_jnt_2",
+        "Back_Short_under_jnt_0|Back_Short_under_jnt_1|Back_Short_under_jnt_2|Back_Short_under_jnt_3",
+        "Back_Short_under_jnt_0|Back_Short_under_jnt_1|Back_Short_under_jnt_2|Back_Short_under_jnt_3|Back_Short_under_jnt_4",
+        "Back_Short_under_jnt_GRP|Back_Short_under_jnt_1",
+        "Back_Short_under_jnt_GRP|Back_Short_under_jnt_1|Back_Short_under_jnt_2",
+        "Back_Short_under_jnt_GRP|Back_Short_under_jnt_1|Back_Short_under_jnt_2|Back_Short_under_jnt_3",
+        "Back_Short_under_jnt_GRP|Back_Short_under_jnt_1|Back_Short_under_jnt_2|Back_Short_under_jnt_3|Back_Short_under_jnt_4",
+        "Back_Short_under_jnt_GRP|Back_Short_under_jnt_1|Back_Short_under_jnt_2|Back_Short_under_jnt_3|Back_Short_under_jnt_4|Back_Short_under_jnt_5",
+        "Back_Short_under_jnt_GRP|Back_Short_under_jnt_1|Back_Short_under_jnt_2|Back_Short_under_jnt_3|Back_Short_under_jnt_4|Back_Short_under_jnt_5|Back_Short_under_jnt_6",
+        "Back_R_Short_under_jnt_1",
+        "Back_R_Short_under_jnt_2",
+        "Back_R_Short_under_jnt_3",
+        "Back_R_Short_under_jnt_4",
+        "Back_R_Short_under_jnt_5",
+        "Back_R_Short_under_jnt_6",
+        "Back_R_Short_under_jnt_7"
+      ]
+    }
+  },
+  "stages": [
+    {
+      "follow": "DIANA_SPINE_P4_LOWER_FOLLOW",
+      "new_mode2_source": "DIANA_SPINE_P4_LOWER_IKFK_WORLD_MM.matrixSum",
+      "old_mode2_source": "DIANA_SPINE_DEFORM_LOWER_MODE2_FINAL_MM.matrixSum",
+      "original_parent": "group_68",
+      "part": "LOWER"
+    },
+    {
+      "follow": "DIANA_SPINE_P4_MIDDLE_FOLLOW",
+      "new_mode2_source": "DIANA_SPINE_P4_MIDDLE_IKFK_WORLD_MM.matrixSum",
+      "old_mode2_source": "DIANA_SPINE_DEFORM_MIDDLE_MODE2_FINAL_MM.matrixSum",
+      "original_parent": "middle_fk_Spine_OFFSET",
+      "part": "MIDDLE"
+    },
+    {
+      "follow": "DIANA_SPINE_P4_SHOULDER_FOLLOW",
+      "new_mode2_source": "DIANA_SPINE_P4_SHOULDER_IKFK_WORLD_MM.matrixSum",
+      "old_mode2_source": "DIANA_SPINE_DEFORM_SHOULDER_MODE2_FINAL_MM.matrixSum",
+      "original_parent": "middle_fk_Spine_anim",
+      "part": "SHOULDER"
+    },
+    {
+      "follow": "DIANA_SPINE_P4_HIP_FOLLOW",
+      "new_mode2_source": "DIANA_SPINE_P4_HIP_IKFK_WORLD_MM.matrixSum",
+      "old_mode2_source": "DIANA_SPINE_DEFORM_HIP_MODE2_FINAL_MM.matrixSum",
+      "original_parent": "COG_anim",
+      "part": "HIP"
+    }
+  ],
+  "version": 1
+}

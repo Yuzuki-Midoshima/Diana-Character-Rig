@@ -3,6 +3,7 @@
 *.zip
 *.7z
 *.rar
+dist/
 
 # Python-generated files
 __pycache__/

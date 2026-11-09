@@ -1,0 +1,2603 @@
+{
+  "animation": {
+    "curves": [
+      "DIANA_SPINE_IK_UPPER_CTRL_translateX",
+      "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL_rotateY",
+      "DIANA_SPINE_P9_HIP_MODE0_CORR_rotateX",
+      "DIANA_SPINE_P9_HIP_MODE0_CORR_rotateY",
+      "DIANA_SPINE_P9_HIP_MODE0_CORR_rotateZ",
+      "DIANA_SPINE_P9_HIP_MODE0_CORR_translateX",
+      "DIANA_SPINE_P9_HIP_MODE0_CORR_translateY",
+      "DIANA_SPINE_P9_HIP_MODE0_CORR_translateZ",
+      "DIANA_SPINE_P9_HIP_MODE1_CORR_rotateX",
+      "DIANA_SPINE_P9_HIP_MODE1_CORR_rotateY",
+      "DIANA_SPINE_P9_HIP_MODE1_CORR_rotateZ",
+      "DIANA_SPINE_P9_HIP_MODE1_CORR_translateX",
+      "DIANA_SPINE_P9_HIP_MODE1_CORR_translateY",
+      "DIANA_SPINE_P9_HIP_MODE1_CORR_translateZ",
+      "DIANA_SPINE_P9_HIP_MODE2_CORR_rotateX",
+      "DIANA_SPINE_P9_HIP_MODE2_CORR_rotateY",
+      "DIANA_SPINE_P9_HIP_MODE2_CORR_rotateZ",
+      "DIANA_SPINE_P9_HIP_MODE2_CORR_translateX",
+      "DIANA_SPINE_P9_HIP_MODE2_CORR_translateY",
+      "DIANA_SPINE_P9_HIP_MODE2_CORR_translateZ",
+      "DIANA_SPINE_P9_LOWER_MODE0_CORR_rotateX",
+      "DIANA_SPINE_P9_LOWER_MODE0_CORR_rotateY",
+      "DIANA_SPINE_P9_LOWER_MODE0_CORR_rotateZ",
+      "DIANA_SPINE_P9_LOWER_MODE0_CORR_translateX",
+      "DIANA_SPINE_P9_LOWER_MODE0_CORR_translateY",
+      "DIANA_SPINE_P9_LOWER_MODE0_CORR_translateZ",
+      "DIANA_SPINE_P9_LOWER_MODE1_CORR_rotateX",
+      "DIANA_SPINE_P9_LOWER_MODE1_CORR_rotateY",
+      "DIANA_SPINE_P9_LOWER_MODE1_CORR_rotateZ",
+      "DIANA_SPINE_P9_LOWER_MODE1_CORR_translateX",
+      "DIANA_SPINE_P9_LOWER_MODE1_CORR_translateY",
+      "DIANA_SPINE_P9_LOWER_MODE1_CORR_translateZ",
+      "DIANA_SPINE_P9_LOWER_MODE2_CORR_rotateX",
+      "DIANA_SPINE_P9_LOWER_MODE2_CORR_rotateY",
+      "DIANA_SPINE_P9_LOWER_MODE2_CORR_rotateZ",
+      "DIANA_SPINE_P9_LOWER_MODE2_CORR_translateX",
+      "DIANA_SPINE_P9_LOWER_MODE2_CORR_translateY",
+      "DIANA_SPINE_P9_LOWER_MODE2_CORR_translateZ",
+      "DIANA_SPINE_P9_L_ARM_MODE0_CORR_rotateX",
+      "DIANA_SPINE_P9_L_ARM_MODE0_CORR_rotateY",
+      "DIANA_SPINE_P9_L_ARM_MODE0_CORR_rotateZ",
+      "DIANA_SPINE_P9_L_ARM_MODE0_CORR_translateX",
+      "DIANA_SPINE_P9_L_ARM_MODE0_CORR_translateY",
+      "DIANA_SPINE_P9_L_ARM_MODE0_CORR_translateZ",
+      "DIANA_SPINE_P9_L_ARM_MODE1_CORR_rotateX",
+      "DIANA_SPINE_P9_L_ARM_MODE1_CORR_rotateY",
+      "DIANA_SPINE_P9_L_ARM_MODE1_CORR_rotateZ",
+      "DIANA_SPINE_P9_L_ARM_MODE1_CORR_translateX",
+      "DIANA_SPINE_P9_L_ARM_MODE1_CORR_translateY",
+      "DIANA_SPINE_P9_L_ARM_MODE1_CORR_translateZ",
+      "DIANA_SPINE_P9_L_ARM_MODE2_CORR_rotateX",
+      "DIANA_SPINE_P9_L_ARM_MODE2_CORR_rotateY",
+      "DIANA_SPINE_P9_L_ARM_MODE2_CORR_rotateZ",
+      "DIANA_SPINE_P9_L_ARM_MODE2_CORR_translateX",
+      "DIANA_SPINE_P9_L_ARM_MODE2_CORR_translateY",
+      "DIANA_SPINE_P9_L_ARM_MODE2_CORR_translateZ",
+      "DIANA_SPINE_P9_MIDDLE_MODE0_CORR_rotateX",
+      "DIANA_SPINE_P9_MIDDLE_MODE0_CORR_rotateY",
+      "DIANA_SPINE_P9_MIDDLE_MODE0_CORR_rotateZ",
+      "DIANA_SPINE_P9_MIDDLE_MODE0_CORR_translateX",
+      "DIANA_SPINE_P9_MIDDLE_MODE0_CORR_translateY",
+      "DIANA_SPINE_P9_MIDDLE_MODE0_CORR_translateZ",
+      "DIANA_SPINE_P9_MIDDLE_MODE1_CORR_rotateX",
+      "DIANA_SPINE_P9_MIDDLE_MODE1_CORR_rotateY",
+      "DIANA_SPINE_P9_MIDDLE_MODE1_CORR_rotateZ",
+      "DIANA_SPINE_P9_MIDDLE_MODE1_CORR_translateX",
+      "DIANA_SPINE_P9_MIDDLE_MODE1_CORR_translateY",
+      "DIANA_SPINE_P9_MIDDLE_MODE1_CORR_translateZ",
+      "DIANA_SPINE_P9_MIDDLE_MODE2_CORR_rotateX",
+      "DIANA_SPINE_P9_MIDDLE_MODE2_CORR_rotateY",
+      "DIANA_SPINE_P9_MIDDLE_MODE2_CORR_rotateZ",
+      "DIANA_SPINE_P9_MIDDLE_MODE2_CORR_translateX",
+      "DIANA_SPINE_P9_MIDDLE_MODE2_CORR_translateY",
+      "DIANA_SPINE_P9_MIDDLE_MODE2_CORR_translateZ",
+      "DIANA_SPINE_P9_R_ARM_MODE0_CORR_rotateX",
+      "DIANA_SPINE_P9_R_ARM_MODE0_CORR_rotateY",
+      "DIANA_SPINE_P9_R_ARM_MODE0_CORR_rotateZ",
+      "DIANA_SPINE_P9_R_ARM_MODE0_CORR_translateX",
+      "DIANA_SPINE_P9_R_ARM_MODE0_CORR_translateY",
+      "DIANA_SPINE_P9_R_ARM_MODE0_CORR_translateZ",
+      "DIANA_SPINE_P9_R_ARM_MODE1_CORR_rotateX",
+      "DIANA_SPINE_P9_R_ARM_MODE1_CORR_rotateY",
+      "DIANA_SPINE_P9_R_ARM_MODE1_CORR_rotateZ",
+      "DIANA_SPINE_P9_R_ARM_MODE1_CORR_translateX",
+      "DIANA_SPINE_P9_R_ARM_MODE1_CORR_translateY",
+      "DIANA_SPINE_P9_R_ARM_MODE1_CORR_translateZ",
+      "DIANA_SPINE_P9_R_ARM_MODE2_CORR_rotateX",
+      "DIANA_SPINE_P9_R_ARM_MODE2_CORR_rotateY",
+      "DIANA_SPINE_P9_R_ARM_MODE2_CORR_rotateZ",
+      "DIANA_SPINE_P9_R_ARM_MODE2_CORR_translateX",
+      "DIANA_SPINE_P9_R_ARM_MODE2_CORR_translateY",
+      "DIANA_SPINE_P9_R_ARM_MODE2_CORR_translateZ",
+      "DIANA_SPINE_P9_SHOULDER_MODE0_CORR_rotateX",
+      "DIANA_SPINE_P9_SHOULDER_MODE0_CORR_rotateY",
+      "DIANA_SPINE_P9_SHOULDER_MODE0_CORR_rotateZ",
+      "DIANA_SPINE_P9_SHOULDER_MODE0_CORR_translateX",
+      "DIANA_SPINE_P9_SHOULDER_MODE0_CORR_translateY",
+      "DIANA_SPINE_P9_SHOULDER_MODE0_CORR_translateZ",
+      "DIANA_SPINE_P9_SHOULDER_MODE1_CORR_rotateX",
+      "DIANA_SPINE_P9_SHOULDER_MODE1_CORR_rotateY",
+      "DIANA_SPINE_P9_SHOULDER_MODE1_CORR_rotateZ",
+      "DIANA_SPINE_P9_SHOULDER_MODE1_CORR_translateX",
+      "DIANA_SPINE_P9_SHOULDER_MODE1_CORR_translateY",
+      "DIANA_SPINE_P9_SHOULDER_MODE1_CORR_translateZ",
+      "DIANA_SPINE_P9_SHOULDER_MODE2_CORR_rotateX",
+      "DIANA_SPINE_P9_SHOULDER_MODE2_CORR_rotateY",
+      "DIANA_SPINE_P9_SHOULDER_MODE2_CORR_rotateZ",
+      "DIANA_SPINE_P9_SHOULDER_MODE2_CORR_translateX",
+      "DIANA_SPINE_P9_SHOULDER_MODE2_CORR_translateY",
+      "DIANA_SPINE_P9_SHOULDER_MODE2_CORR_translateZ",
+      "Terminal_Spine_Mode"
+    ],
+    "flips": [],
+    "frames": 73,
+    "invalid": [],
+    "pass": true,
+    "snaps": [
+      {
+        "before": {
+          "HIP": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            -1.9064870914668575,
+            195.32156170271625,
+            1.0
+          ],
+          "LOWER": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            25.97351290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "MIDDLE": [
+            1.9972590695091477,
+            0.0,
+            0.1046719124858877,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            -0.1046719124858877,
+            0.0,
+            1.9972590695091477,
+            0.0,
+            -98.13696828837817,
+            53.93751290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "SHOULDER": [
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            -2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            86.24294163916022,
+            195.32156170271625,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 1.1647239431828853e-08,
+          "max_position": 4.081757258616412e-14,
+          "max_rotation_degrees": 0.0,
+          "parts": {
+            "HIP": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.1776437161565096e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 1.1647239431828853e-08,
+              "position": 4.0351070721557915e-14,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 2.842170943040401e-14,
+              "position": 4.081757258616412e-14,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 2.0097183471152322e-14,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 0,
+        "keyed": true,
+        "restored": false,
+        "success": true,
+        "to": 1
+      },
+      {
+        "before": {
+          "HIP": [
+            1.993473549558975,
+            -0.16144103322495174,
+            0.0,
+            0.0,
+            0.16144103322495174,
+            1.993473549558975,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696829438432,
+            -1.9064872716576935,
+            195.32156170271622,
+            1.0
+          ],
+          "LOWER": [
+            1.9887900652547472,
+            -0.2114570319095994,
+            1.1555699011809506e-08,
+            0.0,
+            0.2114570319095994,
+            1.988790065254747,
+            -4.293050683755058e-09,
+            0.0,
+            -1.1037031818168283e-08,
+            5.490755182082349e-09,
+            2.0,
+            0.0,
+            -95.87301202292493,
+            26.02133217402361,
+            195.321561702737,
+            1.0
+          ],
+          "MIDDLE": [
+            1.9811223837379002,
+            -0.25337303350159796,
+            0.10467189950916865,
+            0.0,
+            0.253720775188763,
+            1.983841165072788,
+            -5.060188423590406e-07,
+            0.0,
+            -0.1038261474305609,
+            0.013279218984600882,
+            1.9972590701891646,
+            0.0,
+            -92.17356636372782,
+            54.08857260347194,
+            195.3215617104525,
+            1.0
+          ],
+          "SHOULDER": [
+            0.2476378116185918,
+            1.9846096629453056,
+            -9.356208174014767e-07,
+            0.0,
+            -1.984609662945525,
+            0.2476378116185973,
+            -4.639470539531634e-08,
+            0.0,
+            6.98098555445297e-08,
+            9.341655991913733e-07,
+            1.9999999999997806,
+            0.0,
+            -88.12157811347653,
+            86.49057918346163,
+            195.3215463975331,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 3.805608381221083e-14,
+          "max_position": 3.256115871121665e-14,
+          "max_rotation_degrees": 0.0,
+          "parts": {
+            "HIP": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.185392188319244e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 3.805608381221083e-14,
+              "position": 0.0,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.256115871121665e-14,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 2.842170943040401e-14,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 1,
+        "keyed": true,
+        "restored": false,
+        "success": true,
+        "to": 2
+      },
+      {
+        "before": {
+          "HIP": [
+            1.997640635724154,
+            -0.09711792060993868,
+            0.0,
+            0.0,
+            0.09711792060993868,
+            1.997640635724154,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696878195434,
+            -1.906487207776399,
+            195.3215617027162,
+            1.0
+          ],
+          "LOWER": [
+            1.9959352607977487,
+            -0.12744581085395962,
+            1.1607703094129579e-08,
+            0.0,
+            0.12744581085395965,
+            1.9959352607977485,
+            -1.8523783628794797e-09,
+            0.0,
+            -1.1466073019989407e-08,
+            2.588290211896584e-09,
+            2.0,
+            0.0,
+            -96.7791997157194,
+            26.002337536848874,
+            195.32156170272523,
+            1.0
+          ],
+          "MIDDLE": [
+            1.9941166641609187,
+            -0.15329295003324692,
+            3.443593613058904e-05,
+            0.0,
+            0.15329276563276287,
+            1.994114868895402,
+            0.002686569360979041,
+            0.0,
+            -0.00024025067753787044,
+            -0.002676026976132919,
+            1.999998195288994,
+            0.0,
+            -94.55957283594648,
+            54.02857557670758,
+            195.38386043540748,
+            1.0
+          ],
+          "SHOULDER": [
+            0.1495026660476657,
+            1.9944044105556338,
+            -9.35620817485532e-07,
+            0.0,
+            -1.994404410555853,
+            0.14950266604766038,
+            -4.6394705405804685e-08,
+            0.0,
+            2.3674000768006154e-08,
+            9.364712085748408e-07,
+            1.9999999999997806,
+            0.0,
+            -92.13137128829811,
+            86.39245180815554,
+            195.32154639753313,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 1.1607703094129579e-08,
+          "max_position": 2.929642751054232e-14,
+          "max_rotation_degrees": 0.0,
+          "parts": {
+            "HIP": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.4212589332811784e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 1.1607703094129579e-08,
+              "position": 1.4210854715202004e-14,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 2.842170943040401e-14,
+              "position": 2.929642751054232e-14,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.4210854715202004e-14,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 2,
+        "keyed": true,
+        "restored": false,
+        "success": true,
+        "to": 0
+      },
+      {
+        "before": {
+          "HIP": [
+            1.9976406357241538,
+            -0.0971179206099387,
+            0.0,
+            0.0,
+            0.0971179206099387,
+            1.9976406357241538,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696878195432,
+            -1.9064872077763988,
+            195.3215617027162,
+            1.0
+          ],
+          "LOWER": [
+            1.9959352607977485,
+            -0.12744581085395965,
+            0.0,
+            0.0,
+            0.12744581085395965,
+            1.9959352607977485,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -96.77919971571939,
+            26.002337536848874,
+            195.32156170272523,
+            1.0
+          ],
+          "MIDDLE": [
+            1.9831890848912905,
+            -0.15329295003324697,
+            0.2084761977736293,
+            0.0,
+            0.15217218885657482,
+            1.9941148688954022,
+            0.01869530927456045,
+            0.0,
+            -0.20929567245082703,
+            -0.0026760269761329186,
+            1.9890168828778148,
+            0.0,
+            -94.5856821733357,
+            54.028575576707574,
+            195.75745880557477,
+            1.0
+          ],
+          "SHOULDER": [
+            0.14950266604766574,
+            1.9944044105556338,
+            -9.356208174855319e-07,
+            0.0,
+            -1.994404410555853,
+            0.1495026660476604,
+            -4.639470540580471e-08,
+            0.0,
+            2.367400076800614e-08,
+            9.364712085748407e-07,
+            1.9999999999997806,
+            0.0,
+            -92.1313712882981,
+            86.39245180815554,
+            195.32154639753313,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 1.1544539189768704e-08,
+          "max_position": 4.0351070721557915e-14,
+          "max_rotation_degrees": 2.4148365394514667e-06,
+          "parts": {
+            "HIP": {
+              "matrix": 1.1102230246251565e-15,
+              "position": 1.1102230246251565e-15,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 1.1544539189768704e-08,
+              "position": 4.0351070721557915e-14,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.256115871121665e-14,
+              "rotation_degrees": 2.4148365394514667e-06
+            },
+            "SHOULDER": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 2.0097183471152322e-14,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 0,
+        "keyed": true,
+        "restored": false,
+        "success": true,
+        "to": 2
+      },
+      {
+        "before": {
+          "HIP": [
+            1.9997393590791006,
+            -0.03228770276604025,
+            0.0,
+            0.0,
+            0.03228770276604025,
+            1.9997393590791006,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696927441877,
+            -1.906487159386776,
+            195.3215617027162,
+            1.0
+          ],
+          "LOWER": [
+            1.9995528592160001,
+            -0.04228904351151542,
+            -8.271806125530277e-25,
+            0.0,
+            0.04228904351151385,
+            1.9995528592159257,
+            -5.458604505365875e-07,
+            0.0,
+            1.154195817197858e-08,
+            5.457384123016837e-07,
+            1.9999999999999256,
+            0.0,
+            -97.685403482259,
+            26.021621194174514,
+            195.32156168959096,
+            1.0
+          ],
+          "MIDDLE": [
+            1.9966270422471193,
+            -0.05136872728955821,
+            0.10412352291471426,
+            0.0,
+            0.050599398458196033,
+            1.9992952506133332,
+            0.016068657399964055,
+            0.0,
+            -0.10449954566020243,
+            -0.013407264136269893,
+            1.9972230947556138,
+            0.0,
+            -96.95219001505932,
+            54.08845621166829,
+            195.69594997130397,
+            1.0
+          ],
+          "SHOULDER": [
+            0.04952204147561184,
+            1.9993867978475832,
+            -9.356208174432968e-07,
+            0.0,
+            -1.999386797847802,
+            0.049522041475595545,
+            -4.639470540263873e-08,
+            0.0,
+            -2.3213554272603133e-08,
+            9.364827353564471e-07,
+            1.9999999999997806,
+            0.0,
+            -96.14136256297608,
+            86.49261808448294,
+            195.32153113874406,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 2.842170943040401e-14,
+          "max_position": 3.256115871121665e-14,
+          "max_rotation_degrees": 0.0,
+          "parts": {
+            "HIP": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.17772129440181e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.197442310920451e-14,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.256115871121665e-14,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.1776437161565096e-14,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 2,
+        "keyed": true,
+        "restored": false,
+        "success": true,
+        "to": 1
+      },
+      {
+        "before": {
+          "HIP": [
+            1.9905828672633399,
+            -0.1938552257682539,
+            0.0,
+            0.0,
+            0.1938552257682539,
+            1.9905828672633399,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696928270916,
+            -1.90648725991946,
+            195.32156170271617,
+            1.0
+          ],
+          "LOWER": [
+            1.983801497899612,
+            -0.2540307401305125,
+            -1.1489922102225105e-08,
+            0.0,
+            0.25403074013051247,
+            1.9838014978996121,
+            -2.5824597393436006e-09,
+            0.0,
+            1.172487441804337e-08,
+            1.1021470417525132e-09,
+            2.0,
+            0.0,
+            -95.42142684344988,
+            25.973477791299878,
+            195.32156170266202,
+            1.0
+          ],
+          "MIDDLE": [
+            1.973827082905348,
+            -0.30522932160130606,
+            0.10412352291471427,
+            0.0,
+            0.30480606477232447,
+            1.97657154212221,
+            0.016068657399964055,
+            0.0,
+            -0.10535610882798443,
+            1.0365053944257074e-05,
+            1.9972230947556138,
+            0.0,
+            -90.98883274675308,
+            53.936340319660495,
+            195.695965230093,
+            1.0
+          ],
+          "SHOULDER": [
+            0.2976176916721767,
+            1.9777319610099398,
+            -1.8712200307740848e-06,
+            0.0,
+            -1.9777319610108195,
+            0.29761769167218793,
+            -1.280577587187093e-07,
+            0.0,
+            1.5182213194822638e-07,
+            1.8694419577480655e-06,
+            1.9999999999991205,
+            0.0,
+            -86.12580449310553,
+            86.242672519094,
+            195.32153108007265,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 1.172487441804337e-08,
+          "max_position": 2.929642751054232e-14,
+          "max_rotation_degrees": 2.4148365394514667e-06,
+          "parts": {
+            "HIP": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.4212589332811784e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 1.172487441804337e-08,
+              "position": 1.4210854715202004e-14,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 2.842170943040401e-14,
+              "position": 2.929642751054232e-14,
+              "rotation_degrees": 2.4148365394514667e-06
+            },
+            "SHOULDER": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.4210854715202004e-14,
+              "rotation_degrees": 2.4148365394514667e-06
+            }
+          }
+        },
+        "from": 1,
+        "keyed": true,
+        "restored": false,
+        "success": true,
+        "to": 0
+      }
+    ]
+  },
+  "animation_layers_equal": true,
+  "cases": [
+    {
+      "attachment_error": 5.684341886080802e-14,
+      "attachment_errors": {
+        "FK_L_shoulder_anim": 2.842170943040401e-14,
+        "FK_R_shoulder_anim": 5.684341886080802e-14,
+        "IK_L_elbow_anim": 1.1102230246251565e-16,
+        "IK_L_hand_anim_const": 2.7755575615628914e-17,
+        "IK_R_elbow_anim": 1.1102230246251565e-16,
+        "IK_R_hand_anim_const": 0.0,
+        "L_clavice_jnt": 1.4210854715202004e-14,
+        "R_clavice_jnt": 2.842170943040401e-14,
+        "hair_short_back_jnt_1": 1.110223024625157e-16,
+        "head_jnt": 1.4210854715202004e-14,
+        "neck_root_jnt": 1.4210854715202004e-14
+      },
+      "from": 0,
+      "match": {
+        "before": {
+          "HIP": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            -1.9064870914668575,
+            195.32156170271625,
+            1.0
+          ],
+          "LOWER": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.9805361374831407,
+            0.27834620192013093,
+            0.0,
+            0.0,
+            -0.27834620192013093,
+            1.9805361374831407,
+            0.0,
+            -98.13696828837817,
+            25.97351290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "MIDDLE": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.9890437907365466,
+            -0.209056926535307,
+            0.0,
+            0.0,
+            0.209056926535307,
+            1.9890437907365466,
+            0.0,
+            -98.13696828837817,
+            53.93751290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "SHOULDER": [
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            -1.992389396183491,
+            0.0,
+            0.17431148549531633,
+            0.0,
+            0.17431148549531633,
+            0.0,
+            1.992389396183491,
+            0.0,
+            -98.13696828837817,
+            86.24294163916022,
+            195.32156170271625,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 2.842170943040401e-14,
+          "max_position": 3.03543989777123e-14,
+          "max_rotation_degrees": 0.0,
+          "parts": {
+            "HIP": {
+              "matrix": 8.881784197001252e-16,
+              "position": 8.881784197001252e-16,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.03543989777123e-14,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.5888218580782548e-14,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.4210854715202004e-14,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 0,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 1
+      },
+      "pass": true,
+      "pose": 0,
+      "post_snap_operation_motion": 2.047094738849367,
+      "to": 1,
+      "world_hand_error": 2.7755575615628914e-17
+    },
+    {
+      "attachment_error": 8.526512829121202e-14,
+      "attachment_errors": {
+        "FK_L_shoulder_anim": 2.842170943040401e-14,
+        "FK_R_shoulder_anim": 5.684341886080802e-14,
+        "IK_L_elbow_anim": 1.4210854715202004e-14,
+        "IK_L_hand_anim_const": 1.4210854715202004e-14,
+        "IK_R_elbow_anim": 1.4210854715202004e-14,
+        "IK_R_hand_anim_const": 0.0,
+        "L_clavice_jnt": 5.684341886080802e-14,
+        "R_clavice_jnt": 8.526512829121202e-14,
+        "hair_short_back_jnt_1": 0.0,
+        "head_jnt": 0.0,
+        "neck_root_jnt": 2.842170943040401e-14
+      },
+      "from": 1,
+      "match": {
+        "before": {
+          "HIP": [
+            1.9635110798210471,
+            0.380294937410407,
+            0.0,
+            0.0,
+            -0.380294937410407,
+            1.9635110798210471,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -86.13697052001953,
+            -1.9064871072769165,
+            195.32156372070312,
+            1.0
+          ],
+          "LOWER": [
+            1.927769362155906,
+            0.5326399218355786,
+            0.0,
+            0.0,
+            -0.5326399218355786,
+            1.927769362155906,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -91.48818969726562,
+            25.722536087036133,
+            195.32156372070312,
+            1.0
+          ],
+          "MIDDLE": [
+            1.8707265395279984,
+            0.7073769958838075,
+            0.0,
+            0.0,
+            -0.7073769958838075,
+            1.8707265395279984,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -101.29771423339844,
+            52.96438217163086,
+            195.32156372070312,
+            1.0
+          ],
+          "SHOULDER": [
+            -0.7330968826379869,
+            1.8607979365493894,
+            0.0,
+            0.0,
+            -1.8607979365493894,
+            -0.7330968826379869,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -113.52064514160156,
+            83.98948669433594,
+            195.32156372070312,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 5.684341886080802e-14,
+          "max_position": 5.90221124448794e-14,
+          "max_rotation_degrees": 0.0,
+          "parts": {
+            "HIP": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.4212589332811784e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 7.105427357601002e-15,
+              "position": 7.105427357601002e-15,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 5.684341886080802e-14,
+              "position": 5.90221124448794e-14,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.1776437161565096e-14,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 1,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 0
+      },
+      "pass": true,
+      "pose": 0,
+      "post_snap_operation_motion": 0.165420658708058,
+      "to": 0,
+      "world_hand_error": 1.4210854715202004e-14
+    },
+    {
+      "attachment_error": 8.526512829121202e-14,
+      "attachment_errors": {
+        "FK_L_shoulder_anim": 5.684341886080802e-14,
+        "FK_R_shoulder_anim": 5.684341886080802e-14,
+        "IK_L_elbow_anim": 8.526512829121202e-14,
+        "IK_L_hand_anim_const": 8.526512829121202e-14,
+        "IK_R_elbow_anim": 8.526512829121202e-14,
+        "IK_R_hand_anim_const": 0.0,
+        "L_clavice_jnt": 1.4210854715202004e-14,
+        "R_clavice_jnt": 2.842170943040401e-14,
+        "hair_short_back_jnt_1": 2.842170943040401e-14,
+        "head_jnt": 4.263256414560601e-14,
+        "neck_root_jnt": 2.842170943040401e-14
+      },
+      "from": 0,
+      "match": {
+        "before": {
+          "HIP": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            -1.9064870914668575,
+            195.32156170271625,
+            1.0
+          ],
+          "LOWER": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.9805361374831407,
+            0.27834620192013093,
+            0.0,
+            0.0,
+            -0.27834620192013093,
+            1.9805361374831407,
+            0.0,
+            -98.13696828837817,
+            25.97351290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "MIDDLE": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.9890437907365466,
+            -0.209056926535307,
+            0.0,
+            0.0,
+            0.209056926535307,
+            1.9890437907365466,
+            0.0,
+            -98.13696828837817,
+            53.93751290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "SHOULDER": [
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            -1.992389396183491,
+            0.0,
+            0.17431148549531633,
+            0.0,
+            0.17431148549531633,
+            0.0,
+            1.992389396183491,
+            0.0,
+            -98.13696828837817,
+            86.24294163916022,
+            195.32156170271625,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 2.842170943040401e-14,
+          "max_position": 3.197442310920451e-14,
+          "max_rotation_degrees": 0.0,
+          "parts": {
+            "HIP": {
+              "matrix": 2.842170943040401e-14,
+              "position": 2.845291731937278e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.197442310920451e-14,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 2.842170943040401e-14,
+              "position": 2.842170943040401e-14,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 5.412337245047638e-16,
+              "position": 0.0,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 0,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 2
+      },
+      "pass": true,
+      "pose": 0,
+      "post_snap_operation_motion": 0.8020307785817664,
+      "to": 2,
+      "world_hand_error": 8.526512829121202e-14
+    },
+    {
+      "attachment_error": 1.1368683772161603e-13,
+      "attachment_errors": {
+        "FK_L_shoulder_anim": 7.105427357601002e-14,
+        "FK_R_shoulder_anim": 2.842170943040401e-14,
+        "IK_L_elbow_anim": 1.1368683772161603e-13,
+        "IK_L_hand_anim_const": 1.1368683772161603e-13,
+        "IK_R_elbow_anim": 1.1368683772161603e-13,
+        "IK_R_hand_anim_const": 0.0,
+        "L_clavice_jnt": 1.4210854715202004e-14,
+        "R_clavice_jnt": 2.842170943040401e-14,
+        "hair_short_back_jnt_1": 1.9428902930940244e-16,
+        "head_jnt": 5.684341886080802e-14,
+        "neck_root_jnt": 1.4210854715202004e-14
+      },
+      "from": 2,
+      "match": {
+        "before": {
+          "HIP": [
+            1.963511099424781,
+            0.38029483619382426,
+            0.0,
+            0.0,
+            -0.38029483619382426,
+            1.963511099424781,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -86.13697052001953,
+            -1.906502366065979,
+            195.32156372070312,
+            1.0
+          ],
+          "LOWER": [
+            1.927769409684017,
+            0.5326397498183285,
+            7.269770944804146e-08,
+            0.0,
+            -0.5274561262700237,
+            1.9090084156982734,
+            0.27834673278734445,
+            0.0,
+            0.07412919766703059,
+            -0.26829417754889306,
+            1.9805360628745452,
+            0.0,
+            -91.48818969726562,
+            25.7225284576416,
+            195.32156372070312,
+            1.0
+          ],
+          "MIDDLE": [
+            1.8707267124907516,
+            0.7073765384669927,
+            0.0,
+            0.0,
+            -0.7035014557752418,
+            1.8604786758223613,
+            -0.209056926535307,
+            0.0,
+            -0.07394098251754692,
+            0.19554418845040772,
+            1.9890437907365466,
+            0.0,
+            -101.29771423339844,
+            52.964385986328125,
+            195.3215789794922,
+            1.0
+          ],
+          "SHOULDER": [
+            -0.7330962524472193,
+            1.8607981848247284,
+            -9.15178867071457e-07,
+            0.0,
+            -1.8537173010869339,
+            -0.7303065201157538,
+            0.17431165861006145,
+            0.0,
+            0.16217907478714821,
+            0.06389446008389729,
+            1.9923893810376958,
+            0.0,
+            -113.52063751220703,
+            83.989501953125,
+            195.32156372070312,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 2.842170943040401e-14,
+          "max_position": 3.1776437161565096e-14,
+          "max_rotation_degrees": 0.0,
+          "parts": {
+            "HIP": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.4212589332811784e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 1.0658141036401503e-14,
+              "position": 1.0658141036401503e-14,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.1776437161565096e-14,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 2.0097183471152322e-14,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 2,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 0
+      },
+      "pass": true,
+      "pose": 0,
+      "post_snap_operation_motion": 0.1654206377964158,
+      "to": 0,
+      "world_hand_error": 1.1368683772161603e-13
+    },
+    {
+      "attachment_error": 1.7053025658242404e-13,
+      "attachment_errors": {
+        "FK_L_shoulder_anim": 5.684341886080802e-14,
+        "FK_R_shoulder_anim": 1.7053025658242404e-13,
+        "IK_L_elbow_anim": 8.526512829121202e-14,
+        "IK_L_hand_anim_const": 8.526512829121202e-14,
+        "IK_R_elbow_anim": 8.526512829121202e-14,
+        "IK_R_hand_anim_const": 0.0,
+        "L_clavice_jnt": 5.684341886080802e-14,
+        "R_clavice_jnt": 2.842170943040401e-14,
+        "hair_short_back_jnt_1": 5.684341886080802e-14,
+        "head_jnt": 1.4210854715202004e-14,
+        "neck_root_jnt": 1.4210854715202004e-14
+      },
+      "from": 1,
+      "match": {
+        "before": {
+          "HIP": [
+            1.9635110798210471,
+            0.380294937410407,
+            0.0,
+            0.0,
+            -0.380294937410407,
+            1.9635110798210471,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -86.13697052001953,
+            -1.9064871072769165,
+            195.32156372070312,
+            1.0
+          ],
+          "LOWER": [
+            1.927769362155906,
+            0.5326399218355786,
+            0.0,
+            0.0,
+            -0.5326399218355786,
+            1.927769362155906,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -91.48818969726562,
+            25.722536087036133,
+            195.32156372070312,
+            1.0
+          ],
+          "MIDDLE": [
+            1.8707265395279984,
+            0.7073769958838075,
+            0.0,
+            0.0,
+            -0.7073769958838075,
+            1.8707265395279984,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -101.29771423339844,
+            52.96438217163086,
+            195.32156372070312,
+            1.0
+          ],
+          "SHOULDER": [
+            -0.7330968826379869,
+            1.8607979365493894,
+            0.0,
+            0.0,
+            -1.8607979365493894,
+            -0.7330968826379869,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -113.52064514160156,
+            83.98948669433594,
+            195.32156372070312,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 2.842170943040401e-14,
+          "max_position": 3.256115871121665e-14,
+          "max_rotation_degrees": 0.0,
+          "parts": {
+            "HIP": {
+              "matrix": 2.842170943040401e-14,
+              "position": 2.8671281224369285e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.256115871121665e-14,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.256115871121665e-14,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.4210854715202004e-14,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 1,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 2
+      },
+      "pass": true,
+      "pose": 0,
+      "post_snap_operation_motion": 0.09638195558501295,
+      "to": 2,
+      "world_hand_error": 8.526512829121202e-14
+    },
+    {
+      "attachment_error": 5.684341886080802e-14,
+      "attachment_errors": {
+        "FK_L_shoulder_anim": 5.684341886080802e-14,
+        "FK_R_shoulder_anim": 5.684341886080802e-14,
+        "IK_L_elbow_anim": 5.684341886080802e-14,
+        "IK_L_hand_anim_const": 5.684341886080802e-14,
+        "IK_R_elbow_anim": 5.684341886080802e-14,
+        "IK_R_hand_anim_const": 0.0,
+        "L_clavice_jnt": 2.842170943040401e-14,
+        "R_clavice_jnt": 1.4210854715202004e-14,
+        "hair_short_back_jnt_1": 5.684341886080802e-14,
+        "head_jnt": 5.684341886080802e-14,
+        "neck_root_jnt": 6.661338147750939e-16
+      },
+      "from": 2,
+      "match": {
+        "before": {
+          "HIP": [
+            1.963511099424781,
+            0.38029483619382426,
+            0.0,
+            0.0,
+            -0.38029483619382426,
+            1.963511099424781,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -86.13697052001953,
+            -1.906502366065979,
+            195.32156372070312,
+            1.0
+          ],
+          "LOWER": [
+            1.927769409684017,
+            0.5326397498183285,
+            7.269770944804146e-08,
+            0.0,
+            -0.5274561262700237,
+            1.9090084156982734,
+            0.27834673278734445,
+            0.0,
+            0.07412919766703059,
+            -0.26829417754889306,
+            1.9805360628745452,
+            0.0,
+            -91.48818969726562,
+            25.7225284576416,
+            195.32156372070312,
+            1.0
+          ],
+          "MIDDLE": [
+            1.8707267124907516,
+            0.7073765384669927,
+            0.0,
+            0.0,
+            -0.7035014557752418,
+            1.8604786758223613,
+            -0.209056926535307,
+            0.0,
+            -0.07394098251754692,
+            0.19554418845040772,
+            1.9890437907365466,
+            0.0,
+            -101.29771423339844,
+            52.964385986328125,
+            195.3215789794922,
+            1.0
+          ],
+          "SHOULDER": [
+            -0.7330962524472193,
+            1.8607981848247284,
+            -9.15178867071457e-07,
+            0.0,
+            -1.8537173010869339,
+            -0.7303065201157538,
+            0.17431165861006145,
+            0.0,
+            0.16217907478714821,
+            0.06389446008389729,
+            1.9923893810376958,
+            0.0,
+            -113.52063751220703,
+            83.989501953125,
+            195.32156372070312,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 2.842170943040401e-14,
+          "max_position": 2.864289338439558e-14,
+          "max_rotation_degrees": 0.0,
+          "parts": {
+            "HIP": {
+              "matrix": 1.7763568394002505e-15,
+              "position": 1.7763568394002505e-15,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 2.864289338439558e-14,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 2.220446049250313e-16,
+              "position": 0.0,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 2.220446049250313e-16,
+              "position": 0.0,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 2,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 1
+      },
+      "pass": true,
+      "pose": 0,
+      "post_snap_operation_motion": 2.000015602327096,
+      "to": 1,
+      "world_hand_error": 5.684341886080802e-14
+    },
+    {
+      "attachment_error": 5.684341886080802e-14,
+      "attachment_errors": {
+        "FK_L_shoulder_anim": 5.684341886080802e-14,
+        "FK_R_shoulder_anim": 2.842170943040401e-14,
+        "IK_L_elbow_anim": 2.842170943040401e-14,
+        "IK_L_hand_anim_const": 2.842170943040401e-14,
+        "IK_R_elbow_anim": 2.842170943040401e-14,
+        "IK_R_hand_anim_const": 0.0,
+        "L_clavice_jnt": 2.842170943040401e-14,
+        "R_clavice_jnt": 2.842170943040401e-14,
+        "hair_short_back_jnt_1": 2.842170943040401e-14,
+        "head_jnt": 4.263256414560601e-14,
+        "neck_root_jnt": 5.684341886080802e-14
+      },
+      "from": 0,
+      "match": {
+        "before": {
+          "HIP": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            -1.9064870914668575,
+            195.32156170271625,
+            1.0
+          ],
+          "LOWER": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.985092303282644,
+            -0.243738686810295,
+            0.0,
+            0.0,
+            0.243738686810295,
+            1.985092303282644,
+            0.0,
+            -98.13696828837817,
+            25.97351290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "MIDDLE": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.9753766811902755,
+            0.31286893008046174,
+            0.0,
+            0.0,
+            -0.31286893008046174,
+            1.9753766811902755,
+            0.0,
+            -98.13696828837817,
+            53.93751290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "SHOULDER": [
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            -1.9805361374831407,
+            0.0,
+            -0.27834620192013093,
+            0.0,
+            -0.27834620192013093,
+            0.0,
+            1.9805361374831407,
+            0.0,
+            -98.13696828837817,
+            86.24294163916022,
+            195.32156170271625,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 2.842170943040401e-14,
+          "max_position": 4.0194366942304644e-14,
+          "max_rotation_degrees": 0.0,
+          "parts": {
+            "HIP": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.4217791915866692e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.256115871121665e-14,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.5888218580782548e-14,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 4.0194366942304644e-14,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 0,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 1
+      },
+      "pass": true,
+      "pose": 1,
+      "post_snap_operation_motion": 2.036084016734236,
+      "to": 1,
+      "world_hand_error": 2.842170943040401e-14
+    },
+    {
+      "attachment_error": 5.684341886080802e-14,
+      "attachment_errors": {
+        "FK_L_shoulder_anim": 5.684341886080802e-14,
+        "FK_R_shoulder_anim": 4.263256414560601e-14,
+        "IK_L_elbow_anim": 5.684341886080802e-14,
+        "IK_L_hand_anim_const": 5.684341886080802e-14,
+        "IK_R_elbow_anim": 5.684341886080802e-14,
+        "IK_R_hand_anim_const": 0.0,
+        "L_clavice_jnt": 5.684341886080802e-14,
+        "R_clavice_jnt": 2.842170943040401e-14,
+        "hair_short_back_jnt_1": 5.684341886080802e-14,
+        "head_jnt": 4.263256414560601e-14,
+        "neck_root_jnt": 1.4210854715202004e-14
+      },
+      "from": 1,
+      "match": {
+        "before": {
+          "HIP": [
+            1.9804156826146528,
+            -0.2792019413505908,
+            0.0,
+            0.0,
+            0.2792019413505908,
+            1.9804156826146528,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -106.13697052001953,
+            -1.9064871072769165,
+            195.32156372070312,
+            1.0
+          ],
+          "LOWER": [
+            1.9603366448047976,
+            -0.3963334947181082,
+            0.0,
+            0.0,
+            0.3963334947181082,
+            1.9603366448047976,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -102.22884368896484,
+            25.814363479614258,
+            195.32156372070312,
+            1.0
+          ],
+          "MIDDLE": [
+            1.9266808780091282,
+            -0.5365638771982091,
+            0.0,
+            0.0,
+            0.5365638771982091,
+            1.9266808780091282,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -94.96917724609375,
+            53.3314208984375,
+            195.32156372070312,
+            1.0
+          ],
+          "SHOULDER": [
+            0.5593465955134072,
+            1.9201904556807796,
+            0.0,
+            0.0,
+            -1.9201904556807796,
+            0.5593465955134072,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -85.7887191772461,
+            84.84717559814453,
+            195.32156372070312,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 1.4210854715202004e-14,
+          "max_position": 1.4212589332811784e-14,
+          "max_rotation_degrees": 1.7075472925031877e-06,
+          "parts": {
+            "HIP": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.4212589332811784e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 3.552713678800501e-15,
+              "position": 3.552713678800501e-15,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 7.105427357601002e-15,
+              "position": 7.105427357601002e-15,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.4210854715202004e-14,
+              "rotation_degrees": 1.7075472925031877e-06
+            }
+          }
+        },
+        "from": 1,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 0
+      },
+      "pass": true,
+      "pose": 1,
+      "post_snap_operation_motion": 0.1657893761413618,
+      "to": 0,
+      "world_hand_error": 5.684341886080802e-14
+    },
+    {
+      "attachment_error": 5.684341886080802e-14,
+      "attachment_errors": {
+        "FK_L_shoulder_anim": 5.684341886080802e-14,
+        "FK_R_shoulder_anim": 2.842170943040401e-14,
+        "IK_L_elbow_anim": 1.4210854715202004e-14,
+        "IK_L_hand_anim_const": 1.4210854715202004e-14,
+        "IK_R_elbow_anim": 1.4210854715202004e-14,
+        "IK_R_hand_anim_const": 0.0,
+        "L_clavice_jnt": 2.842170943040401e-14,
+        "R_clavice_jnt": 5.684341886080802e-14,
+        "hair_short_back_jnt_1": 5.684341886080802e-14,
+        "head_jnt": 5.684341886080802e-14,
+        "neck_root_jnt": 2.842170943040401e-14
+      },
+      "from": 0,
+      "match": {
+        "before": {
+          "HIP": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            -1.9064870914668575,
+            195.32156170271625,
+            1.0
+          ],
+          "LOWER": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.985092303282644,
+            -0.243738686810295,
+            0.0,
+            0.0,
+            0.243738686810295,
+            1.985092303282644,
+            0.0,
+            -98.13696828837817,
+            25.97351290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "MIDDLE": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.9753766811902755,
+            0.31286893008046174,
+            0.0,
+            0.0,
+            -0.31286893008046174,
+            1.9753766811902755,
+            0.0,
+            -98.13696828837817,
+            53.93751290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "SHOULDER": [
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            -1.9805361374831407,
+            0.0,
+            -0.27834620192013093,
+            0.0,
+            -0.27834620192013093,
+            0.0,
+            1.9805361374831407,
+            0.0,
+            -98.13696828837817,
+            86.24294163916022,
+            195.32156170271625,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 2.842170943040401e-14,
+          "max_position": 3.1776437161565096e-14,
+          "max_rotation_degrees": 0.0,
+          "parts": {
+            "HIP": {
+              "matrix": 2.842170943040401e-14,
+              "position": 2.842951461431417e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 3.552713678800501e-15,
+              "position": 3.552713678800501e-15,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.4210854715202004e-14,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.1776437161565096e-14,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 0,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 2
+      },
+      "pass": true,
+      "pose": 1,
+      "post_snap_operation_motion": 0.6481698433479295,
+      "to": 2,
+      "world_hand_error": 1.4210854715202004e-14
+    },
+    {
+      "attachment_error": 5.684341886080802e-14,
+      "attachment_errors": {
+        "FK_L_shoulder_anim": 1.4210854715202004e-14,
+        "FK_R_shoulder_anim": 5.684341886080802e-14,
+        "IK_L_elbow_anim": 5.684341886080802e-14,
+        "IK_L_hand_anim_const": 5.684341886080802e-14,
+        "IK_R_elbow_anim": 5.684341886080802e-14,
+        "IK_R_hand_anim_const": 0.0,
+        "L_clavice_jnt": 3.963496197911809e-14,
+        "R_clavice_jnt": 2.842170943040401e-14,
+        "hair_short_back_jnt_1": 2.842170943040401e-14,
+        "head_jnt": 5.684341886080802e-14,
+        "neck_root_jnt": 1.4210854715202004e-14
+      },
+      "from": 2,
+      "match": {
+        "before": {
+          "HIP": [
+            1.9804156932369037,
+            -0.2792018660055734,
+            0.0,
+            0.0,
+            0.2792018660055734,
+            1.9804156932369037,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -106.13697052001953,
+            -1.906502366065979,
+            195.32156372070312,
+            1.0
+          ],
+          "LOWER": [
+            1.9603367292943565,
+            -0.39633307681734153,
+            -5.419279170375302e-08,
+            0.0,
+            0.39337887676765676,
+            1.9457247425766835,
+            -0.24373814932815727,
+            0.0,
+            0.04830079805262446,
+            0.23890441256995992,
+            1.9850923692770777,
+            0.0,
+            -102.22884368896484,
+            25.814355850219727,
+            195.32156372070312,
+            1.0
+          ],
+          "MIDDLE": [
+            1.9266810140517767,
+            -0.5365633886992452,
+            0.0,
+            0.0,
+            0.5299574030084614,
+            1.9029603736249567,
+            0.31286893008046174,
+            0.0,
+            -0.08393700667133988,
+            -0.3013993137363592,
+            1.9753766811902755,
+            0.0,
+            -94.96918487548828,
+            53.33142852783203,
+            195.3215789794922,
+            1.0
+          ],
+          "SHOULDER": [
+            0.5593463458804335,
+            1.9201905283979874,
+            -9.296864971946895e-07,
+            0.0,
+            -1.9015033846341838,
+            0.5539026963053186,
+            -0.27834633328003644,
+            0.0,
+            -0.267238738911389,
+            0.07784688610571339,
+            1.9805361190214874,
+            0.0,
+            -85.78872680664062,
+            84.84719848632812,
+            195.32156372070312,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 1.4210854715202004e-14,
+          "max_position": 2.0097183471152322e-14,
+          "max_rotation_degrees": 1.7075472925031877e-06,
+          "parts": {
+            "HIP": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.4212589332811784e-14,
+              "rotation_degrees": 1.7075472925031877e-06
+            },
+            "LOWER": {
+              "matrix": 3.552713678800501e-15,
+              "position": 3.552713678800501e-15,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 7.105427357601002e-15,
+              "position": 7.105427357601002e-15,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 2.0097183471152322e-14,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 2,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 0
+      },
+      "pass": true,
+      "pose": 1,
+      "post_snap_operation_motion": 0.16578899776135358,
+      "to": 0,
+      "world_hand_error": 5.684341886080802e-14
+    },
+    {
+      "attachment_error": 5.684341886080802e-14,
+      "attachment_errors": {
+        "FK_L_shoulder_anim": 5.684341886080802e-14,
+        "FK_R_shoulder_anim": 5.684341886080802e-14,
+        "IK_L_elbow_anim": 5.684341886080802e-14,
+        "IK_L_hand_anim_const": 5.684341886080802e-14,
+        "IK_R_elbow_anim": 5.684341886080802e-14,
+        "IK_R_hand_anim_const": 0.0,
+        "L_clavice_jnt": 2.842170943040401e-14,
+        "R_clavice_jnt": 1.4210854715202004e-14,
+        "hair_short_back_jnt_1": 2.842170943040401e-14,
+        "head_jnt": 4.263256414560601e-14,
+        "neck_root_jnt": 2.842170943040401e-14
+      },
+      "from": 1,
+      "match": {
+        "before": {
+          "HIP": [
+            1.9804156826146528,
+            -0.2792019413505908,
+            0.0,
+            0.0,
+            0.2792019413505908,
+            1.9804156826146528,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -106.13697052001953,
+            -1.9064871072769165,
+            195.32156372070312,
+            1.0
+          ],
+          "LOWER": [
+            1.9603366448047976,
+            -0.3963334947181082,
+            0.0,
+            0.0,
+            0.3963334947181082,
+            1.9603366448047976,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -102.22884368896484,
+            25.814363479614258,
+            195.32156372070312,
+            1.0
+          ],
+          "MIDDLE": [
+            1.9266808780091282,
+            -0.5365638771982091,
+            0.0,
+            0.0,
+            0.5365638771982091,
+            1.9266808780091282,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -94.96917724609375,
+            53.3314208984375,
+            195.32156372070312,
+            1.0
+          ],
+          "SHOULDER": [
+            0.5593465955134072,
+            1.9201904556807796,
+            0.0,
+            0.0,
+            -1.9201904556807796,
+            0.5593465955134072,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -85.7887191772461,
+            84.84717559814453,
+            195.32156372070312,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 1.8155888115880286e-09,
+          "max_position": 3.4809342861069267e-14,
+          "max_rotation_degrees": 1.7075472925031877e-06,
+          "parts": {
+            "HIP": {
+              "matrix": 2.842170943040401e-14,
+              "position": 2.8443385208352465e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 1.8155888115880286e-09,
+              "position": 3.256115871121665e-14,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.4809342861069267e-14,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.4809342861069267e-14,
+              "rotation_degrees": 1.7075472925031877e-06
+            }
+          }
+        },
+        "from": 1,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 2
+      },
+      "pass": true,
+      "pose": 1,
+      "post_snap_operation_motion": 0.10126156873591519,
+      "to": 2,
+      "world_hand_error": 5.684341886080802e-14
+    },
+    {
+      "attachment_error": 5.684341886080802e-14,
+      "attachment_errors": {
+        "FK_L_shoulder_anim": 2.842170943040401e-14,
+        "FK_R_shoulder_anim": 2.842170943040401e-14,
+        "IK_L_elbow_anim": 2.842170943040401e-14,
+        "IK_L_hand_anim_const": 2.842170943040401e-14,
+        "IK_R_elbow_anim": 2.842170943040401e-14,
+        "IK_R_hand_anim_const": 0.0,
+        "L_clavice_jnt": 2.842170943040401e-14,
+        "R_clavice_jnt": 5.684341886080802e-14,
+        "hair_short_back_jnt_1": 2.842170943040401e-14,
+        "head_jnt": 2.842170943040401e-14,
+        "neck_root_jnt": 2.842170943040401e-14
+      },
+      "from": 2,
+      "match": {
+        "before": {
+          "HIP": [
+            1.9804156932369037,
+            -0.2792018660055734,
+            0.0,
+            0.0,
+            0.2792018660055734,
+            1.9804156932369037,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -106.13697052001953,
+            -1.906502366065979,
+            195.32156372070312,
+            1.0
+          ],
+          "LOWER": [
+            1.9603367292943565,
+            -0.39633307681734153,
+            -5.419279170375302e-08,
+            0.0,
+            0.39337887676765676,
+            1.9457247425766835,
+            -0.24373814932815727,
+            0.0,
+            0.04830079805262446,
+            0.23890441256995992,
+            1.9850923692770777,
+            0.0,
+            -102.22884368896484,
+            25.814355850219727,
+            195.32156372070312,
+            1.0
+          ],
+          "MIDDLE": [
+            1.9266810140517767,
+            -0.5365633886992452,
+            0.0,
+            0.0,
+            0.5299574030084614,
+            1.9029603736249567,
+            0.31286893008046174,
+            0.0,
+            -0.08393700667133988,
+            -0.3013993137363592,
+            1.9753766811902755,
+            0.0,
+            -94.96918487548828,
+            53.33142852783203,
+            195.3215789794922,
+            1.0
+          ],
+          "SHOULDER": [
+            0.5593463458804335,
+            1.9201905283979874,
+            -9.296864971946895e-07,
+            0.0,
+            -1.9015033846341838,
+            0.5539026963053186,
+            -0.27834633328003644,
+            0.0,
+            -0.267238738911389,
+            0.07784688610571339,
+            1.9805361190214874,
+            0.0,
+            -85.78872680664062,
+            84.84719848632812,
+            195.32156372070312,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 2.842170943040401e-14,
+          "max_position": 3.256115871121665e-14,
+          "max_rotation_degrees": 1.7075472925031877e-06,
+          "parts": {
+            "HIP": {
+              "matrix": 1.9984014443252818e-15,
+              "position": 1.9984014443252818e-15,
+              "rotation_degrees": 1.7075472925031877e-06
+            },
+            "LOWER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.256115871121665e-14,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.4210854715202004e-14,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.1776437161565096e-14,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 2,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 1
+      },
+      "pass": true,
+      "pose": 1,
+      "post_snap_operation_motion": 2.0000005382464963,
+      "to": 1,
+      "world_hand_error": 2.842170943040401e-14
+    }
+  ],
+  "equipment_equal": true,
+  "existing_keys_equal_after_build": true,
+  "lifecycle": {
+    "active_reset": {
+      "reason": "active non-zero correction would change pose",
+      "reset": false
+    },
+    "correction_changed": true,
+    "first": {
+      "before": {
+        "HIP": [
+          1.9635110798210471,
+          0.380294937410407,
+          0.0,
+          0.0,
+          -0.380294937410407,
+          1.9635110798210471,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -86.13697052001953,
+          -1.9064871072769165,
+          195.32156372070312,
+          1.0
+        ],
+        "LOWER": [
+          1.927769362155906,
+          0.5326399218355786,
+          0.0,
+          0.0,
+          -0.5326399218355786,
+          1.927769362155906,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -91.48818969726562,
+          25.722536087036133,
+          195.32156372070312,
+          1.0
+        ],
+        "MIDDLE": [
+          1.8707265395279984,
+          0.7073769958838075,
+          0.0,
+          0.0,
+          -0.7073769958838075,
+          1.8707265395279984,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -101.29771423339844,
+          52.96438217163086,
+          195.32156372070312,
+          1.0
+        ],
+        "SHOULDER": [
+          -0.7330968826379869,
+          1.8607979365493894,
+          0.0,
+          0.0,
+          -1.8607979365493894,
+          -0.7330968826379869,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -113.52064514160156,
+          83.98948669433594,
+          195.32156372070312,
+          1.0
+        ]
+      },
+      "errors": {
+        "max_matrix": 5.684341886080802e-14,
+        "max_position": 5.90221124448794e-14,
+        "max_rotation_degrees": 0.0,
+        "parts": {
+          "HIP": {
+            "matrix": 1.4210854715202004e-14,
+            "position": 1.4212589332811784e-14,
+            "rotation_degrees": 0.0
+          },
+          "LOWER": {
+            "matrix": 7.105427357601002e-15,
+            "position": 7.105427357601002e-15,
+            "rotation_degrees": 0.0
+          },
+          "MIDDLE": {
+            "matrix": 5.684341886080802e-14,
+            "position": 5.90221124448794e-14,
+            "rotation_degrees": 0.0
+          },
+          "SHOULDER": {
+            "matrix": 2.842170943040401e-14,
+            "position": 3.1776437161565096e-14,
+            "rotation_degrees": 0.0
+          }
+        }
+      },
+      "from": 1,
+      "keyed": false,
+      "restored": false,
+      "success": true,
+      "to": 0
+    },
+    "inactive_reset": {
+      "reason": "inactive or already zero",
+      "reset": true
+    },
+    "pass": true,
+    "second": {
+      "before": {
+        "HIP": [
+          1.9693523561704358,
+          0.3487854601986056,
+          0.0,
+          0.0,
+          -0.3487854601986056,
+          1.9693523561704358,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -86.13697052001953,
+          -1.9064871072769165,
+          195.32156372070312,
+          1.0
+        ],
+        "LOWER": [
+          1.9382318401756993,
+          0.4932112465557963,
+          0.0,
+          0.0,
+          -0.4932112465557963,
+          1.9382318401756993,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -91.02722930908203,
+          25.7054500579834,
+          195.32156372070312,
+          1.0
+        ],
+        "MIDDLE": [
+          1.8867661035305405,
+          0.6634106349525769,
+          0.0,
+          0.0,
+          -0.6634106349525769,
+          1.8867661035305405,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -100.09388732910156,
+          52.94169235229492,
+          195.32156372070312,
+          1.0
+        ],
+        "SHOULDER": [
+          -0.6907762071083283,
+          1.8769198788688428,
+          0.0,
+          0.0,
+          -1.8769198788688428,
+          -0.6907762071083283,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -111.5206298828125,
+          83.98949432373047,
+          195.32156372070312,
+          1.0
+        ]
+      },
+      "errors": {
+        "max_matrix": 2.842170943040401e-14,
+        "max_position": 3.4809342861069267e-14,
+        "max_rotation_degrees": 0.0,
+        "parts": {
+          "HIP": {
+            "matrix": 1.4210854715202004e-14,
+            "position": 1.4212589332811784e-14,
+            "rotation_degrees": 0.0
+          },
+          "LOWER": {
+            "matrix": 7.105427357601002e-15,
+            "position": 7.105427357601002e-15,
+            "rotation_degrees": 0.0
+          },
+          "MIDDLE": {
+            "matrix": 2.842170943040401e-14,
+            "position": 3.1776437161565096e-14,
+            "rotation_degrees": 0.0
+          },
+          "SHOULDER": {
+            "matrix": 2.842170943040401e-14,
+            "position": 3.4809342861069267e-14,
+            "rotation_degrees": 0.0
+          }
+        }
+      },
+      "from": 1,
+      "keyed": false,
+      "restored": false,
+      "success": true,
+      "to": 0
+    }
+  },
+  "new_cycle_nodes": [],
+  "phase9_complete": true,
+  "pre_reload_pass": true,
+  "protected_connections_equal": true,
+  "rerun_safety": {
+    "matrix_error": 0.0,
+    "message": "Phase 9 already exists",
+    "new_nodes": [],
+    "pass": true,
+    "stopped_safely": true
+  },
+  "rollback": {
+    "cycles": [],
+    "equipment": true,
+    "matrix_error": 3.931787105670992e-05,
+    "pass": true,
+    "phase5": {
+      "remaining": [],
+      "root_exists": false
+    },
+    "phase5b": {
+      "remaining": [],
+      "root_exists": false
+    },
+    "phase9": {
+      "remaining": [],
+      "root_exists": false
+    },
+    "skin": true
+  },
+  "save_reload": {
+    "cycles": [],
+    "equipment": true,
+    "pass": true,
+    "root": true,
+    "skin": true
+  },
+  "skin_equal": true,
+  "source_scene_modified": false
+}

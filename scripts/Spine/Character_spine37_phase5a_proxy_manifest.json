@@ -1,0 +1,124 @@
+{
+  "created_nodes": [
+    "DIANA_SPINE_P5A_ATTACHMENT_PROXY_GRP",
+    "DIANA_SPINE_P5A_L_CLAVICLE_FINAL_MM",
+    "DIANA_SPINE_P5A_L_CLAVICLE_OFFSET_FBF",
+    "DIANA_SPINE_P5A_L_CLAVICLE_PROXY",
+    "DIANA_SPINE_P5A_REGISTRY",
+    "DIANA_SPINE_P5A_R_CLAVICLE_FINAL_MM",
+    "DIANA_SPINE_P5A_R_CLAVICLE_OFFSET_FBF",
+    "DIANA_SPINE_P5A_R_CLAVICLE_PROXY"
+  ],
+  "production": {
+    "L": {
+      "joint": "L_clavice_jnt",
+      "parent": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim",
+      "worldMatrix": [
+        1.6130732058231276,
+        -0.6203965860267497,
+        -1.0065301330322165,
+        0.0,
+        0.4858703999170484,
+        1.8999803641406554,
+        -0.39243416054720576,
+        0.0,
+        1.0779261510604266,
+        0.07199091558173312,
+        1.6831198771726743,
+        0.0,
+        -92.08192730282973,
+        87.00623205682047,
+        194.805338518121,
+        1.0
+      ]
+    },
+    "R": {
+      "joint": "R_clavice_jnt",
+      "parent": "|DIANA_RIG_GRP|DIANA_SYSTEMS_GRP|Body_Rot_SYSTEM_GRP|bone|ALL_anim_const_GRP|ALL_anim|group_61|COG_anim|hip_fk_Spine_anim_jnt|group_68|lower_fk_Spine_anim|middle_fk_Spine_OFFSET|middle_fk_Spine_anim|shoulder_fk_Spine_anim_jnt|shoulder_spine_anim_pad|shoulder_spine_anim",
+      "worldMatrix": [
+        1.743651908843351,
+        -0.0528905666730099,
+        0.9782027441915844,
+        0.0,
+        -0.25513187259317305,
+        -1.9526830727869258,
+        0.3491941363174811,
+        0.0,
+        0.945825432293951,
+        -0.4292218601241304,
+        -1.7091468182744114,
+        0.0,
+        -104.18949664974373,
+        87.00709517224823,
+        194.805338518121,
+        1.0
+      ]
+    }
+  },
+  "proxies": {
+    "L": {
+      "final": "DIANA_SPINE_P5A_L_CLAVICLE_FINAL_MM",
+      "offset": [
+        -0.31019829301337487,
+        -0.8065366029115638,
+        -0.5032650665161083,
+        0.0,
+        0.9499901820703277,
+        -0.2429351999585242,
+        -0.19621708027360288,
+        0.0,
+        0.03599545779086656,
+        -0.5389630755302133,
+        0.8415599385863372,
+        0.0,
+        0.3816452088301219,
+        -3.0275204927742294,
+        -0.2581115922976238,
+        1.0
+      ],
+      "proxy": "DIANA_SPINE_P5A_L_CLAVICLE_PROXY"
+    },
+    "R": {
+      "final": "DIANA_SPINE_P5A_R_CLAVICLE_FINAL_MM",
+      "offset": [
+        -0.02644528333650495,
+        -0.8718259544216755,
+        0.4891013720957922,
+        0.0,
+        -0.9763415363934629,
+        0.12756593629658652,
+        0.17459706815874054,
+        0.0,
+        -0.2146109300620652,
+        -0.4729127161469755,
+        -0.8545734091372057,
+        0.0,
+        0.382076766544003,
+        3.026264180682773,
+        -0.2581115922976238,
+        1.0
+      ],
+      "proxy": "DIANA_SPINE_P5A_R_CLAVICLE_PROXY"
+    }
+  },
+  "scene": "C:/Users/draco/OneDrive/ドキュメント/maya/projects/JAM_rig/scenes/Character_spine37_PHASE5A_VALIDATION.ma",
+  "shoulder_reference": [
+    0.0,
+    2.0,
+    0.0,
+    0.0,
+    -2.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    2.0,
+    0.0,
+    -98.13696828837817,
+    86.24294163916022,
+    195.32156170271625,
+    1.0
+  ],
+  "version": 1
+}

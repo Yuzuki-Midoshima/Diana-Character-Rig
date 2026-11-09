@@ -1,0 +1,2195 @@
+{
+  "all_snap_pass": false,
+  "cases": [
+    {
+      "attachment_max_matrix_error": null,
+      "from": 0,
+      "match": {
+        "before": {
+          "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            -1.9064870914668575,
+            195.32156170271625,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.9805361374831407,
+            0.27834620192013093,
+            0.0,
+            0.0,
+            -0.27834620192013093,
+            1.9805361374831407,
+            0.0,
+            -98.13696828837817,
+            25.97351290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": [
+            1.9890437907365466,
+            0.0,
+            0.209056926535307,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            -0.209056926535307,
+            0.0,
+            1.9890437907365466,
+            0.0,
+            -98.13696828837817,
+            53.93751290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": [
+            -0.17431148549531633,
+            1.992389396183491,
+            0.0,
+            0.0,
+            -1.992389396183491,
+            -0.17431148549531633,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            86.24294163916022,
+            195.32156170271625,
+            1.0
+          ]
+        },
+        "changed_plugs": [
+          "DIANA_SPINE_IK_HIP_CTRL.rotateX",
+          "DIANA_SPINE_IK_HIP_CTRL.rotateY",
+          "DIANA_SPINE_IK_HIP_CTRL.rotateZ",
+          "DIANA_SPINE_IK_HIP_CTRL.translateX",
+          "DIANA_SPINE_IK_HIP_CTRL.translateY",
+          "DIANA_SPINE_IK_HIP_CTRL.translateZ",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateX",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateY",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateZ",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateX",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateY",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateZ"
+        ],
+        "errors": {
+          "max_matrix": 0.6423777427553148,
+          "max_position": 0.7156878207340879,
+          "max_rotation_degrees": 6.90265537071112,
+          "nodes": {
+            "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+              "matrix": 0.6423777427553148,
+              "position": 0.6431865050115825,
+              "rotation_degrees": 1.5656752312291426
+            },
+            "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+              "matrix": 0.23577603220090476,
+              "position": 0.15192692140809674,
+              "rotation_degrees": 6.90265537071112
+            },
+            "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+              "matrix": 0.5554677162290602,
+              "position": 0.7156878207340879,
+              "rotation_degrees": 4.228709413813867
+            },
+            "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+              "matrix": 0.5756553078132356,
+              "position": 0.6179022644820039,
+              "rotation_degrees": 4.081604225336494
+            }
+          }
+        },
+        "failure_category": "IK freedom limitation",
+        "policy": "bake_nonzero_fk",
+        "restored_after_failure": true,
+        "solver": {
+          "iterations": 24,
+          "objective_history": [
+            18.070984149057473,
+            3.4958134218397365,
+            3.45674867279885,
+            3.4536570414599983,
+            3.4521066888547365,
+            3.449880907107994,
+            3.4480000108107376,
+            3.445156707374418,
+            3.4451269102116147,
+            3.4428160156163266,
+            3.439864576177652,
+            3.439491255921746,
+            3.4359882128805213,
+            3.435557454808391,
+            3.4322226574949437,
+            3.429681289668664,
+            3.4268525465326265,
+            3.426257190555277,
+            3.4231095294128013,
+            3.4185940388172447,
+            3.4164405890542096,
+            3.414895385493572,
+            3.4138407764744385,
+            3.4129682274234288,
+            3.412307912303041
+          ]
+        },
+        "source_mode": 0,
+        "success": false,
+        "target_mode": 1
+      },
+      "pass": false,
+      "pose": 0,
+      "to": 1
+    },
+    {
+      "attachment_max_matrix_error": null,
+      "from": 1,
+      "match": {
+        "before": {
+          "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": [
+            1.980407046042321,
+            0.27926319482869183,
+            0.0,
+            0.0,
+            -0.27926319482869183,
+            1.980407046042321,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -90.13697052001953,
+            -1.9064871072769165,
+            195.32156372070312,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": [
+            1.960307720144045,
+            0.3964765344174313,
+            0.0,
+            0.0,
+            -0.3964765344174313,
+            1.960307720144045,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -94.0442886352539,
+            25.802427291870117,
+            195.32156372070312,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": [
+            1.9266087587703236,
+            0.5368227739482309,
+            0.0,
+            0.0,
+            -0.5368227739482309,
+            1.9266087587703236,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -101.3025894165039,
+            53.2999267578125,
+            195.32156372070312,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": [
+            -0.5596128141826964,
+            1.9201128868383033,
+            0.0,
+            0.0,
+            -1.9201128868383033,
+            -0.5596128141826964,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -110.48150634765625,
+            84.79412841796875,
+            195.32156372070312,
+            1.0
+          ]
+        },
+        "changed_plugs": [
+          "DIANA_SPINE_P5_HIP_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_HIP_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_HIP_OP_FK_CTRL.rotateZ",
+          "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateZ",
+          "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL.rotateZ",
+          "DIANA_SPINE_P5_SHOULDER_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_SHOULDER_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_SHOULDER_OP_FK_CTRL.rotateZ"
+        ],
+        "errors": {
+          "max_matrix": 12.34453805927808,
+          "max_position": 12.42926705992225,
+          "max_rotation_degrees": 0.0,
+          "nodes": {
+            "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+              "matrix": 7.999997768358639,
+              "position": 7.999997768358894,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+              "matrix": 4.092679653124264,
+              "position": 4.09625402426783,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+              "matrix": 3.1656211281257356,
+              "position": 3.229190800561479,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+              "matrix": 12.34453805927808,
+              "position": 12.42926705992225,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "failure_category": "FK rotation-only freedom limitation",
+        "policy": "bake_nonzero_fk",
+        "restored_after_failure": true,
+        "solver": {
+          "iterations": 3,
+          "objective_history": [
+            18.198379661113933,
+            15.793861102490107,
+            15.674618157095368,
+            15.674616875648887
+          ]
+        },
+        "source_mode": 1,
+        "success": false,
+        "target_mode": 0
+      },
+      "pass": false,
+      "pose": 0,
+      "to": 0
+    },
+    {
+      "attachment_max_matrix_error": null,
+      "from": 0,
+      "match": {
+        "before": {
+          "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            -1.9064870914668575,
+            195.32156170271625,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.9805361374831407,
+            0.27834620192013093,
+            0.0,
+            0.0,
+            -0.27834620192013093,
+            1.9805361374831407,
+            0.0,
+            -98.13696828837817,
+            25.97351290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": [
+            1.9890437907365466,
+            0.0,
+            0.209056926535307,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            -0.209056926535307,
+            0.0,
+            1.9890437907365466,
+            0.0,
+            -98.13696828837817,
+            53.93751290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": [
+            -0.17431148549531633,
+            1.992389396183491,
+            0.0,
+            0.0,
+            -1.992389396183491,
+            -0.17431148549531633,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            86.24294163916022,
+            195.32156170271625,
+            1.0
+          ]
+        },
+        "changed_plugs": [
+          "DIANA_SPINE_IK_HIP_CTRL.rotateX",
+          "DIANA_SPINE_IK_HIP_CTRL.rotateY",
+          "DIANA_SPINE_IK_HIP_CTRL.rotateZ",
+          "DIANA_SPINE_IK_HIP_CTRL.translateX",
+          "DIANA_SPINE_IK_HIP_CTRL.translateY",
+          "DIANA_SPINE_IK_HIP_CTRL.translateZ",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateX",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateY",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateZ",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateX",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateY",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateZ",
+          "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_SHOULDER_OP_FK_CTRL.rotateZ"
+        ],
+        "errors": {
+          "max_matrix": 0.6423777427553148,
+          "max_position": 0.7156873140256904,
+          "max_rotation_degrees": 6.902655851375513,
+          "nodes": {
+            "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+              "matrix": 0.6423777427553148,
+              "position": 0.643186990990781,
+              "rotation_degrees": 1.5656747011386176
+            },
+            "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+              "matrix": 0.23577604964235083,
+              "position": 0.15192782344205857,
+              "rotation_degrees": 6.902655851375513
+            },
+            "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+              "matrix": 0.5554677162290602,
+              "position": 0.7156873140256904,
+              "rotation_degrees": 4.228709582493789
+            },
+            "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+              "matrix": 0.5756553078132356,
+              "position": 0.6178984727072241,
+              "rotation_degrees": 4.081605175983147
+            }
+          }
+        },
+        "failure_category": "IK freedom limitation",
+        "policy": "bake_nonzero_fk",
+        "restored_after_failure": true,
+        "solver": {
+          "iterations": 24,
+          "objective_history": [
+            18.070984149057473,
+            3.4958134218397365,
+            3.45674867279885,
+            3.4536570414599983,
+            3.4521066888547365,
+            3.449880907107994,
+            3.4480000108107376,
+            3.445156707374418,
+            3.4451269102116147,
+            3.4428160156163266,
+            3.439864576177652,
+            3.439491255921746,
+            3.4359882128805213,
+            3.435557454808391,
+            3.4322226574949437,
+            3.429681289668664,
+            3.4268525465326265,
+            3.426257190555277,
+            3.4231095294128013,
+            3.4185940388172447,
+            3.4164405890542096,
+            3.414895385493572,
+            3.4138407764744385,
+            3.4129682274234288,
+            3.412307912303041
+          ]
+        },
+        "source_mode": 0,
+        "success": false,
+        "target_mode": 2
+      },
+      "pass": false,
+      "pose": 0,
+      "to": 2
+    },
+    {
+      "attachment_max_matrix_error": null,
+      "from": 2,
+      "match": {
+        "before": {
+          "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": [
+            1.9804070619894836,
+            0.2792630817386748,
+            0.0,
+            0.0,
+            -0.2792630817386748,
+            1.9804070619894836,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -90.13697052001953,
+            -1.906502366065979,
+            195.32156372070312,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": [
+            1.9603077574061614,
+            0.3964763501814752,
+            5.424290070903821e-08,
+            0.0,
+            -0.3926178620467633,
+            1.941230101658958,
+            0.2783467384665772,
+            0.0,
+            0.05517889682709724,
+            -0.27282264598073347,
+            1.9805360620763803,
+            0.0,
+            -94.0442886352539,
+            25.80242347717285,
+            195.32156372070312,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": [
+            1.9160546747433906,
+            0.5338817142978494,
+            0.209056926535307,
+            0.0,
+            -0.5368224840340513,
+            1.9266088395508598,
+            0.0,
+            0.0,
+            -0.20138546131612858,
+            -0.05611322930360384,
+            1.9890437907365466,
+            0.0,
+            -101.3025894165039,
+            53.2999382019043,
+            195.3215789794922,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": [
+            -0.7248318800301712,
+            1.8640329250555345,
+            -9.15170562912703e-07,
+            0.0,
+            -1.8640329250557544,
+            -0.7248318800301519,
+            2.1337640730768976e-07,
+            0.0,
+            -1.328020755063363e-07,
+            9.302850418870015e-07,
+            1.9999999999997793,
+            0.0,
+            -110.48150634765625,
+            84.79415893554688,
+            195.32156372070312,
+            1.0
+          ]
+        },
+        "changed_plugs": [
+          "DIANA_SPINE_P5_HIP_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_HIP_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_HIP_OP_FK_CTRL.rotateZ",
+          "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateZ",
+          "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL.rotateZ",
+          "DIANA_SPINE_P5_SHOULDER_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_SHOULDER_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_SHOULDER_OP_FK_CTRL.rotateZ"
+        ],
+        "errors": {
+          "max_matrix": 12.34453805927808,
+          "max_position": 12.429263502688254,
+          "max_rotation_degrees": 0.0,
+          "nodes": {
+            "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+              "matrix": 7.999997768358639,
+              "position": 7.999997768373476,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+              "matrix": 4.092679653124264,
+              "position": 4.096254183595619,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+              "matrix": 3.1656211281257356,
+              "position": 3.2291885410529058,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+              "matrix": 12.34453805927808,
+              "position": 12.429263502688254,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "failure_category": "FK rotation-only freedom limitation",
+        "policy": "bake_nonzero_fk",
+        "restored_after_failure": true,
+        "solver": {
+          "iterations": 3,
+          "objective_history": [
+            18.198374365542776,
+            15.7917642175284,
+            15.67461506217464,
+            15.674613631076554
+          ]
+        },
+        "source_mode": 2,
+        "success": false,
+        "target_mode": 0
+      },
+      "pass": false,
+      "pose": 0,
+      "to": 0
+    },
+    {
+      "attachment_max_matrix_error": 0.00013626960637225238,
+      "from": 1,
+      "match": {
+        "before": {
+          "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": [
+            1.980407046042321,
+            0.27926319482869183,
+            0.0,
+            0.0,
+            -0.27926319482869183,
+            1.980407046042321,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -90.13697052001953,
+            -1.9064871072769165,
+            195.32156372070312,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": [
+            1.960307720144045,
+            0.3964765344174313,
+            0.0,
+            0.0,
+            -0.3964765344174313,
+            1.960307720144045,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -94.0442886352539,
+            25.802427291870117,
+            195.32156372070312,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": [
+            1.9266087587703236,
+            0.5368227739482309,
+            0.0,
+            0.0,
+            -0.5368227739482309,
+            1.9266087587703236,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -101.3025894165039,
+            53.2999267578125,
+            195.32156372070312,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": [
+            -0.5596128141826964,
+            1.9201128868383033,
+            0.0,
+            0.0,
+            -1.9201128868383033,
+            -0.5596128141826964,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -110.48150634765625,
+            84.79412841796875,
+            195.32156372070312,
+            1.0
+          ]
+        },
+        "changed_plugs": [],
+        "errors": {
+          "max_matrix": 3.0517578125e-05,
+          "max_position": 3.0517578125e-05,
+          "max_rotation_degrees": 0.0,
+          "nodes": {
+            "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+              "matrix": 1.52587890625e-05,
+              "position": 1.52587890625e-05,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+              "matrix": 3.814697265625e-06,
+              "position": 3.814697265625e-06,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+              "matrix": 1.52587890625e-05,
+              "position": 1.9073486328125e-05,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+              "matrix": 3.0517578125e-05,
+              "position": 3.0517578125e-05,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "policy": "bake_nonzero_fk",
+        "restored_after_failure": false,
+        "solver": null,
+        "source_mode": 1,
+        "success": true,
+        "target_mode": 2
+      },
+      "pass": true,
+      "pose": 0,
+      "to": 2
+    },
+    {
+      "attachment_max_matrix_error": null,
+      "from": 2,
+      "match": {
+        "before": {
+          "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": [
+            1.9804070619894836,
+            0.2792630817386748,
+            0.0,
+            0.0,
+            -0.2792630817386748,
+            1.9804070619894836,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -90.13697052001953,
+            -1.906502366065979,
+            195.32156372070312,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": [
+            1.9603077574061614,
+            0.3964763501814752,
+            5.424290070903821e-08,
+            0.0,
+            -0.3926178620467633,
+            1.941230101658958,
+            0.2783467384665772,
+            0.0,
+            0.05517889682709724,
+            -0.27282264598073347,
+            1.9805360620763803,
+            0.0,
+            -94.0442886352539,
+            25.80242347717285,
+            195.32156372070312,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": [
+            1.9160546747433906,
+            0.5338817142978494,
+            0.209056926535307,
+            0.0,
+            -0.5368224840340513,
+            1.9266088395508598,
+            0.0,
+            0.0,
+            -0.20138546131612858,
+            -0.05611322930360384,
+            1.9890437907365466,
+            0.0,
+            -101.3025894165039,
+            53.2999382019043,
+            195.3215789794922,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": [
+            -0.7248318800301712,
+            1.8640329250555345,
+            -9.15170562912703e-07,
+            0.0,
+            -1.8640329250557544,
+            -0.7248318800301519,
+            2.1337640730768976e-07,
+            0.0,
+            -1.328020755063363e-07,
+            9.302850418870015e-07,
+            1.9999999999997793,
+            0.0,
+            -110.48150634765625,
+            84.79415893554688,
+            195.32156372070312,
+            1.0
+          ]
+        },
+        "changed_plugs": [
+          "DIANA_SPINE_IK_HIP_CTRL.rotateX",
+          "DIANA_SPINE_IK_HIP_CTRL.rotateY",
+          "DIANA_SPINE_IK_HIP_CTRL.rotateZ",
+          "DIANA_SPINE_IK_HIP_CTRL.translateX",
+          "DIANA_SPINE_IK_HIP_CTRL.translateY",
+          "DIANA_SPINE_IK_HIP_CTRL.translateZ",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateX",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateY",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateZ",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateX",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateY",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateZ",
+          "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_SHOULDER_OP_FK_CTRL.rotateZ"
+        ],
+        "errors": {
+          "max_matrix": 0.63970947265625,
+          "max_position": 0.7308803588631906,
+          "max_rotation_degrees": 6.901021923789971,
+          "nodes": {
+            "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+              "matrix": 0.63970947265625,
+              "position": 0.6405246606702395,
+              "rotation_degrees": 1.5540784859351013
+            },
+            "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+              "matrix": 0.23509397915126423,
+              "position": 0.11226449958742639,
+              "rotation_degrees": 6.901021923789971
+            },
+            "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+              "matrix": 0.57867431640625,
+              "position": 0.7308803588631906,
+              "rotation_degrees": 4.229314243510918
+            },
+            "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+              "matrix": 0.5794143676757812,
+              "position": 0.6693182560434082,
+              "rotation_degrees": 4.018320147276983
+            }
+          }
+        },
+        "failure_category": "IK freedom limitation",
+        "policy": "bake_nonzero_fk",
+        "restored_after_failure": true,
+        "solver": {
+          "iterations": 24,
+          "objective_history": [
+            3.902677272617395,
+            3.5784024723617502,
+            3.4616232842641326,
+            3.4608598453683523,
+            3.4597644456210985,
+            3.4575113061150704,
+            3.4539465937383205,
+            3.4529073624226485,
+            3.45270941975327,
+            3.4487080188425754,
+            3.446375367379818,
+            3.4446157173610135,
+            3.440291866849827,
+            3.436278507979606,
+            3.433821257918422,
+            3.430809393660077,
+            3.429665137971055,
+            3.4268562291659697,
+            3.424325164905081,
+            3.420309373012472,
+            3.4195580200317264,
+            3.4180807378617724,
+            3.416306067815742,
+            3.4141594083189415,
+            3.4130807073963325
+          ]
+        },
+        "source_mode": 2,
+        "success": false,
+        "target_mode": 1
+      },
+      "pass": false,
+      "pose": 0,
+      "to": 1
+    },
+    {
+      "attachment_max_matrix_error": null,
+      "from": 0,
+      "match": {
+        "before": {
+          "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": [
+            1.992389396183491,
+            -0.17431148549531633,
+            0.0,
+            0.0,
+            0.17431148549531633,
+            1.992389396183491,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            -1.9064870914668575,
+            195.32156170271625,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": [
+            1.985092303282644,
+            0.0,
+            -0.243738686810295,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.243738686810295,
+            0.0,
+            1.985092303282644,
+            0.0,
+            -98.13696828837817,
+            25.97351290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.9753766811902755,
+            0.31286893008046174,
+            0.0,
+            0.0,
+            -0.31286893008046174,
+            1.9753766811902755,
+            0.0,
+            -98.13696828837817,
+            53.93751290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": [
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            -2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            86.24294163916022,
+            195.32156170271625,
+            1.0
+          ]
+        },
+        "changed_plugs": [
+          "DIANA_SPINE_IK_HIP_CTRL.rotateX",
+          "DIANA_SPINE_IK_HIP_CTRL.rotateY",
+          "DIANA_SPINE_IK_HIP_CTRL.rotateZ",
+          "DIANA_SPINE_IK_HIP_CTRL.translateX",
+          "DIANA_SPINE_IK_HIP_CTRL.translateY",
+          "DIANA_SPINE_IK_HIP_CTRL.translateZ",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateX",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateY",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateZ",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateX",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateY",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateZ"
+        ],
+        "errors": {
+          "max_matrix": 0.7593403968931227,
+          "max_position": 0.7641735085840418,
+          "max_rotation_degrees": 8.141724961789569,
+          "nodes": {
+            "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+              "matrix": 0.4823172951179231,
+              "position": 0.5343685028257877,
+              "rotation_degrees": 4.658538190902828
+            },
+            "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+              "matrix": 0.3175333824037523,
+              "position": 0.34041496153044887,
+              "rotation_degrees": 4.906215038648139
+            },
+            "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+              "matrix": 0.34515920634692066,
+              "position": 0.3592681555796772,
+              "rotation_degrees": 8.141724961789569
+            },
+            "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+              "matrix": 0.7593403968931227,
+              "position": 0.7641735085840418,
+              "rotation_degrees": 1.8789345905879151
+            }
+          }
+        },
+        "failure_category": "IK freedom limitation",
+        "policy": "bake_nonzero_fk",
+        "restored_after_failure": true,
+        "solver": {
+          "iterations": 24,
+          "objective_history": [
+            14.742723602306594,
+            5.034942223027565,
+            3.912863532526672,
+            3.9113478985161154,
+            3.9108340721375536,
+            3.91060514149889,
+            3.910418095479928,
+            3.910037842110874,
+            3.9087070628533978,
+            3.907962382134233,
+            3.9073318015553204,
+            3.9068778003866704,
+            3.9065517891060733,
+            3.906097738321825,
+            3.90576559138493,
+            3.9053545019508653,
+            3.904827522147148,
+            3.904279196665512,
+            3.9039379612090137,
+            3.903870921940608,
+            3.902872819630762,
+            3.9014293844026366,
+            3.9002190532399146,
+            3.8993137459198253,
+            3.8985741283376067
+          ]
+        },
+        "source_mode": 0,
+        "success": false,
+        "target_mode": 1
+      },
+      "pass": false,
+      "pose": 1,
+      "to": 1
+    },
+    {
+      "attachment_max_matrix_error": null,
+      "from": 1,
+      "match": {
+        "before": {
+          "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": [
+            1.9985541101920294,
+            0.07599557948052457,
+            -0.0024780100816761083,
+            0.0,
+            -0.07599557948052457,
+            1.9943072208848096,
+            -0.13024354351032727,
+            0.0,
+            -0.0024780100816761074,
+            0.13024354351032727,
+            1.9957531106927802,
+            0.0,
+            -98.13697052001953,
+            -1.9064871072769165,
+            203.32156372070312,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": [
+            1.9961147715433374,
+            0.10280532174979158,
+            -0.07040514644833248,
+            0.0,
+            -0.10848975583151588,
+            1.9897698192785673,
+            -0.1704289857030072,
+            0.0,
+            0.061284514407045666,
+            0.17391702650419133,
+            1.99148112624394,
+            0.0,
+            -99.20008087158203,
+            25.992090225219727,
+            201.49957275390625,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": [
+            1.9895420626037372,
+            0.14865699330143775,
+            -0.1400838301626682,
+            0.0,
+            -0.16248416337287838,
+            1.9829914182376254,
+            -0.20333207284869492,
+            0.0,
+            0.12377914922749608,
+            0.2136495577774677,
+            1.9846996217760535,
+            0.0,
+            -101.18373107910156,
+            53.972999572753906,
+            198.53533935546875,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": [
+            -0.18138179426682122,
+            1.9819537021934373,
+            -0.1973832998768534,
+            0.0,
+            -1.981766752681424,
+            -0.1597559928076051,
+            0.21697594504594342,
+            0.0,
+            0.1992515562676297,
+            0.21526157372783392,
+            1.9783733904905674,
+            0.0,
+            -104.1369857788086,
+            86.24313354492188,
+            195.32154846191406,
+            1.0
+          ]
+        },
+        "changed_plugs": [
+          "DIANA_SPINE_P5_HIP_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_HIP_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_HIP_OP_FK_CTRL.rotateZ",
+          "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateZ",
+          "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL.rotateZ",
+          "DIANA_SPINE_P5_SHOULDER_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_SHOULDER_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_SHOULDER_OP_FK_CTRL.rotateZ"
+        ],
+        "errors": {
+          "max_matrix": 8.000002017986873,
+          "max_position": 8.000002017987184,
+          "max_rotation_degrees": 0.0,
+          "nodes": {
+            "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+              "matrix": 8.000002017986873,
+              "position": 8.000002017987184,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+              "matrix": 6.178011051189998,
+              "position": 6.268841522154424,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+              "matrix": 3.2137776527524977,
+              "position": 4.428587766727161,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+              "matrix": 6.000017490430423,
+              "position": 6.000017493514009,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "failure_category": "FK rotation-only freedom limitation",
+        "policy": "bake_nonzero_fk",
+        "restored_after_failure": true,
+        "solver": {
+          "iterations": 3,
+          "objective_history": [
+            13.634451865492059,
+            12.607813337189894,
+            12.60599088617768,
+            12.605990871318525
+          ]
+        },
+        "source_mode": 1,
+        "success": false,
+        "target_mode": 0
+      },
+      "pass": false,
+      "pose": 1,
+      "to": 0
+    },
+    {
+      "attachment_max_matrix_error": null,
+      "from": 0,
+      "match": {
+        "before": {
+          "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": [
+            1.992389396183491,
+            -0.17431148549531633,
+            0.0,
+            0.0,
+            0.17431148549531633,
+            1.992389396183491,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            -1.9064870914668575,
+            195.32156170271625,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": [
+            1.985092303282644,
+            0.0,
+            -0.243738686810295,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.243738686810295,
+            0.0,
+            1.985092303282644,
+            0.0,
+            -98.13696828837817,
+            25.97351290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.9753766811902755,
+            0.31286893008046174,
+            0.0,
+            0.0,
+            -0.31286893008046174,
+            1.9753766811902755,
+            0.0,
+            -98.13696828837817,
+            53.93751290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": [
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            -2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            86.24294163916022,
+            195.32156170271625,
+            1.0
+          ]
+        },
+        "changed_plugs": [
+          "DIANA_SPINE_IK_HIP_CTRL.rotateX",
+          "DIANA_SPINE_IK_HIP_CTRL.rotateY",
+          "DIANA_SPINE_IK_HIP_CTRL.rotateZ",
+          "DIANA_SPINE_IK_HIP_CTRL.translateX",
+          "DIANA_SPINE_IK_HIP_CTRL.translateY",
+          "DIANA_SPINE_IK_HIP_CTRL.translateZ",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateX",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateY",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateZ",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateX",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateY",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateZ",
+          "DIANA_SPINE_P5_HIP_OP_FK_CTRL.rotateZ",
+          "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL.rotateX"
+        ],
+        "errors": {
+          "max_matrix": 0.7593403968931227,
+          "max_position": 0.7641701010490226,
+          "max_rotation_degrees": 8.141725531878134,
+          "nodes": {
+            "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+              "matrix": 0.4823172951179231,
+              "position": 0.5343698642059155,
+              "rotation_degrees": 4.658538594231662
+            },
+            "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+              "matrix": 0.3175333824037523,
+              "position": 0.34041563461468016,
+              "rotation_degrees": 4.906214966015298
+            },
+            "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+              "matrix": 0.34515920634692066,
+              "position": 0.35926599289918476,
+              "rotation_degrees": 8.141725531878134
+            },
+            "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+              "matrix": 0.7593403968931227,
+              "position": 0.7641701010490226,
+              "rotation_degrees": 1.8789337933226535
+            }
+          }
+        },
+        "failure_category": "IK freedom limitation",
+        "policy": "bake_nonzero_fk",
+        "restored_after_failure": true,
+        "solver": {
+          "iterations": 24,
+          "objective_history": [
+            14.742723602306594,
+            5.034942223027565,
+            3.912863532526672,
+            3.9113478985161154,
+            3.9108340721375536,
+            3.91060514149889,
+            3.910418095479928,
+            3.910037842110874,
+            3.9087070628533978,
+            3.907962382134233,
+            3.9073318015553204,
+            3.9068778003866704,
+            3.9065517891060733,
+            3.906097738321825,
+            3.90576559138493,
+            3.9053545019508653,
+            3.904827522147148,
+            3.904279196665512,
+            3.9039379612090137,
+            3.903870921940608,
+            3.902872819630762,
+            3.9014293844026366,
+            3.9002190532399146,
+            3.8993137459198253,
+            3.8985741283376067
+          ]
+        },
+        "source_mode": 0,
+        "success": false,
+        "target_mode": 2
+      },
+      "pass": false,
+      "pose": 1,
+      "to": 2
+    },
+    {
+      "attachment_max_matrix_error": null,
+      "from": 2,
+      "match": {
+        "before": {
+          "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": [
+            1.9975724585813606,
+            -0.09810895460218422,
+            0.008882890525318845,
+            0.0,
+            0.09847909519254164,
+            1.9933417322742002,
+            -0.1299638649169411,
+            0.0,
+            -0.002478008732140286,
+            0.1302435080952488,
+            1.9957531130056556,
+            0.0,
+            -98.13697052001953,
+            -1.906502366065979,
+            203.32156372070312,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": [
+            1.973767334560506,
+            0.08084383495279168,
+            -0.3125808429383356,
+            0.0,
+            -0.10848970428908047,
+            1.989769828993953,
+            -0.17042890508550337,
+            0.0,
+            0.3040929020631401,
+            0.18514940446974548,
+            1.9680567077549658,
+            0.0,
+            -99.20008087158203,
+            25.992082595825195,
+            201.49957275390625,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": [
+            1.98954206866305,
+            0.14865691935227,
+            -0.1400838225800667,
+            0.0,
+            -0.14112030753816088,
+            1.9919996577503971,
+            0.10964680717027642,
+            0.0,
+            0.14767334160330298,
+            -0.09918913171811508,
+            1.9920728150167406,
+            0.0,
+            -101.18373107910156,
+            53.9730110168457,
+            198.53533935546875,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": [
+            -0.18138172996571988,
+            1.981953715023394,
+            -0.19738323013774714,
+            0.0,
+            -1.9817667578665727,
+            -0.1597559361496237,
+            0.21697593940336102,
+            0.0,
+            0.1992515632301448,
+            0.2152614976486167,
+            1.9783733980673157,
+            0.0,
+            -104.1369857788086,
+            86.24315643310547,
+            195.32154846191406,
+            1.0
+          ]
+        },
+        "changed_plugs": [
+          "DIANA_SPINE_P5_HIP_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_HIP_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_HIP_OP_FK_CTRL.rotateZ",
+          "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateZ",
+          "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL.rotateZ",
+          "DIANA_SPINE_P5_SHOULDER_OP_FK_CTRL.rotateX",
+          "DIANA_SPINE_P5_SHOULDER_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_SHOULDER_OP_FK_CTRL.rotateZ"
+        ],
+        "errors": {
+          "max_matrix": 8.000002017986873,
+          "max_position": 8.000002018001766,
+          "max_rotation_degrees": 0.0,
+          "nodes": {
+            "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+              "matrix": 8.000002017986873,
+              "position": 8.000002018001766,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+              "matrix": 6.178011051189998,
+              "position": 6.268841499549837,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+              "matrix": 3.2137776527524977,
+              "position": 4.428587858444463,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+              "matrix": 6.000017490430423,
+              "position": 6.000017494289725,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "failure_category": "FK rotation-only freedom limitation",
+        "policy": "bake_nonzero_fk",
+        "restored_after_failure": true,
+        "solver": {
+          "iterations": 3,
+          "objective_history": [
+            13.634451255066644,
+            12.607983564117228,
+            12.60599090753612,
+            12.605990892676983
+          ]
+        },
+        "source_mode": 2,
+        "success": false,
+        "target_mode": 0
+      },
+      "pass": false,
+      "pose": 1,
+      "to": 0
+    },
+    {
+      "attachment_max_matrix_error": 2.418787065039396e-05,
+      "from": 1,
+      "match": {
+        "before": {
+          "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": [
+            1.9985541101920294,
+            0.07599557948052457,
+            -0.0024780100816761083,
+            0.0,
+            -0.07599557948052457,
+            1.9943072208848096,
+            -0.13024354351032727,
+            0.0,
+            -0.0024780100816761074,
+            0.13024354351032727,
+            1.9957531106927802,
+            0.0,
+            -98.13697052001953,
+            -1.9064871072769165,
+            203.32156372070312,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": [
+            1.9961147715433374,
+            0.10280532174979158,
+            -0.07040514644833248,
+            0.0,
+            -0.10848975583151588,
+            1.9897698192785673,
+            -0.1704289857030072,
+            0.0,
+            0.061284514407045666,
+            0.17391702650419133,
+            1.99148112624394,
+            0.0,
+            -99.20008087158203,
+            25.992090225219727,
+            201.49957275390625,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": [
+            1.9895420626037372,
+            0.14865699330143775,
+            -0.1400838301626682,
+            0.0,
+            -0.16248416337287838,
+            1.9829914182376254,
+            -0.20333207284869492,
+            0.0,
+            0.12377914922749608,
+            0.2136495577774677,
+            1.9846996217760535,
+            0.0,
+            -101.18373107910156,
+            53.972999572753906,
+            198.53533935546875,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": [
+            -0.18138179426682122,
+            1.9819537021934373,
+            -0.1973832998768534,
+            0.0,
+            -1.981766752681424,
+            -0.1597559928076051,
+            0.21697594504594342,
+            0.0,
+            0.1992515562676297,
+            0.21526157372783392,
+            1.9783733904905674,
+            0.0,
+            -104.1369857788086,
+            86.24313354492188,
+            195.32154846191406,
+            1.0
+          ]
+        },
+        "changed_plugs": [],
+        "errors": {
+          "max_matrix": 2.288818359375e-05,
+          "max_position": 2.288818359375e-05,
+          "max_rotation_degrees": 0.0,
+          "nodes": {
+            "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+              "matrix": 1.52587890625e-05,
+              "position": 1.52587890625e-05,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+              "matrix": 7.62939453125e-06,
+              "position": 7.62939453125e-06,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+              "matrix": 1.1444091796875e-05,
+              "position": 1.1444091796875e-05,
+              "rotation_degrees": 0.0
+            },
+            "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+              "matrix": 2.288818359375e-05,
+              "position": 2.288818359375e-05,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "policy": "bake_nonzero_fk",
+        "restored_after_failure": false,
+        "solver": null,
+        "source_mode": 1,
+        "success": true,
+        "target_mode": 2
+      },
+      "pass": true,
+      "pose": 1,
+      "to": 2
+    },
+    {
+      "attachment_max_matrix_error": null,
+      "from": 2,
+      "match": {
+        "before": {
+          "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": [
+            1.9975724585813606,
+            -0.09810895460218422,
+            0.008882890525318845,
+            0.0,
+            0.09847909519254164,
+            1.9933417322742002,
+            -0.1299638649169411,
+            0.0,
+            -0.002478008732140286,
+            0.1302435080952488,
+            1.9957531130056556,
+            0.0,
+            -98.13697052001953,
+            -1.906502366065979,
+            203.32156372070312,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": [
+            1.973767334560506,
+            0.08084383495279168,
+            -0.3125808429383356,
+            0.0,
+            -0.10848970428908047,
+            1.989769828993953,
+            -0.17042890508550337,
+            0.0,
+            0.3040929020631401,
+            0.18514940446974548,
+            1.9680567077549658,
+            0.0,
+            -99.20008087158203,
+            25.992082595825195,
+            201.49957275390625,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": [
+            1.98954206866305,
+            0.14865691935227,
+            -0.1400838225800667,
+            0.0,
+            -0.14112030753816088,
+            1.9919996577503971,
+            0.10964680717027642,
+            0.0,
+            0.14767334160330298,
+            -0.09918913171811508,
+            1.9920728150167406,
+            0.0,
+            -101.18373107910156,
+            53.9730110168457,
+            198.53533935546875,
+            1.0
+          ],
+          "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": [
+            -0.18138172996571988,
+            1.981953715023394,
+            -0.19738323013774714,
+            0.0,
+            -1.9817667578665727,
+            -0.1597559361496237,
+            0.21697593940336102,
+            0.0,
+            0.1992515632301448,
+            0.2152614976486167,
+            1.9783733980673157,
+            0.0,
+            -104.1369857788086,
+            86.24315643310547,
+            195.32154846191406,
+            1.0
+          ]
+        },
+        "changed_plugs": [
+          "DIANA_SPINE_IK_HIP_CTRL.rotateX",
+          "DIANA_SPINE_IK_HIP_CTRL.rotateY",
+          "DIANA_SPINE_IK_HIP_CTRL.rotateZ",
+          "DIANA_SPINE_IK_HIP_CTRL.translateX",
+          "DIANA_SPINE_IK_HIP_CTRL.translateY",
+          "DIANA_SPINE_IK_HIP_CTRL.translateZ",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateX",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateY",
+          "DIANA_SPINE_IK_UPPER_CTRL.rotateZ",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateX",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateY",
+          "DIANA_SPINE_IK_UPPER_CTRL.translateZ",
+          "DIANA_SPINE_P5_HIP_OP_FK_CTRL.rotateZ",
+          "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateY",
+          "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL.rotateX"
+        ],
+        "errors": {
+          "max_matrix": 0.736419677734375,
+          "max_position": 0.7451562747789839,
+          "max_rotation_degrees": 8.11900859719494,
+          "nodes": {
+            "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+              "matrix": 0.6320266723632812,
+              "position": 0.6733532265670706,
+              "rotation_degrees": 3.919990163831026
+            },
+            "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+              "matrix": 0.4813995361328125,
+              "position": 0.6071516445834451,
+              "rotation_degrees": 4.916393722471536
+            },
+            "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+              "matrix": 0.2814669161800112,
+              "position": 0.09200800778449413,
+              "rotation_degrees": 8.11900859719494
+            },
+            "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+              "matrix": 0.736419677734375,
+              "position": 0.7451562747789839,
+              "rotation_degrees": 1.607220712379855
+            }
+          }
+        },
+        "failure_category": "IK freedom limitation",
+        "policy": "bake_nonzero_fk",
+        "restored_after_failure": true,
+        "solver": {
+          "iterations": 24,
+          "objective_history": [
+            4.345835598981704,
+            4.07391991009154,
+            4.031816373227258,
+            4.013889299746782,
+            3.9920085813086668,
+            3.9628397192714595,
+            3.9363292377142396,
+            3.910822908614586,
+            3.8909701856736443,
+            3.873507761766445,
+            3.8601515544127776,
+            3.8497810394447938,
+            3.8416753636070897,
+            3.835534701355713,
+            3.8303714388655115,
+            3.826791979594419,
+            3.823760635930941,
+            3.8212500795983626,
+            3.819164491489328,
+            3.817886072202742,
+            3.8167725939641772,
+            3.815959554164742,
+            3.8153351857731583,
+            3.8148259451231463,
+            3.8144396915579106
+          ]
+        },
+        "source_mode": 2,
+        "success": false,
+        "target_mode": 1
+      },
+      "pass": false,
+      "pose": 1,
+      "to": 1
+    }
+  ],
+  "key_protection": {
+    "after": {
+      "DIANA_SPINE_IK_UPPER_CTRL.translateX": [
+        [
+          1.0,
+          2.0
+        ],
+        [
+          5.0,
+          3.6680384087791493
+        ],
+        [
+          10.0,
+          6.0
+        ]
+      ],
+      "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateX": [
+        [
+          1.0,
+          2.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          10.0,
+          6.000000000000001
+        ]
+      ]
+    },
+    "before": {
+      "DIANA_SPINE_IK_UPPER_CTRL.translateX": [
+        [
+          1.0,
+          2.0
+        ],
+        [
+          10.0,
+          6.0
+        ]
+      ],
+      "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateX": [
+        [
+          1.0,
+          2.0
+        ],
+        [
+          10.0,
+          6.000000000000001
+        ]
+      ]
+    },
+    "match": {
+      "before": {
+        "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": [
+          1.996468542737465,
+          -0.11879965429134245,
+          0.0,
+          0.0,
+          0.11879965429134245,
+          1.996468542737465,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -98.13697052001953,
+          -1.9064871072769165,
+          195.32156372070312,
+          1.0
+        ],
+        "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": [
+          1.9939106226008356,
+          -0.15595008521814593,
+          0.0,
+          0.0,
+          0.15595008521814016,
+          1.9939106226007617,
+          5.448152108625714e-07,
+          0.0,
+          -4.24819892810801e-08,
+          -5.431564181466979e-07,
+          1.9999999999999258,
+          0.0,
+          -96.47797393798828,
+          25.973512649536133,
+          195.32156372070312,
+          1.0
+        ],
+        "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": [
+          1.9911859162567702,
+          -0.1875597155593025,
+          0.0,
+          0.0,
+          0.1875597155593025,
+          1.9911859162567702,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -93.76923370361328,
+          53.9375114440918,
+          195.3215789794922,
+          1.0
+        ],
+        "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": [
+          0.1829962393360629,
+          1.9916104981617198,
+          -9.406950971612156e-07,
+          0.0,
+          -1.9916104981619411,
+          0.18299623933606288,
+          -4.31263684724881e-08,
+          0.0,
+          4.3126368472488315e-08,
+          9.406950971612156e-07,
+          1.9999999999997784,
+          0.0,
+          -90.80089569091797,
+          86.24295043945312,
+          195.32156372070312,
+          1.0
+        ]
+      },
+      "changed_plugs": [
+        "DIANA_SPINE_P5_LOWER_OP_FK_CTRL.rotateX"
+      ],
+      "errors": {
+        "max_matrix": 2.288818359375e-05,
+        "max_position": 2.750817318316642e-05,
+        "max_rotation_degrees": 0.0,
+        "nodes": {
+          "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+            "matrix": 1.52587890625e-05,
+            "position": 1.52587890625e-05,
+            "rotation_degrees": 0.0
+          },
+          "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+            "matrix": 7.62939453125e-06,
+            "position": 7.62939453125e-06,
+            "rotation_degrees": 0.0
+          },
+          "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+            "matrix": 1.1444091796875e-05,
+            "position": 1.1444091796875e-05,
+            "rotation_degrees": 0.0
+          },
+          "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+            "matrix": 2.288818359375e-05,
+            "position": 2.750817318316642e-05,
+            "rotation_degrees": 0.0
+          }
+        }
+      },
+      "policy": "bake_nonzero_fk",
+      "restored_after_failure": false,
+      "solver": {
+        "iterations": 0,
+        "objective_history": [
+          0.0
+        ]
+      },
+      "source_mode": 1,
+      "success": true,
+      "target_mode": 2
+    },
+    "outside_current_frame_equal": true,
+    "pass": true
+  },
+  "new_cycle_nodes": [],
+  "phase7_complete": false,
+  "rollback": {
+    "matrix_error": 3.931787105670992e-05,
+    "new_cycle_nodes": [],
+    "pass": true,
+    "phase5": {
+      "remaining": [],
+      "root_exists": false
+    },
+    "phase5b": {
+      "remaining": [],
+      "root_exists": false
+    },
+    "remaining_phase_nodes": []
+  },
+  "save_reload": {
+    "match": {
+      "before": {
+        "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": [
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -98.13697052001953,
+          -1.9064871072769165,
+          195.32156372070312,
+          1.0
+        ],
+        "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": [
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -98.13697052001953,
+          25.973512649536133,
+          195.32156372070312,
+          1.0
+        ],
+        "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": [
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -98.13697052001953,
+          53.9375114440918,
+          195.32156372070312,
+          1.0
+        ],
+        "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": [
+          0.0,
+          2.0,
+          0.0,
+          0.0,
+          -2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -98.13697052001953,
+          86.2429428100586,
+          195.32156372070312,
+          1.0
+        ]
+      },
+      "changed_plugs": [],
+      "errors": {
+        "max_matrix": 3.814697265625e-05,
+        "max_position": 3.814697265625e-05,
+        "max_rotation_degrees": 0.0,
+        "nodes": {
+          "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+            "matrix": 1.52587890625e-05,
+            "position": 1.52587890625e-05,
+            "rotation_degrees": 0.0
+          },
+          "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+            "matrix": 3.814697265625e-06,
+            "position": 3.814697265625e-06,
+            "rotation_degrees": 0.0
+          },
+          "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+            "matrix": 1.52587890625e-05,
+            "position": 1.52587890625e-05,
+            "rotation_degrees": 0.0
+          },
+          "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+            "matrix": 3.814697265625e-05,
+            "position": 3.814697265625e-05,
+            "rotation_degrees": 0.0
+          }
+        }
+      },
+      "policy": "bake_nonzero_fk",
+      "restored_after_failure": false,
+      "solver": null,
+      "source_mode": 1,
+      "success": true,
+      "target_mode": 2
+    },
+    "matrix_error": 0.0,
+    "mode": 2,
+    "pass": true
+  },
+  "source_scene_modified": false,
+  "tolerances": {
+    "attachment_matrix": 0.001,
+    "position": 0.05,
+    "rotation_degrees": 0.1
+  },
+  "undo_redo": {
+    "match": {
+      "before": {
+        "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": [
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -98.13697052001953,
+          -1.9064871072769165,
+          195.32156372070312,
+          1.0
+        ],
+        "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": [
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -98.13697052001953,
+          25.973512649536133,
+          195.32156372070312,
+          1.0
+        ],
+        "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": [
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -98.13697052001953,
+          53.9375114440918,
+          195.32156372070312,
+          1.0
+        ],
+        "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": [
+          0.0,
+          2.0,
+          0.0,
+          0.0,
+          -2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -98.13697052001953,
+          86.2429428100586,
+          195.32156372070312,
+          1.0
+        ]
+      },
+      "changed_plugs": [],
+      "errors": {
+        "max_matrix": 3.814697265625e-05,
+        "max_position": 3.814697265625e-05,
+        "max_rotation_degrees": 0.0,
+        "nodes": {
+          "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY": {
+            "matrix": 1.52587890625e-05,
+            "position": 1.52587890625e-05,
+            "rotation_degrees": 0.0
+          },
+          "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY": {
+            "matrix": 3.814697265625e-06,
+            "position": 3.814697265625e-06,
+            "rotation_degrees": 0.0
+          },
+          "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY": {
+            "matrix": 1.52587890625e-05,
+            "position": 1.52587890625e-05,
+            "rotation_degrees": 0.0
+          },
+          "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY": {
+            "matrix": 3.814697265625e-05,
+            "position": 3.814697265625e-05,
+            "rotation_degrees": 0.0
+          }
+        }
+      },
+      "policy": "bake_nonzero_fk",
+      "restored_after_failure": false,
+      "solver": null,
+      "source_mode": 1,
+      "success": true,
+      "target_mode": 2
+    },
+    "pass": true,
+    "redo_error": 0.0,
+    "redo_mode": 2,
+    "undo_error": 0.0,
+    "undo_mode": 1
+  },
+  "version": 1
+}

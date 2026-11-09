@@ -1,73 +1,20 @@
-import os
-import sys
-import shutil
-import importlib
+"""Maya shelf command for the Diana Pivot Transfer UI.
 
-FOLDER = os.path.join(
-    os.path.expanduser("~"),
-    "OneDrive", "ドキュメント",
-    "maya", "scripts", "Diana",
-    "Pivot_Transfer"
-)
+Paste the following into a Python shelf button::
 
-UI_FILE = os.path.join(
-    FOLDER,
-    "diana_pivot_transfer_ui.py"
-)
+    from Pivot_Transfer import Shelf
+    Shelf.show()
+"""
+from importlib import import_module, reload
 
-DEPENDENCY = os.path.join(
-    FOLDER,
-    "diana_pivot_to_all.py"
-)
 
-OLD = (
-    "import scripts.Pivot_Transfer."
-    "diana_pivot_to_all as pta"
-)
+def show():
+    """Reload and display the UI without modifying files or ``sys.path``."""
+    pivot_ui = import_module("Pivot_Transfer.diana_pivot_transfer_ui")
+    reload(pivot_ui)
+    pivot_ui.show_ui()
+    print("[DIANA] Pivot Transfer UI started")
 
-NEW = "import diana_pivot_to_all as pta"
 
-print("\n===== DIANA UI IMPORT FIX =====")
-
-for path in (UI_FILE, DEPENDENCY):
-    if not os.path.isfile(path):
-        raise RuntimeError(
-            "Required file missing: " + path
-        )
-
-with open(UI_FILE, "r", encoding="utf-8-sig") as f:
-    content = f.read()
-
-if OLD in content:
-    backup = UI_FILE + ".bak"
-
-    if not os.path.exists(backup):
-        shutil.copy2(UI_FILE, backup)
-        print("BACKUP:", backup)
-
-    content = content.replace(OLD, NEW)
-
-    with open(UI_FILE, "w", encoding="utf-8") as f:
-        f.write(content)
-
-    print("IMPORT FIXED")
-
-elif NEW in content:
-    print("Import already fixed")
-
-else:
-    raise RuntimeError(
-        "Expected import statement not found. "
-        "No changes made."
-    )
-
-if FOLDER not in sys.path:
-    sys.path.insert(0, FOLDER)
-
-import diana_pivot_transfer_ui as pivot_ui
-
-importlib.reload(pivot_ui)
-
-pivot_ui.show_ui()
-
-print("DIANA UI STARTED")
+if __name__ == "__main__":
+    show()

@@ -1,0 +1,69 @@
+{
+  "created_epoch": 1793758588.8824644,
+  "existing_animation": {
+    "rc_curve_count": 2555,
+    "rc_fingerprint": "0f3536df5d684994492b9dc34cd3c6b0999730ea151fb6e1018da66ef28884d0",
+    "source_curve_count": 2555,
+    "source_fingerprint": "0f3536df5d684994492b9dc34cd3c6b0999730ea151fb6e1018da66ef28884d0",
+    "unchanged": true
+  },
+  "external_python_packages": [],
+  "maya_version": "2026",
+  "new_cycles": [],
+  "phase10_build_complete": true,
+  "protected_subsystems": {
+    "rc": {
+      "equipment": {
+        "node_count": 24,
+        "sha256": "fddb024430d65991471008ea278d988958ea554dc58211a0c6a6cac6b62bd73e"
+      },
+      "facial": {
+        "node_count": 52,
+        "sha256": "ebb99c9143a6b8d2e8953eb4d7ba5413e09436905392672e4eb8b39cb01e14f8"
+      },
+      "legs": {
+        "node_count": 83,
+        "sha256": "9dc446eaac587fc794949586dbc74b79ee502d6f7b047c0ad97fd603d84c7d28"
+      },
+      "skin": {
+        "count": 33,
+        "sha256": "8ede97912566ab41cb01571d20d78b1da40837d5dd34088ef86729cacd7ff44a"
+      }
+    },
+    "source": {
+      "equipment": {
+        "node_count": 24,
+        "sha256": "fddb024430d65991471008ea278d988958ea554dc58211a0c6a6cac6b62bd73e"
+      },
+      "facial": {
+        "node_count": 52,
+        "sha256": "ebb99c9143a6b8d2e8953eb4d7ba5413e09436905392672e4eb8b39cb01e14f8"
+      },
+      "legs": {
+        "node_count": 83,
+        "sha256": "9dc446eaac587fc794949586dbc74b79ee502d6f7b047c0ad97fd603d84c7d28"
+      },
+      "skin": {
+        "count": 33,
+        "sha256": "8ede97912566ab41cb01571d20d78b1da40837d5dd34088ef86729cacd7ff44a"
+      }
+    },
+    "unchanged": true
+  },
+  "rc_scene": "C:\\Users\\draco\\OneDrive\\ドキュメント\\GitHub\\Diana-Character-Rig\\dist\\Character_spine37_SPINE_RC01.ma",
+  "rc_sha256": "9f53ad5457bbefc2f039bf8877a3a920e0788d92d6488ff92f127ee7710cb5e7",
+  "rc_size_bytes": 31990268,
+  "roots": {
+    "phase5": true,
+    "phase5b": true,
+    "phase9": true
+  },
+  "source": "C:\\Users\\draco\\OneDrive\\ドキュメント\\maya\\projects\\JAM_rig\\scenes\\Character_spine37.ma",
+  "source_mtime_after": 1793634183.8036792,
+  "source_mtime_before": 1793634183.8036792,
+  "source_sha256_after": "6858f5c3315925f4260f8bc18df3bbf0102340158ae87c11ba4c1734876af5b8",
+  "source_sha256_before": "6858f5c3315925f4260f8bc18df3bbf0102340158ae87c11ba4c1734876af5b8",
+  "source_size": 31976249,
+  "source_unchanged": true,
+  "version": 1
+}

@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "C:\Users\draco\OneDrive\ドキュメント\GitHub\Diana-Character-Rig\scripts\Spine\diana_spine_phase7_validate.py", line 195, in <module>
+    try: main()
+         ^^^^^^
+  File "C:\Users\draco\OneDrive\ドキュメント\GitHub\Diana-Character-Rig\scripts\Spine\diana_spine_phase7_validate.py", line 145, in main
+    source_world = worlds(matcher.FINAL_NODES + attachment_nodes())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\draco\OneDrive\ドキュメント\GitHub\Diana-Character-Rig\scripts\Spine\diana_spine_phase7_validate.py", line 83, in worlds
+    def worlds(nodes): return {x: matrix(x) for x in nodes}
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\draco\OneDrive\ドキュメント\GitHub\Diana-Character-Rig\scripts\Spine\diana_spine_phase7_validate.py", line 83, in <dictcomp>
+    def worlds(nodes): return {x: matrix(x) for x in nodes}
+                                  ^^^^^^^^^
+  File "C:\Users\draco\OneDrive\ドキュメント\GitHub\Diana-Character-Rig\scripts\Spine\diana_spine_phase7_validate.py", line 47, in matrix
+    def matrix(node): return matcher._matrix(node)
+                             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\draco\OneDrive\ドキュメント\GitHub\Diana-Character-Rig\scripts\Spine\diana_spine_phase7_matcher.py", line 23, in _matrix
+    return [float(x) for x in value[0]]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not iterable

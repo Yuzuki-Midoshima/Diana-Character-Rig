@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\Users\draco\OneDrive\ドキュメント\GitHub\Diana-Character-Rig\scripts\Spine\diana_spine_phase9_validate.py", line 192, in <module>
+    try:main()
+        ^^^^^^
+  File "C:\Users\draco\OneDrive\ドキュメント\GitHub\Diana-Character-Rig\scripts\Spine\diana_spine_phase9_validate.py", line 152, in main
+    cmds.file(SOURCE,o=True,f=True,prompt=False);cmds.file(rename=SCENE);cmds.file(save=True,type="mayaAscii",force=True)
+                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: ファイル "C:/Users/draco/OneDrive/ドキュメント/maya/projects/JAM_rig/scenes/Character_spine37_PHASE5B_PHASE9_VALIDATION.ma" を保存できませんでした。
+

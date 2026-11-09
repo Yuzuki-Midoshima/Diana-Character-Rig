@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\draco\OneDrive\ドキュメント\GitHub\Diana-Character-Rig\scripts\Spine\diana_spine_phase5b_runner.py", line 155, in <module>
+    main()
+  File "C:\Users\draco\OneDrive\ドキュメント\GitHub\Diana-Character-Rig\scripts\Spine\diana_spine_phase5b_runner.py", line 104, in main
+    raise RuntimeError("Left attachment stage failed")
+RuntimeError: Left attachment stage failed

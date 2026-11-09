@@ -1,0 +1,2337 @@
+{
+  "arm_fk_ik_switch": {
+    "L": {
+      "candidate_attributes": [
+        "FKIK"
+      ],
+      "exercised": [
+        "L_arm_settings_anim.FKIK"
+      ],
+      "pass": true
+    },
+    "R": {
+      "candidate_attributes": [
+        "FKIK"
+      ],
+      "exercised": [
+        "R_arm_settings_anim.FKIK"
+      ],
+      "pass": true
+    }
+  },
+  "build_manifest_complete": true,
+  "correction_undo_redo": {
+    "active_reset": {
+      "reason": "active non-zero correction would change pose",
+      "reset": false
+    },
+    "inactive_reset": {
+      "reason": "inactive or already zero",
+      "reset": true
+    },
+    "match": {
+      "before": {
+        "HIP": [
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -98.13697052001953,
+          -1.9064871072769165,
+          195.32156372070312,
+          1.0
+        ],
+        "LOWER": [
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -98.13697052001953,
+          25.973512649536133,
+          195.32156372070312,
+          1.0
+        ],
+        "MIDDLE": [
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -98.13697052001953,
+          53.9375114440918,
+          195.32156372070312,
+          1.0
+        ],
+        "SHOULDER": [
+          0.0,
+          2.0,
+          0.0,
+          0.0,
+          -2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          -98.13697052001953,
+          86.2429428100586,
+          195.32156372070312,
+          1.0
+        ]
+      },
+      "errors": {
+        "max_matrix": 1.4210854715202004e-14,
+        "max_position": 1.4212589332811784e-14,
+        "max_rotation_degrees": 0.0,
+        "parts": {
+          "HIP": {
+            "matrix": 1.4210854715202004e-14,
+            "position": 1.4212589332811784e-14,
+            "rotation_degrees": 0.0
+          },
+          "LOWER": {
+            "matrix": 1.4210854715202004e-14,
+            "position": 1.4210854715202004e-14,
+            "rotation_degrees": 0.0
+          },
+          "MIDDLE": {
+            "matrix": 1.4210854715202004e-14,
+            "position": 1.4210854715202004e-14,
+            "rotation_degrees": 0.0
+          },
+          "SHOULDER": {
+            "matrix": 1.4210854715202004e-14,
+            "position": 1.4210854715202004e-14,
+            "rotation_degrees": 0.0
+          }
+        }
+      },
+      "from": 1,
+      "keyed": false,
+      "restored": false,
+      "success": true,
+      "to": 0
+    },
+    "pass": true,
+    "redo_error": 0.0,
+    "redo_mode": 1,
+    "undo_error": 0.0,
+    "undo_mode": 0
+  },
+  "duplicate_execution_stopped": true,
+  "durability": {
+    "animation_layer": "DIANA_SPINE_P10_TEST_LAYER",
+    "cycle_frames": [],
+    "frames": 360,
+    "invalid_matrices": [],
+    "new_curves": [
+      "DIANA_SPINE_IK_HIP_CTRL_rotateY",
+      "DIANA_SPINE_IK_HIP_CTRL_translateX",
+      "DIANA_SPINE_IK_UPPER_CTRL_rotateZ",
+      "DIANA_SPINE_IK_UPPER_CTRL_translateX",
+      "DIANA_SPINE_P5_LOWER_OP_FK_CTRL_rotateX",
+      "DIANA_SPINE_P5_MIDDLE_OP_FK_CTRL_rotateY",
+      "DIANA_SPINE_P5_SHOULDER_OP_FK_CTRL_rotateZ_DIANA_SPINE_P10_TEST_LAYER_inputB",
+      "DIANA_SPINE_P9_HIP_MODE0_CORR_rotateX",
+      "DIANA_SPINE_P9_HIP_MODE0_CORR_rotateY",
+      "DIANA_SPINE_P9_HIP_MODE0_CORR_rotateZ",
+      "DIANA_SPINE_P9_HIP_MODE0_CORR_translateX",
+      "DIANA_SPINE_P9_HIP_MODE0_CORR_translateY",
+      "DIANA_SPINE_P9_HIP_MODE0_CORR_translateZ",
+      "DIANA_SPINE_P9_HIP_MODE1_CORR_rotateX",
+      "DIANA_SPINE_P9_HIP_MODE1_CORR_rotateY",
+      "DIANA_SPINE_P9_HIP_MODE1_CORR_rotateZ",
+      "DIANA_SPINE_P9_HIP_MODE1_CORR_translateX",
+      "DIANA_SPINE_P9_HIP_MODE1_CORR_translateY",
+      "DIANA_SPINE_P9_HIP_MODE1_CORR_translateZ",
+      "DIANA_SPINE_P9_HIP_MODE2_CORR_rotateX",
+      "DIANA_SPINE_P9_HIP_MODE2_CORR_rotateY",
+      "DIANA_SPINE_P9_HIP_MODE2_CORR_rotateZ",
+      "DIANA_SPINE_P9_HIP_MODE2_CORR_translateX",
+      "DIANA_SPINE_P9_HIP_MODE2_CORR_translateY",
+      "DIANA_SPINE_P9_HIP_MODE2_CORR_translateZ",
+      "DIANA_SPINE_P9_LOWER_MODE0_CORR_rotateX",
+      "DIANA_SPINE_P9_LOWER_MODE0_CORR_rotateY",
+      "DIANA_SPINE_P9_LOWER_MODE0_CORR_rotateZ",
+      "DIANA_SPINE_P9_LOWER_MODE0_CORR_translateX",
+      "DIANA_SPINE_P9_LOWER_MODE0_CORR_translateY",
+      "DIANA_SPINE_P9_LOWER_MODE0_CORR_translateZ",
+      "DIANA_SPINE_P9_LOWER_MODE1_CORR_rotateX",
+      "DIANA_SPINE_P9_LOWER_MODE1_CORR_rotateY",
+      "DIANA_SPINE_P9_LOWER_MODE1_CORR_rotateZ",
+      "DIANA_SPINE_P9_LOWER_MODE1_CORR_translateX",
+      "DIANA_SPINE_P9_LOWER_MODE1_CORR_translateY",
+      "DIANA_SPINE_P9_LOWER_MODE1_CORR_translateZ",
+      "DIANA_SPINE_P9_LOWER_MODE2_CORR_rotateX",
+      "DIANA_SPINE_P9_LOWER_MODE2_CORR_rotateY",
+      "DIANA_SPINE_P9_LOWER_MODE2_CORR_rotateZ",
+      "DIANA_SPINE_P9_LOWER_MODE2_CORR_translateX",
+      "DIANA_SPINE_P9_LOWER_MODE2_CORR_translateY",
+      "DIANA_SPINE_P9_LOWER_MODE2_CORR_translateZ",
+      "DIANA_SPINE_P9_L_ARM_MODE0_CORR_rotateX",
+      "DIANA_SPINE_P9_L_ARM_MODE0_CORR_rotateY",
+      "DIANA_SPINE_P9_L_ARM_MODE0_CORR_rotateZ",
+      "DIANA_SPINE_P9_L_ARM_MODE0_CORR_translateX",
+      "DIANA_SPINE_P9_L_ARM_MODE0_CORR_translateY",
+      "DIANA_SPINE_P9_L_ARM_MODE0_CORR_translateZ",
+      "DIANA_SPINE_P9_L_ARM_MODE1_CORR_rotateX",
+      "DIANA_SPINE_P9_L_ARM_MODE1_CORR_rotateY",
+      "DIANA_SPINE_P9_L_ARM_MODE1_CORR_rotateZ",
+      "DIANA_SPINE_P9_L_ARM_MODE1_CORR_translateX",
+      "DIANA_SPINE_P9_L_ARM_MODE1_CORR_translateY",
+      "DIANA_SPINE_P9_L_ARM_MODE1_CORR_translateZ",
+      "DIANA_SPINE_P9_L_ARM_MODE2_CORR_rotateX",
+      "DIANA_SPINE_P9_L_ARM_MODE2_CORR_rotateY",
+      "DIANA_SPINE_P9_L_ARM_MODE2_CORR_rotateZ",
+      "DIANA_SPINE_P9_L_ARM_MODE2_CORR_translateX",
+      "DIANA_SPINE_P9_L_ARM_MODE2_CORR_translateY",
+      "DIANA_SPINE_P9_L_ARM_MODE2_CORR_translateZ",
+      "DIANA_SPINE_P9_MIDDLE_MODE0_CORR_rotateX",
+      "DIANA_SPINE_P9_MIDDLE_MODE0_CORR_rotateY",
+      "DIANA_SPINE_P9_MIDDLE_MODE0_CORR_rotateZ",
+      "DIANA_SPINE_P9_MIDDLE_MODE0_CORR_translateX",
+      "DIANA_SPINE_P9_MIDDLE_MODE0_CORR_translateY",
+      "DIANA_SPINE_P9_MIDDLE_MODE0_CORR_translateZ",
+      "DIANA_SPINE_P9_MIDDLE_MODE1_CORR_rotateX",
+      "DIANA_SPINE_P9_MIDDLE_MODE1_CORR_rotateY",
+      "DIANA_SPINE_P9_MIDDLE_MODE1_CORR_rotateZ",
+      "DIANA_SPINE_P9_MIDDLE_MODE1_CORR_translateX",
+      "DIANA_SPINE_P9_MIDDLE_MODE1_CORR_translateY",
+      "DIANA_SPINE_P9_MIDDLE_MODE1_CORR_translateZ",
+      "DIANA_SPINE_P9_MIDDLE_MODE2_CORR_rotateX",
+      "DIANA_SPINE_P9_MIDDLE_MODE2_CORR_rotateY",
+      "DIANA_SPINE_P9_MIDDLE_MODE2_CORR_rotateZ",
+      "DIANA_SPINE_P9_MIDDLE_MODE2_CORR_translateX",
+      "DIANA_SPINE_P9_MIDDLE_MODE2_CORR_translateY",
+      "DIANA_SPINE_P9_MIDDLE_MODE2_CORR_translateZ",
+      "DIANA_SPINE_P9_R_ARM_MODE0_CORR_rotateX",
+      "DIANA_SPINE_P9_R_ARM_MODE0_CORR_rotateY",
+      "DIANA_SPINE_P9_R_ARM_MODE0_CORR_rotateZ",
+      "DIANA_SPINE_P9_R_ARM_MODE0_CORR_translateX",
+      "DIANA_SPINE_P9_R_ARM_MODE0_CORR_translateY",
+      "DIANA_SPINE_P9_R_ARM_MODE0_CORR_translateZ",
+      "DIANA_SPINE_P9_R_ARM_MODE1_CORR_rotateX",
+      "DIANA_SPINE_P9_R_ARM_MODE1_CORR_rotateY",
+      "DIANA_SPINE_P9_R_ARM_MODE1_CORR_rotateZ",
+      "DIANA_SPINE_P9_R_ARM_MODE1_CORR_translateX",
+      "DIANA_SPINE_P9_R_ARM_MODE1_CORR_translateY",
+      "DIANA_SPINE_P9_R_ARM_MODE1_CORR_translateZ",
+      "DIANA_SPINE_P9_R_ARM_MODE2_CORR_rotateX",
+      "DIANA_SPINE_P9_R_ARM_MODE2_CORR_rotateY",
+      "DIANA_SPINE_P9_R_ARM_MODE2_CORR_rotateZ",
+      "DIANA_SPINE_P9_R_ARM_MODE2_CORR_translateX",
+      "DIANA_SPINE_P9_R_ARM_MODE2_CORR_translateY",
+      "DIANA_SPINE_P9_R_ARM_MODE2_CORR_translateZ",
+      "DIANA_SPINE_P9_SHOULDER_MODE0_CORR_rotateX",
+      "DIANA_SPINE_P9_SHOULDER_MODE0_CORR_rotateY",
+      "DIANA_SPINE_P9_SHOULDER_MODE0_CORR_rotateZ",
+      "DIANA_SPINE_P9_SHOULDER_MODE0_CORR_translateX",
+      "DIANA_SPINE_P9_SHOULDER_MODE0_CORR_translateY",
+      "DIANA_SPINE_P9_SHOULDER_MODE0_CORR_translateZ",
+      "DIANA_SPINE_P9_SHOULDER_MODE1_CORR_rotateX",
+      "DIANA_SPINE_P9_SHOULDER_MODE1_CORR_rotateY",
+      "DIANA_SPINE_P9_SHOULDER_MODE1_CORR_rotateZ",
+      "DIANA_SPINE_P9_SHOULDER_MODE1_CORR_translateX",
+      "DIANA_SPINE_P9_SHOULDER_MODE1_CORR_translateY",
+      "DIANA_SPINE_P9_SHOULDER_MODE1_CORR_translateZ",
+      "DIANA_SPINE_P9_SHOULDER_MODE2_CORR_rotateX",
+      "DIANA_SPINE_P9_SHOULDER_MODE2_CORR_rotateY",
+      "DIANA_SPINE_P9_SHOULDER_MODE2_CORR_rotateZ",
+      "DIANA_SPINE_P9_SHOULDER_MODE2_CORR_translateX",
+      "DIANA_SPINE_P9_SHOULDER_MODE2_CORR_translateY",
+      "DIANA_SPINE_P9_SHOULDER_MODE2_CORR_translateZ",
+      "FK_L_shoulder_anim_rotateX",
+      "FK_R_shoulder_anim_rotateX",
+      "IK_L_elbow_anim_translateZ",
+      "IK_R_elbow_anim_translateZ",
+      "Terminal_Spine_Mode"
+    ],
+    "pass": true,
+    "schedule": [
+      {
+        "frame": 1,
+        "mode": 0,
+        "report": {
+          "from": 0,
+          "success": true,
+          "to": 0
+        }
+      },
+      {
+        "frame": 31,
+        "mode": 1,
+        "report": {
+          "before": {
+            "HIP": [
+              2.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              2.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              2.0,
+              0.0,
+              -98.13696828837817,
+              -1.9064870914668575,
+              195.32156170271625,
+              1.0
+            ],
+            "LOWER": [
+              2.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.8680177911076425,
+              0.7144994976242626,
+              0.0,
+              0.0,
+              -0.7144994976242626,
+              1.8680177911076425,
+              0.0,
+              -98.13696828837817,
+              25.97351290853314,
+              195.32156170271625,
+              1.0
+            ],
+            "MIDDLE": [
+              1.8734162860414427,
+              0.0,
+              -0.7002224069498827,
+              0.0,
+              0.0,
+              2.0,
+              0.0,
+              0.0,
+              0.7002224069498827,
+              0.0,
+              1.8734162860414427,
+              0.0,
+              -98.13696828837817,
+              53.93751290853314,
+              195.32156170271625,
+              1.0
+            ],
+            "SHOULDER": [
+              -0.5920665691870567,
+              1.9103552490704623,
+              0.0,
+              0.0,
+              -1.9103552490704623,
+              -0.5920665691870567,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              2.0,
+              0.0,
+              -98.13696828837817,
+              86.24294163916022,
+              195.32156170271625,
+              1.0
+            ]
+          },
+          "errors": {
+            "max_matrix": 2.842170943040401e-14,
+            "max_position": 3.218344867404965e-14,
+            "max_rotation_degrees": 0.0,
+            "parts": {
+              "HIP": {
+                "matrix": 2.842170943040401e-14,
+                "position": 3.218344867404965e-14,
+                "rotation_degrees": 0.0
+              },
+              "LOWER": {
+                "matrix": 1.0658141036401503e-14,
+                "position": 1.0658141036401503e-14,
+                "rotation_degrees": 0.0
+              },
+              "MIDDLE": {
+                "matrix": 1.4210854715202004e-14,
+                "position": 1.4210854715202004e-14,
+                "rotation_degrees": 0.0
+              },
+              "SHOULDER": {
+                "matrix": 2.842170943040401e-14,
+                "position": 3.1776437161565096e-14,
+                "rotation_degrees": 0.0
+              }
+            }
+          },
+          "from": 0,
+          "keyed": true,
+          "restored": false,
+          "success": true,
+          "to": 1
+        }
+      },
+      {
+        "frame": 61,
+        "mode": 2,
+        "report": {
+          "before": {
+            "HIP": [
+              1.9799045702910645,
+              0.08824909453012841,
+              -0.2686819492544424,
+              0.0,
+              -0.04048344522253408,
+              1.9690040093635175,
+              0.3484024996656968,
+              0.0,
+              0.2798910202265671,
+              -0.33946326520700926,
+              1.951006332222304,
+              0.0,
+              -98.20500744025023,
+              5.391341365298327,
+              171.67965865020426,
+              1.0
+            ],
+            "LOWER": [
+              1.9931074412372416,
+              0.04620829089019329,
+              -0.15933462127780584,
+              0.0,
+              0.03731053533508687,
+              1.7467957674912273,
+              0.9732997845616442,
+              0.0,
+              0.16164978081563802,
+              -0.972917951590853,
+              1.7399137932192257,
+              0.0,
+              -101.55404910379397,
+              26.782937323729172,
+              183.86950523761894,
+              1.0
+            ],
+            "MIDDLE": [
+              1.8482225100298362,
+              0.08008982376432727,
+              -0.760038928969043,
+              0.0,
+              -0.017295737822088705,
+              1.9928614460772995,
+              0.1679408056187784,
+              0.0,
+              0.7640513142925682,
+              -0.14862327162357097,
+              1.8423182983023603,
+              0.0,
+              -108.61227399682106,
+              49.075659443237036,
+              192.3747657209918,
+              1.0
+            ],
+            "SHOULDER": [
+              -0.6217484151525553,
+              1.9008456575315134,
+              0.01465245709342549,
+              0.0,
+              -1.9008692409984695,
+              -0.6216285010378086,
+              -0.016557032445145344,
+              0.0,
+              -0.011181989142728001,
+              -0.01907335683817045,
+              1.9998777888105403,
+              0.0,
+              -116.97412418507538,
+              77.28942494716638,
+              195.55030240982526,
+              1.0
+            ]
+          },
+          "errors": {
+            "max_matrix": 5.684341886080802e-14,
+            "max_position": 6.598872780119333e-14,
+            "max_rotation_degrees": 0.0,
+            "parts": {
+              "HIP": {
+                "matrix": 2.842170943040401e-14,
+                "position": 2.842170943040401e-14,
+                "rotation_degrees": 0.0
+              },
+              "LOWER": {
+                "matrix": 5.684341886080802e-14,
+                "position": 6.598872780119333e-14,
+                "rotation_degrees": 0.0
+              },
+              "MIDDLE": {
+                "matrix": 2.842170943040401e-14,
+                "position": 3.256115871121665e-14,
+                "rotation_degrees": 0.0
+              },
+              "SHOULDER": {
+                "matrix": 1.4210854715202004e-14,
+                "position": 1.4210854715202004e-14,
+                "rotation_degrees": 0.0
+              }
+            }
+          },
+          "from": 1,
+          "keyed": true,
+          "restored": false,
+          "success": true,
+          "to": 2
+        }
+      },
+      {
+        "frame": 91,
+        "mode": 1,
+        "report": {
+          "before": {
+            "HIP": [
+              1.9652828480608728,
+              -0.014835998735415662,
+              -0.37073335466243745,
+              0.0,
+              0.10523163966098492,
+              1.938627472397508,
+              0.4802601641609576,
+              0.0,
+              0.35579436354726385,
+              -0.4914299710102874,
+              1.9057562683776814,
+              0.0,
+              -123.33702877442133,
+              -3.2861827924473115,
+              162.5328715594805,
+              1.0
+            ],
+            "LOWER": [
+              1.9730606100963146,
+              -0.005934931255915099,
+              -0.3271033559554922,
+              0.0,
+              0.17315858569041082,
+              1.7155567199974417,
+              1.0133514911783148,
+              0.0,
+              0.2775750945024687,
+              -1.028022332959068,
+              1.6929625364577152,
+              0.0,
+              -122.67174664633427,
+              23.419821083611716,
+              172.04892210978198,
+              1.0
+            ],
+            "MIDDLE": [
+              1.9171631469250172,
+              -0.17140497164442212,
+              -0.5432364160916854,
+              0.0,
+              0.10527670172387879,
+              1.9810689077558683,
+              -0.25354052693230456,
+              0.0,
+              0.5598234401547556,
+              0.21444420817206555,
+              1.908038625771174,
+              0.0,
+              -121.79726830496637,
+              44.93590648700163,
+              200.767106141282,
+              1.0
+            ],
+            "SHOULDER": [
+              -0.1284200756505802,
+              1.9957218689527174,
+              0.024545996695396265,
+              0.0,
+              -1.9958254730993465,
+              -0.12823790906995652,
+              -0.015353162707862853,
+              0.0,
+              -0.013746457640707775,
+              -0.025480589891851833,
+              1.9997904326306533,
+              0.0,
+              -121.7505383795552,
+              70.29983773584131,
+              195.51976166003928,
+              1.0
+            ]
+          },
+          "errors": {
+            "max_matrix": 5.684341886080802e-14,
+            "max_position": 7.140866117879973e-14,
+            "max_rotation_degrees": 0.0,
+            "parts": {
+              "HIP": {
+                "matrix": 2.842170943040401e-14,
+                "position": 3.552713678800501e-14,
+                "rotation_degrees": 0.0
+              },
+              "LOWER": {
+                "matrix": 1.0658141036401503e-14,
+                "position": 1.0658141036401503e-14,
+                "rotation_degrees": 0.0
+              },
+              "MIDDLE": {
+                "matrix": 5.684341886080802e-14,
+                "position": 7.140866117879973e-14,
+                "rotation_degrees": 0.0
+              },
+              "SHOULDER": {
+                "matrix": 4.440892098500626e-16,
+                "position": 0.0,
+                "rotation_degrees": 0.0
+              }
+            }
+          },
+          "from": 2,
+          "keyed": true,
+          "restored": false,
+          "success": true,
+          "to": 1
+        }
+      },
+      {
+        "frame": 121,
+        "mode": 0,
+        "report": {
+          "before": {
+            "HIP": [
+              1.972269921617743,
+              -0.16388705493181396,
+              -0.28860420909563544,
+              0.0,
+              0.2161695340663246,
+              1.9539936825597493,
+              0.36766754148025776,
+              0.0,
+              0.25183742538290255,
+              -0.3937635353132202,
+              1.9446151777238974,
+              0.0,
+              -147.22040034712694,
+              -15.744610047145002,
+              169.91667908131146,
+              1.0
+            ],
+            "LOWER": [
+              1.9765190670269421,
+              -0.11101139997485471,
+              -0.28469079148186005,
+              0.0,
+              0.23302643216052954,
+              1.7529381971464268,
+              0.9342945782244315,
+              0.0,
+              0.19766400682339513,
+              -0.9564957637442297,
+              1.745292180222516,
+              0.0,
+              -138.7724913792599,
+              18.632781428102064,
+              175.24933122525155,
+              1.0
+            ],
+            "MIDDLE": [
+              1.913208255046833,
+              -0.25461296299330677,
+              -0.5242198125752402,
+              0.0,
+              0.1767941196224564,
+              1.9678191514916956,
+              -0.3105344204583841,
+              0.0,
+              0.5553179378406318,
+              0.25071901822213805,
+              1.904930959855017,
+              0.0,
+              -125.05464839127416,
+              48.147336842156136,
+              201.57584411633553,
+              1.0
+            ],
+            "SHOULDER": [
+              -0.046378963462709664,
+              1.999417644983928,
+              0.013344387398700672,
+              0.0,
+              -1.999451826144265,
+              -0.04633474351437296,
+              -0.006744365931672101,
+              0.0,
+              -0.00643324774026923,
+              -0.013497128227116368,
+              1.9999441094323442,
+              0.0,
+              -110.3189036212382,
+              78.80534643134851,
+              195.40536886643926,
+              1.0
+            ]
+          },
+          "errors": {
+            "max_matrix": 2.842170943040401e-14,
+            "max_position": 2.842170943040401e-14,
+            "max_rotation_degrees": 0.0,
+            "parts": {
+              "HIP": {
+                "matrix": 2.220446049250313e-16,
+                "position": 0.0,
+                "rotation_degrees": 0.0
+              },
+              "LOWER": {
+                "matrix": 2.842170943040401e-14,
+                "position": 2.842170943040401e-14,
+                "rotation_degrees": 0.0
+              },
+              "MIDDLE": {
+                "matrix": 2.842170943040401e-14,
+                "position": 2.842170943040401e-14,
+                "rotation_degrees": 0.0
+              },
+              "SHOULDER": {
+                "matrix": 1.4210854715202004e-14,
+                "position": 1.4210854715202004e-14,
+                "rotation_degrees": 0.0
+              }
+            }
+          },
+          "from": 1,
+          "keyed": true,
+          "restored": false,
+          "success": true,
+          "to": 0
+        }
+      },
+      {
+        "frame": 151,
+        "mode": 2,
+        "report": {
+          "before": {
+            "HIP": [
+              1.9722699216177433,
+              -0.163887054931814,
+              -0.28860420909563556,
+              0.0,
+              0.2161695340663244,
+              1.9539936825597495,
+              0.36766754148025776,
+              0.0,
+              0.25183742538290244,
+              -0.39376353531322,
+              1.9446151777238976,
+              0.0,
+              -147.22040034712694,
+              -15.744610047145002,
+              169.91667908131146,
+              1.0
+            ],
+            "LOWER": [
+              1.9765190670269424,
+              -0.20818377663623946,
+              -0.22367810090488863,
+              0.0,
+              0.2330264321605296,
+              1.973942987394973,
+              0.22191837334647102,
+              0.0,
+              0.19766400682339536,
+              -0.24537440302460628,
+              1.9750241372567674,
+              0.0,
+              -138.77249137925992,
+              11.747333126923186,
+              179.37174716368267,
+              1.0
+            ],
+            "MIDDLE": [
+              1.9772119020713306,
+              -0.2546129629933068,
+              -0.1606403852810393,
+              0.0,
+              0.23127215344498442,
+              1.9678191514916954,
+              -0.27239856472350116,
+              0.0,
+              0.19273371616920432,
+              0.25071901822213805,
+              1.9748401678498784,
+              0.0,
+              -125.7473968289828,
+              48.147336842156136,
+              196.479916758524,
+              1.0
+            ],
+            "SHOULDER": [
+              0.4006939154392786,
+              1.959404581360086,
+              0.013344387398700674,
+              0.0,
+              -1.959428039834906,
+              0.40074464467652876,
+              -0.006744365931672102,
+              0.0,
+              -0.009281316645702725,
+              -0.011722470225558355,
+              1.9999441094323445,
+              0.0,
+              -111.67080790745806,
+              81.70944893548564,
+              195.40536886643926,
+              1.0
+            ]
+          },
+          "errors": {
+            "max_matrix": 5.684341886080802e-14,
+            "max_position": 6.355287432313019e-14,
+            "max_rotation_degrees": 0.0,
+            "parts": {
+              "HIP": {
+                "matrix": 1.5987211554602254e-14,
+                "position": 1.5987211554602254e-14,
+                "rotation_degrees": 0.0
+              },
+              "LOWER": {
+                "matrix": 5.684341886080802e-14,
+                "position": 6.355287432313019e-14,
+                "rotation_degrees": 0.0
+              },
+              "MIDDLE": {
+                "matrix": 1.4210854715202004e-14,
+                "position": 1.4210854715202004e-14,
+                "rotation_degrees": 0.0
+              },
+              "SHOULDER": {
+                "matrix": 2.842170943040401e-14,
+                "position": 3.4809342861069267e-14,
+                "rotation_degrees": 0.0
+              }
+            }
+          },
+          "from": 0,
+          "keyed": true,
+          "restored": false,
+          "success": true,
+          "to": 2
+        }
+      },
+      {
+        "frame": 181,
+        "mode": 0,
+        "report": {
+          "before": {
+            "HIP": [
+              1.9792859162648362,
+              -0.28137025824574496,
+              0.05707923834802301,
+              0.0,
+              0.2840187558423231,
+              1.9770588979520831,
+              -0.102817607238611,
+              0.0,
+              -0.041959599681674564,
+              0.10985850810573261,
+              1.996539631510313,
+              0.0,
+              -125.36358524129614,
+              -25.75944809428041,
+              199.75940245343398,
+              1.0
+            ],
+            "LOWER": [
+              1.9088573764874628,
+              -0.33511304987907486,
+              -0.49392586491309,
+              0.0,
+              0.22199060675156673,
+              1.9348987244195675,
+              -0.45484843272633235,
+              0.0,
+              0.5540610857509038,
+              0.37929694177553586,
+              1.8839188260687494,
+              0.0,
+              -118.61791341293844,
+              2.4597817128316137,
+              162.51141631237564,
+              1.0
+            ],
+            "MIDDLE": [
+              1.9568440323967558,
+              -0.3563388338534419,
+              -0.2092464297453434,
+              0.0,
+              0.336509154819147,
+              1.9619115166312178,
+              -0.1940741858998698,
+              0.0,
+              0.23983957470798486,
+              0.1546797866489445,
+              1.9795330616097653,
+              0.0,
+              -95.42073887681308,
+              41.48397666559312,
+              195.20772659315656,
+              1.0
+            ],
+            "SHOULDER": [
+              0.4585330485601908,
+              1.9467159588982668,
+              0.0066647392223295665,
+              0.0,
+              -1.946719962707058,
+              0.458547502669394,
+              -0.003946465950016438,
+              0.0,
+              -0.005369373886243794,
+              -0.005582397913622827,
+              1.9999850016081628,
+              0.0,
+              -74.016044235112,
+              75.3108490724283,
+              195.4212351071768,
+              1.0
+            ]
+          },
+          "errors": {
+            "max_matrix": 2.842170943040401e-14,
+            "max_position": 3.1776437161565096e-14,
+            "max_rotation_degrees": 0.0,
+            "parts": {
+              "HIP": {
+                "matrix": 1.4210854715202004e-14,
+                "position": 1.4210854715202004e-14,
+                "rotation_degrees": 0.0
+              },
+              "LOWER": {
+                "matrix": 2.842170943040401e-14,
+                "position": 3.1776437161565096e-14,
+                "rotation_degrees": 0.0
+              },
+              "MIDDLE": {
+                "matrix": 2.842170943040401e-14,
+                "position": 3.1776437161565096e-14,
+                "rotation_degrees": 0.0
+              },
+              "SHOULDER": {
+                "matrix": 4.440892098500626e-16,
+                "position": 0.0,
+                "rotation_degrees": 0.0
+              }
+            }
+          },
+          "from": 2,
+          "keyed": true,
+          "restored": false,
+          "success": true,
+          "to": 0
+        }
+      },
+      {
+        "frame": 211,
+        "mode": 1,
+        "report": {
+          "before": {
+            "HIP": [
+              1.9792859162648362,
+              -0.281370258245745,
+              0.057079238348023024,
+              0.0,
+              0.2840187558423234,
+              1.9770588979520831,
+              -0.10281760723861107,
+              0.0,
+              -0.04195959968167455,
+              0.10985850810573265,
+              1.996539631510313,
+              0.0,
+              -125.36358524129612,
+              -25.75944809428041,
+              199.75940245343398,
+              1.0
+            ],
+            "LOWER": [
+              1.908857376487463,
+              -0.3719633229531591,
+              -0.4668048870856466,
+              0.0,
+              0.22199060675156668,
+              1.8943722274157175,
+              -0.6017258798739535,
+              0.0,
+              0.5540610857509042,
+              0.522491292151033,
+              1.8493293819335896,
+              0.0,
+              -118.61791341293842,
+              0.015600498596764822,
+              164.40897561554024,
+              1.0
+            ],
+            "MIDDLE": [
+              1.7369125262577794,
+              -0.35633883385344195,
+              -0.9252877993450402,
+              0.0,
+              0.23961596283596495,
+              1.961911516631218,
+              -0.3057570788452614,
+              0.0,
+              0.9621429553257728,
+              0.15467978664894458,
+              1.746526580707899,
+              0.0,
+              -95.6600249150872,
+              41.48397666559312,
+              194.20102068431052,
+              1.0
+            ],
+            "SHOULDER": [
+              -0.07182111392067844,
+              1.9986989039988718,
+              0.006664739222329399,
+              0.0,
+              -1.9987065826383865,
+              -0.0718082302002182,
+              -0.003946465950016475,
+              0.0,
+              -0.0037046070203326717,
+              -0.006802148867909112,
+              1.999985001608163,
+              0.0,
+              -71.98539661526976,
+              82.06862443783214,
+              195.4212351071768,
+              1.0
+            ]
+          },
+          "errors": {
+            "max_matrix": 2.842170943040401e-14,
+            "max_position": 3.1776437161565096e-14,
+            "max_rotation_degrees": 0.0,
+            "parts": {
+              "HIP": {
+                "matrix": 2.842170943040401e-14,
+                "position": 3.1776437161565096e-14,
+                "rotation_degrees": 0.0
+              },
+              "LOWER": {
+                "matrix": 2.842170943040401e-14,
+                "position": 3.03543989777123e-14,
+                "rotation_degrees": 0.0
+              },
+              "MIDDLE": {
+                "matrix": 1.4210854715202004e-14,
+                "position": 1.5888218580782548e-14,
+                "rotation_degrees": 0.0
+              },
+              "SHOULDER": {
+                "matrix": 2.842170943040401e-14,
+                "position": 3.1776437161565096e-14,
+                "rotation_degrees": 0.0
+              }
+            }
+          },
+          "from": 0,
+          "keyed": true,
+          "restored": false,
+          "success": true,
+          "to": 1
+        }
+      },
+      {
+        "frame": 241,
+        "mode": 2,
+        "report": {
+          "before": {
+            "HIP": [
+              1.9514081749893772,
+              -0.296305636251858,
+              0.3228143499133974,
+              0.0,
+              0.36824747831820115,
+              1.907510889838818,
+              -0.4751799657588761,
+              0.0,
+              -0.23748669288386198,
+              0.5230728200467906,
+              1.9157230738369737,
+              0.0,
+              -132.04050854059776,
+              -26.66621212438349,
+              218.94382404493638,
+              1.0
+            ],
+            "LOWER": [
+              1.922991643299113,
+              -0.47366947674257665,
+              -0.2788195950864819,
+              0.0,
+              0.3055986150471758,
+              1.764682736288619,
+              -0.8902271208664445,
+              0.0,
+              0.4568507702554786,
+              0.8133462159789797,
+              1.76911144551994,
+              0.0,
+              -118.15170924372639,
+              -6.214402390320082,
+              174.26741416687864,
+              1.0
+            ],
+            "MIDDLE": [
+              1.7547152912181776,
+              -0.4584170899015568,
+              -0.8431061727038266,
+              0.0,
+              0.2779107373255272,
+              1.9245105684644612,
+              -0.4680007413966101,
+              0.0,
+              0.9185531388244716,
+              0.293449899565126,
+              1.7521835770263707,
+              0.0,
+              -89.94694359676774,
+              41.20360652963695,
+              195.24036955524812,
+              1.0
+            ],
+            "SHOULDER": [
+              -0.04539367377981129,
+              1.999426020324663,
+              0.01532982809598957,
+              0.0,
+              -1.999456300863025,
+              -0.0453098422638237,
+              -0.011023571706813756,
+              0.0,
+              -0.010673112007278676,
+              -0.01557586089781042,
+              1.9999108673231845,
+              0.0,
+              -59.20860531792674,
+              83.12963470201302,
+              195.37115428036054,
+              1.0
+            ]
+          },
+          "errors": {
+            "max_matrix": 2.842170943040401e-14,
+            "max_position": 4.081757258616412e-14,
+            "max_rotation_degrees": 0.0,
+            "parts": {
+              "HIP": {
+                "matrix": 2.842170943040401e-14,
+                "position": 4.081757258616412e-14,
+                "rotation_degrees": 0.0
+              },
+              "LOWER": {
+                "matrix": 2.842170943040401e-14,
+                "position": 3.03543989777123e-14,
+                "rotation_degrees": 0.0
+              },
+              "MIDDLE": {
+                "matrix": 2.842170943040401e-14,
+                "position": 4.081757258616412e-14,
+                "rotation_degrees": 0.0
+              },
+              "SHOULDER": {
+                "matrix": 2.842170943040401e-14,
+                "position": 3.1776437161565096e-14,
+                "rotation_degrees": 0.0
+              }
+            }
+          },
+          "from": 1,
+          "keyed": true,
+          "restored": false,
+          "success": true,
+          "to": 2
+        }
+      },
+      {
+        "frame": 271,
+        "mode": 1,
+        "report": {
+          "before": {
+            "HIP": [
+              1.934322105754758,
+              -0.2531169499305372,
+              0.44082853905610464,
+              0.0,
+              0.38832657100515766,
+              1.8550225889149634,
+              -0.6388220948484818,
+              0.0,
+              -0.32802509879558617,
+              0.7034365673414256,
+              1.843251618821222,
+              0.0,
+              -159.66346291390553,
+              -23.315579730943067,
+              227.21285018732667,
+              1.0
+            ],
+            "LOWER": [
+              1.959605343499829,
+              -0.16968157653653623,
+              0.3621533657319677,
+              0.0,
+              0.29616507054243907,
+              1.832757260312373,
+              -0.7438326933947428,
+              0.0,
+              -0.2687622531485939,
+              0.7824378488776991,
+              1.820867338365464,
+              0.0,
+              -137.3075665946219,
+              12.064294830733678,
+              208.393850136579,
+              1.0
+            ],
+            "MIDDLE": [
+              1.783875636198588,
+              -0.46941786351170556,
+              -0.7729389264315722,
+              0.0,
+              0.23926389323873146,
+              1.8935228739251824,
+              -0.5977657696074316,
+              0.0,
+              0.8720897338974537,
+              0.44070170789120566,
+              1.7450620334797393,
+              0.0,
+              -108.60813590486175,
+              47.39149007439764,
+              196.1081941049748,
+              1.0
+            ],
+            "SHOULDER": [
+              -0.3747884512000983,
+              1.9644895369788709,
+              0.017733469699187696,
+              0.0,
+              -1.9645216478589151,
+              -0.37463793529571926,
+              -0.01735259436082452,
+              0.0,
+              -0.013722679793772726,
+              -0.02067066854025067,
+              1.9998460969588074,
+              0.0,
+              -74.73769174707331,
+              87.74408831003642,
+              195.2925855727943,
+              1.0
+            ]
+          },
+          "errors": {
+            "max_matrix": 3.552713678800501e-14,
+            "max_position": 4.5496934130773415e-14,
+            "max_rotation_degrees": 2.4148365394514667e-06,
+            "parts": {
+              "HIP": {
+                "matrix": 3.552713678800501e-14,
+                "position": 4.5496934130773415e-14,
+                "rotation_degrees": 2.4148365394514667e-06
+              },
+              "LOWER": {
+                "matrix": 5.329070518200751e-15,
+                "position": 5.329070518200751e-15,
+                "rotation_degrees": 0.0
+              },
+              "MIDDLE": {
+                "matrix": 1.4210854715202004e-14,
+                "position": 1.5888218580782548e-14,
+                "rotation_degrees": 0.0
+              },
+              "SHOULDER": {
+                "matrix": 1.4210854715202004e-14,
+                "position": 1.4210854715202004e-14,
+                "rotation_degrees": 0.0
+              }
+            }
+          },
+          "from": 2,
+          "keyed": true,
+          "restored": false,
+          "success": true,
+          "to": 1
+        }
+      },
+      {
+        "frame": 301,
+        "mode": 0,
+        "report": {
+          "before": {
+            "HIP": [
+              1.9507791201618887,
+              -0.20266916946853947,
+              0.39164528860608366,
+              0.0,
+              0.3110990014967513,
+              1.8913980552618952,
+              -0.5708159141257763,
+              0.0,
+              -0.3125351749933669,
+              0.6176881124794725,
+              1.8763750051877721,
+              0.0,
+              -181.21697531299668,
+              -19.620967217245827,
+              223.7881883500552,
+              1.0
+            ],
+            "LOWER": [
+              1.969100405878096,
+              -0.11073973533779718,
+              0.33223531207267976,
+              0.0,
+              0.22078334696088045,
+              1.865362909883289,
+              -0.6867866685780242,
+              0.0,
+              -0.2718424272910094,
+              0.7128519660133259,
+              1.8487681761852859,
+              0.0,
+              -163.33207118107876,
+              16.05803448242344,
+              206.87519402832683,
+              1.0
+            ],
+            "MIDDLE": [
+              1.7970108573453778,
+              -0.3816734276293355,
+              -0.7906183486515505,
+              0.0,
+              0.15675177358690562,
+              1.911654701301846,
+              -0.5665731942722934,
+              0.0,
+              0.863817608098023,
+              0.44710367660334105,
+              1.747546120223322,
+              0.0,
+              -141.41230158648466,
+              51.38529122828446,
+              195.93775929508922,
+              1.0
+            ],
+            "SHOULDER": [
+              -0.4658774605408348,
+              1.944916561875097,
+              0.016054877887286753,
+              0.0,
+              -1.944945714496665,
+              -0.46575071665583434,
+              -0.016199925790992213,
+              0.0,
+              -0.012014966545111284,
+              -0.019386523116051525,
+              1.9998699465966254,
+              0.0,
+              -115.24961629355748,
+              91.59662140486493,
+              195.2990578826897,
+              1.0
+            ]
+          },
+          "errors": {
+            "max_matrix": 5.684341886080802e-14,
+            "max_position": 5.728578676879116e-14,
+            "max_rotation_degrees": 2.4148365394514667e-06,
+            "parts": {
+              "HIP": {
+                "matrix": 6.661338147750939e-16,
+                "position": 0.0,
+                "rotation_degrees": 1.7075472925031877e-06
+              },
+              "LOWER": {
+                "matrix": 2.842170943040401e-14,
+                "position": 3.351623381340333e-14,
+                "rotation_degrees": 2.4148365394514667e-06
+              },
+              "MIDDLE": {
+                "matrix": 5.684341886080802e-14,
+                "position": 5.728578676879116e-14,
+                "rotation_degrees": 0.0
+              },
+              "SHOULDER": {
+                "matrix": 1.4210854715202004e-14,
+                "position": 2.0097183471152322e-14,
+                "rotation_degrees": 0.0
+              }
+            }
+          },
+          "from": 1,
+          "keyed": true,
+          "restored": false,
+          "success": true,
+          "to": 0
+        }
+      },
+      {
+        "frame": 331,
+        "mode": 2,
+        "report": {
+          "before": {
+            "HIP": [
+              1.950779120161888,
+              -0.2026691694685394,
+              0.3916452886060834,
+              0.0,
+              0.31109900149675107,
+              1.8913980552618952,
+              -0.5708159141257761,
+              0.0,
+              -0.31253517499336686,
+              0.6176881124794725,
+              1.8763750051877721,
+              0.0,
+              -181.21697531299668,
+              -19.620967217245827,
+              223.7881883500552,
+              1.0
+            ],
+            "LOWER": [
+              1.9691004058780963,
+              -0.17723642147454316,
+              0.3020444379120636,
+              0.0,
+              0.22078334696088078,
+              1.9672414717601143,
+              -0.28498369337885043,
+              0.0,
+              -0.2718424272910093,
+              0.3139239441170384,
+              1.956413415419792,
+              0.0,
+              -163.33207118107876,
+              13.87744222891504,
+              204.56754496290682,
+              1.0
+            ],
+            "MIDDLE": [
+              1.9608088270932886,
+              -0.3816734276293355,
+              -0.0977452721860066,
+              0.0,
+              0.3485061473947259,
+              1.911654701301846,
+              -0.47341289401392084,
+              0.0,
+              0.18377216552331221,
+              0.4471036766033407,
+              1.9407024742465415,
+              0.0,
+              -138.78637671551394,
+              51.385291228284466,
+              180.46357509419644,
+              1.0
+            ],
+            "SHOULDER": [
+              0.15498364703298229,
+              1.9939213399852012,
+              0.016054877887286795,
+              0.0,
+              -1.993910091636571,
+              0.1551132130871104,
+              -0.016199925790992054,
+              0.0,
+              -0.017395850717826976,
+              -0.014750629729351174,
+              1.9998699465966256,
+              0.0,
+              -112.77304203725686,
+              96.60102804545497,
+              195.2990578826897,
+              1.0
+            ]
+          },
+          "errors": {
+            "max_matrix": 5.684341886080802e-14,
+            "max_position": 6.365209823104904e-14,
+            "max_rotation_degrees": 1.7075472925031877e-06,
+            "parts": {
+              "HIP": {
+                "matrix": 2.842170943040401e-14,
+                "position": 2.842170943040401e-14,
+                "rotation_degrees": 1.7075472925031877e-06
+              },
+              "LOWER": {
+                "matrix": 5.684341886080802e-14,
+                "position": 6.365209823104904e-14,
+                "rotation_degrees": 0.0
+              },
+              "MIDDLE": {
+                "matrix": 2.842170943040401e-14,
+                "position": 3.552713678800501e-14,
+                "rotation_degrees": 0.0
+              },
+              "SHOULDER": {
+                "matrix": 1.4210854715202004e-14,
+                "position": 2.0097183471152322e-14,
+                "rotation_degrees": 0.0
+              }
+            }
+          },
+          "from": 0,
+          "keyed": true,
+          "restored": false,
+          "success": true,
+          "to": 2
+        }
+      }
+    ],
+    "tracked_nodes": [
+      "DIANA_SPINE_DEFORM_HIP_FINAL_PROXY",
+      "DIANA_SPINE_DEFORM_LOWER_FINAL_PROXY",
+      "DIANA_SPINE_DEFORM_MIDDLE_FINAL_PROXY",
+      "DIANA_SPINE_DEFORM_SHOULDER_FINAL_PROXY",
+      "L_clavice_jnt",
+      "R_clavice_jnt",
+      "FK_L_shoulder_anim",
+      "FK_R_shoulder_anim",
+      "IK_L_elbow_anim",
+      "IK_R_elbow_anim",
+      "IK_L_hand_anim_const",
+      "IK_R_hand_anim_const",
+      "neck_root_jnt",
+      "head_jnt",
+      "hair_short_back_jnt_1",
+      "FK_L_ankle_anim",
+      "FK_L_ankle_anim_ZERO",
+      "FK_L_knee_anim",
+      "FK_L_knee_anim_ZERO",
+      "FK_R_ankle_anim",
+      "FK_R_ankle_anim_ZERO",
+      "FK_R_knee_anim",
+      "FK_R_knee_anim_ZERO",
+      "L_LEG_PV_GUIDE_KNEE_CLSHandle",
+      "L_LEG_PV_GUIDE_KNEE_CLS_PC",
+      "L_LEG_PV_GUIDE_KNEE_LOC",
+      "L_LEG_PV_GUIDE_KNEE_PC",
+      "L_Leg_SETTING_ANKLE_PC",
+      "L_ankle_jnt",
+      "L_ankle_jnt_FK_ORC",
+      "L_ankle_jntik_Handle",
+      "L_ankle_jntik_Handle_effector",
+      "L_ankle_jntik_Handle_effector_1",
+      "L_i_K_Foot_anim",
+      "L_i_K_Knee_anim",
+      "L_i_K_Toe_pivot_anim",
+      "L_i_K_Toe_wiggle_anim",
+      "L_knee_jnt",
+      "L_knee_jnt_FK_ORC",
+      "L_toe_jnt",
+      "L_toe_jntik_Handle",
+      "L_toe_jntik_Handle_effector",
+      "L_toe_jntik_Handle_effector_1",
+      "L_weapon_socket_LOC",
+      "L_weapon_socket_LOCW_0",
+      "R_LEG_PV_GUIDE_KNEE_CLSHandle",
+      "R_LEG_PV_GUIDE_KNEE_CLS_PC",
+      "R_LEG_PV_GUIDE_KNEE_LOC",
+      "R_LEG_PV_GUIDE_KNEE_PC",
+      "R_Leg_SETTING_ANKLE_PC",
+      "R_ankle_jnt",
+      "R_ankle_jnt_FK_ORC",
+      "R_ankle_jntik_Handle",
+      "R_i_K_Foot_anim",
+      "R_i_K_Knee_anim"
+    ],
+    "twist_plugs": [
+      "DIANA_SPINE_IK_HIP_CTRL.rotateY"
+    ],
+    "unexpected_flips": []
+  },
+  "facial": {
+    "motion": 0.01745240650866181,
+    "node": "DIANA_Eyes_Main_anim",
+    "pass": true,
+    "plug": "DIANA_Eyes_Main_anim.rotateX"
+  },
+  "hand_space": {
+    "L": {
+      "body_motion": 26.281487201811615,
+      "pass": true,
+      "world_error": 0.0
+    },
+    "R": {
+      "body_motion": 26.28148720181163,
+      "pass": true,
+      "world_error": 0.0
+    }
+  },
+  "legs": {
+    "motion": 0.03488821470748982,
+    "node": "FK_L_knee_anim",
+    "pass": true,
+    "plug": "FK_L_knee_anim.rotateX"
+  },
+  "missing_required_nodes": [],
+  "new_cycle_nodes": [],
+  "phase10_complete": true,
+  "rc_hash_after": "9f53ad5457bbefc2f039bf8877a3a920e0788d92d6488ff92f127ee7710cb5e7",
+  "rc_hash_before": "9f53ad5457bbefc2f039bf8877a3a920e0788d92d6488ff92f127ee7710cb5e7",
+  "rc_scene": "C:\\Users\\draco\\OneDrive\\ドキュメント\\GitHub\\Diana-Character-Rig\\dist\\Character_spine37_SPINE_RC01.ma",
+  "rc_size_bytes": 31990268,
+  "reverse_foot": {
+    "motion": 0.07652658488913744,
+    "node": "L_i_K_Foot_anim",
+    "pass": true,
+    "plug": "L_i_K_Foot_anim.rotateX"
+  },
+  "save_reload": [
+    {
+      "index": 1,
+      "new_cycle_nodes": [],
+      "root": true,
+      "structure_equal": true
+    },
+    {
+      "index": 2,
+      "new_cycle_nodes": [],
+      "root": true,
+      "structure_equal": true
+    },
+    {
+      "index": 3,
+      "new_cycle_nodes": [],
+      "root": true,
+      "structure_equal": true
+    }
+  ],
+  "snap_cases": [
+    {
+      "attachment_error": 1.4210854715202004e-13,
+      "from": 0,
+      "match": {
+        "before": {
+          "HIP": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            -1.9064870914668575,
+            195.32156170271625,
+            1.0
+          ],
+          "LOWER": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.8270909152852017,
+            0.8134732861516003,
+            0.0,
+            0.0,
+            -0.8134732861516003,
+            1.8270909152852017,
+            0.0,
+            -98.13696828837817,
+            25.97351290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "MIDDLE": [
+            1.9126095119260709,
+            0.0,
+            0.5847434094454735,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            -0.5847434094454735,
+            0.0,
+            1.9126095119260709,
+            0.0,
+            -98.13696828837817,
+            53.93751290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "SHOULDER": [
+            -0.44990210868773,
+            1.9487401295704705,
+            0.0,
+            0.0,
+            -1.9487401295704705,
+            -0.44990210868773,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            86.24294163916022,
+            195.32156170271625,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 2.842170943040401e-14,
+          "max_position": 4.0194366942304644e-14,
+          "max_rotation_degrees": 1.7075472925031877e-06,
+          "parts": {
+            "HIP": {
+              "matrix": 1.7763568394002505e-15,
+              "position": 1.7763568394002505e-15,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 1.0658141036401503e-14,
+              "position": 1.0658141036401503e-14,
+              "rotation_degrees": 1.7075472925031877e-06
+            },
+            "MIDDLE": {
+              "matrix": 2.220446049250313e-16,
+              "position": 0.0,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 4.0194366942304644e-14,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 0,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 1
+      },
+      "pass": true,
+      "post_snap_motion": 4.180646134842505,
+      "to": 1
+    },
+    {
+      "attachment_error": 9.947598300641403e-14,
+      "from": 1,
+      "match": {
+        "before": {
+          "HIP": [
+            1.6636902562285762,
+            1.110015644633036,
+            0.0,
+            0.0,
+            -1.110015644633036,
+            1.6636902562285762,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -78.13697052001953,
+            -1.9064871072769165,
+            195.32156372070312,
+            1.0
+          ],
+          "LOWER": [
+            1.4599056976574065,
+            1.3669950087500105,
+            0.0,
+            0.0,
+            -1.3669950087500105,
+            1.4599056976574065,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -96.10401153564453,
+            25.022493362426758,
+            195.32156372070312,
+            1.0
+          ],
+          "MIDDLE": [
+            1.2424376599448104,
+            1.5672742775758377,
+            0.0,
+            0.0,
+            -1.5672742775758377,
+            1.2424376599448104,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -126.80912780761719,
+            50.07377243041992,
+            195.32156372070312,
+            1.0
+          ],
+          "SHOULDER": [
+            -1.582644215993518,
+            1.2227989555042418,
+            0.0,
+            0.0,
+            -1.2227989555042418,
+            -1.582644215993518,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -162.12789916992188,
+            77.36213684082031,
+            195.32156372070312,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 5.684341886080802e-14,
+          "max_position": 5.859285502108464e-14,
+          "max_rotation_degrees": 0.0,
+          "parts": {
+            "HIP": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.4212589332811784e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 7.105427357601002e-15,
+              "position": 7.105427357601002e-15,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 7.105427357601002e-15,
+              "position": 7.105427357601002e-15,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 5.684341886080802e-14,
+              "position": 5.859285502108464e-14,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 1,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 0
+      },
+      "pass": true,
+      "post_snap_motion": 1.0006439353659857,
+      "to": 0
+    },
+    {
+      "attachment_error": 1.1368683772161603e-13,
+      "from": 0,
+      "match": {
+        "before": {
+          "HIP": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            -1.9064870914668575,
+            195.32156170271625,
+            1.0
+          ],
+          "LOWER": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.8270909152852017,
+            0.8134732861516003,
+            0.0,
+            0.0,
+            -0.8134732861516003,
+            1.8270909152852017,
+            0.0,
+            -98.13696828837817,
+            25.97351290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "MIDDLE": [
+            1.9126095119260709,
+            0.0,
+            0.5847434094454735,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            -0.5847434094454735,
+            0.0,
+            1.9126095119260709,
+            0.0,
+            -98.13696828837817,
+            53.93751290853314,
+            195.32156170271625,
+            1.0
+          ],
+          "SHOULDER": [
+            -0.44990210868773,
+            1.9487401295704705,
+            0.0,
+            0.0,
+            -1.9487401295704705,
+            -0.44990210868773,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -98.13696828837817,
+            86.24294163916022,
+            195.32156170271625,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 2.842170943040401e-14,
+          "max_position": 3.197442310920451e-14,
+          "max_rotation_degrees": 2.4148365394514667e-06,
+          "parts": {
+            "HIP": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.197442310920451e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.197442310920451e-14,
+              "rotation_degrees": 2.4148365394514667e-06
+            },
+            "MIDDLE": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.1776437161565096e-14,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 8.326672684688674e-16,
+              "position": 0.0,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 0,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 2
+      },
+      "pass": true,
+      "post_snap_motion": 2.2278413581964855,
+      "to": 2
+    },
+    {
+      "attachment_error": 8.526512829121202e-14,
+      "from": 2,
+      "match": {
+        "before": {
+          "HIP": [
+            1.6636902564029619,
+            1.1100156443716669,
+            0.0,
+            0.0,
+            -1.1100156443716669,
+            1.6636902564029619,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -78.13697052001953,
+            -1.906502366065979,
+            195.32156372070312,
+            1.0
+          ],
+          "LOWER": [
+            1.4599059911647179,
+            1.36699469529378,
+            1.6932019705292498e-07,
+            0.0,
+            -1.2488117256384355,
+            1.3336903125048094,
+            0.8134736776557534,
+            0.0,
+            0.5560069881479153,
+            -0.5937976535567391,
+            1.8270907409762644,
+            0.0,
+            -96.10401916503906,
+            25.022489547729492,
+            195.32156372070312,
+            1.0
+          ],
+          "MIDDLE": [
+            1.1881497124603018,
+            1.4987913149903778,
+            0.5847434094454735,
+            0.0,
+            -1.5672737227799705,
+            1.2424383597923128,
+            0.0,
+            0.0,
+            -0.36325382126539946,
+            -0.45822649009632993,
+            1.9126095119260709,
+            0.0,
+            -126.80913543701172,
+            50.073787689208984,
+            195.3215789794922,
+            1.0
+          ],
+          "SHOULDER": [
+            -1.8171506352254532,
+            0.8354421397675507,
+            -5.906931656382423e-07,
+            0.0,
+            -0.8354421397676925,
+            -1.8171506352254205,
+            4.809787695003604e-07,
+            0.0,
+            -3.357742643943509e-07,
+            6.837504193872508e-07,
+            1.999999999999855,
+            0.0,
+            -162.12789916992188,
+            77.36217498779297,
+            195.32156372070312,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 2.842170943040401e-14,
+          "max_position": 2.842170943040401e-14,
+          "max_rotation_degrees": 1.7075472925031877e-06,
+          "parts": {
+            "HIP": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.4212589332811784e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 1.0658141036401503e-14,
+              "position": 1.0658141036401503e-14,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 7.105427357601002e-15,
+              "position": 7.105427357601002e-15,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 2.842170943040401e-14,
+              "rotation_degrees": 1.7075472925031877e-06
+            }
+          }
+        },
+        "from": 2,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 0
+      },
+      "pass": true,
+      "post_snap_motion": 1.000644192332743,
+      "to": 0
+    },
+    {
+      "attachment_error": 1.1368683772161603e-13,
+      "from": 1,
+      "match": {
+        "before": {
+          "HIP": [
+            1.6636902562285762,
+            1.110015644633036,
+            0.0,
+            0.0,
+            -1.110015644633036,
+            1.6636902562285762,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -78.13697052001953,
+            -1.9064871072769165,
+            195.32156372070312,
+            1.0
+          ],
+          "LOWER": [
+            1.4599056976574065,
+            1.3669950087500105,
+            0.0,
+            0.0,
+            -1.3669950087500105,
+            1.4599056976574065,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -96.10401153564453,
+            25.022493362426758,
+            195.32156372070312,
+            1.0
+          ],
+          "MIDDLE": [
+            1.2424376599448104,
+            1.5672742775758377,
+            0.0,
+            0.0,
+            -1.5672742775758377,
+            1.2424376599448104,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -126.80912780761719,
+            50.07377243041992,
+            195.32156372070312,
+            1.0
+          ],
+          "SHOULDER": [
+            -1.582644215993518,
+            1.2227989555042418,
+            0.0,
+            0.0,
+            -1.2227989555042418,
+            -1.582644215993518,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -162.12789916992188,
+            77.36213684082031,
+            195.32156372070312,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 2.613691485464642e-10,
+          "max_position": 5.90221124448794e-14,
+          "max_rotation_degrees": 0.0,
+          "parts": {
+            "HIP": {
+              "matrix": 2.613691485464642e-10,
+              "position": 2.842517866562357e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 5.684341886080802e-14,
+              "position": 5.90221124448794e-14,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 2.842170943040401e-14,
+              "position": 3.1776437161565096e-14,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 4.0194366942304644e-14,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 1,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 2
+      },
+      "pass": true,
+      "post_snap_motion": 0.05597838268206501,
+      "to": 2
+    },
+    {
+      "attachment_error": 5.684341886080802e-14,
+      "from": 2,
+      "match": {
+        "before": {
+          "HIP": [
+            1.6636902564029619,
+            1.1100156443716669,
+            0.0,
+            0.0,
+            -1.1100156443716669,
+            1.6636902564029619,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            -78.13697052001953,
+            -1.906502366065979,
+            195.32156372070312,
+            1.0
+          ],
+          "LOWER": [
+            1.4599059911647179,
+            1.36699469529378,
+            1.6932019705292498e-07,
+            0.0,
+            -1.2488117256384355,
+            1.3336903125048094,
+            0.8134736776557534,
+            0.0,
+            0.5560069881479153,
+            -0.5937976535567391,
+            1.8270907409762644,
+            0.0,
+            -96.10401916503906,
+            25.022489547729492,
+            195.32156372070312,
+            1.0
+          ],
+          "MIDDLE": [
+            1.1881497124603018,
+            1.4987913149903778,
+            0.5847434094454735,
+            0.0,
+            -1.5672737227799705,
+            1.2424383597923128,
+            0.0,
+            0.0,
+            -0.36325382126539946,
+            -0.45822649009632993,
+            1.9126095119260709,
+            0.0,
+            -126.80913543701172,
+            50.073787689208984,
+            195.3215789794922,
+            1.0
+          ],
+          "SHOULDER": [
+            -1.8171506352254532,
+            0.8354421397675507,
+            -5.906931656382423e-07,
+            0.0,
+            -0.8354421397676925,
+            -1.8171506352254205,
+            4.809787695003604e-07,
+            0.0,
+            -3.357742643943509e-07,
+            6.837504193872508e-07,
+            1.999999999999855,
+            0.0,
+            -162.12789916992188,
+            77.36217498779297,
+            195.32156372070312,
+            1.0
+          ]
+        },
+        "errors": {
+          "max_matrix": 2.613691485464642e-10,
+          "max_position": 2.842170943040401e-14,
+          "max_rotation_degrees": 0.0,
+          "parts": {
+            "HIP": {
+              "matrix": 2.613691485464642e-10,
+              "position": 1.464821375527116e-14,
+              "rotation_degrees": 0.0
+            },
+            "LOWER": {
+              "matrix": 1.7763568394002505e-14,
+              "position": 1.7763568394002505e-14,
+              "rotation_degrees": 0.0
+            },
+            "MIDDLE": {
+              "matrix": 1.4210854715202004e-14,
+              "position": 1.5888218580782548e-14,
+              "rotation_degrees": 0.0
+            },
+            "SHOULDER": {
+              "matrix": 2.842170943040401e-14,
+              "position": 2.842170943040401e-14,
+              "rotation_degrees": 0.0
+            }
+          }
+        },
+        "from": 2,
+        "keyed": false,
+        "restored": false,
+        "success": true,
+        "to": 1
+      },
+      "pass": true,
+      "post_snap_motion": 3.9999398082505024,
+      "to": 1
+    }
+  ],
+  "source_hash_after": "6858f5c3315925f4260f8bc18df3bbf0102340158ae87c11ba4c1734876af5b8",
+  "source_hash_before": "6858f5c3315925f4260f8bc18df3bbf0102340158ae87c11ba4c1734876af5b8",
+  "ui": {
+    "status": "Mode: 2 (IK + FK) | Correction: ACTIVE",
+    "window_created": true
+  },
+  "version": 1,
+  "work_scene": "C:/Users/draco/AppData/Local/Temp/Character_spine37_SPINE_RC01_P10_TEST.ma"
+}

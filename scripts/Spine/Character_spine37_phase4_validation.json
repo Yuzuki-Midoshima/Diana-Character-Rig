@@ -1,0 +1,776 @@
+{
+  "all_pass": true,
+  "cases": [
+    {
+      "label": "mode0_baseline",
+      "mode": 0,
+      "parts": {
+        "HIP": {
+          "matrix_error": 0.0,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "LOWER": {
+          "matrix_error": 0.0,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "MIDDLE": {
+          "matrix_error": 0.0,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "SHOULDER": {
+          "matrix_error": 0.0,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        }
+      },
+      "pass": true,
+      "shoulder_pivot_world": [
+        -98.13571664974373,
+        85.83315303357637,
+        194.805338518121
+      ]
+    },
+    {
+      "label": "mode1_initial",
+      "mode": 1,
+      "parts": {
+        "HIP": {
+          "matrix_error": 0.0,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "LOWER": {
+          "matrix_error": 0.0,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "MIDDLE": {
+          "matrix_error": 0.0,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "SHOULDER": {
+          "matrix_error": 7.24454326306137e-71,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        }
+      },
+      "pass": true,
+      "shoulder_pivot_world": [
+        -98.13571888138509,
+        85.83315420447474,
+        194.80534053610788
+      ]
+    },
+    {
+      "label": "mode2_initial",
+      "mode": 2,
+      "parts": {
+        "HIP": {
+          "matrix_error": 0.0,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "LOWER": {
+          "matrix_error": 0.0,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "MIDDLE": {
+          "matrix_error": 0.0,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "SHOULDER": {
+          "matrix_error": 7.24454326306137e-71,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        }
+      },
+      "pass": true,
+      "shoulder_pivot_world": [
+        -98.13571888138509,
+        85.83315420447474,
+        194.80534053610788
+      ]
+    },
+    {
+      "label": "ik_hip_x5",
+      "mode": 1,
+      "parts": {
+        "HIP": {
+          "matrix_error": 0.0,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "LOWER": {
+          "matrix_error": 1.0587911840678754e-22,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "MIDDLE": {
+          "matrix_error": 2.842170943040401e-14,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "SHOULDER": {
+          "matrix_error": 2.842170943040401e-14,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        }
+      },
+      "pass": true,
+      "shoulder_pivot_world": [
+        -98.03618191016066,
+        85.84574757219107,
+        194.80534072379112
+      ]
+    },
+    {
+      "label": "ik_upper_x5",
+      "mode": 1,
+      "parts": {
+        "HIP": {
+          "matrix_error": 0.0,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "LOWER": {
+          "matrix_error": 0.0,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "MIDDLE": {
+          "matrix_error": 2.842170943040401e-14,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "SHOULDER": {
+          "matrix_error": 2.842170943040401e-14,
+          "pass": true,
+          "scale": [
+            1.9999999999999991,
+            1.9999999999999998,
+            2.0
+          ],
+          "scale2_error": 8.881784197001252e-16
+        }
+      },
+      "pass": true,
+      "shoulder_pivot_world": [
+        -88.18665626304568,
+        85.83617531734396,
+        194.80534072819904
+      ]
+    },
+    {
+      "label": "ik_rotate",
+      "mode": 1,
+      "parts": {
+        "HIP": {
+          "matrix_error": 0.0,
+          "pass": true,
+          "scale": [
+            2.0,
+            1.9999999999999996,
+            2.0
+          ],
+          "scale2_error": 4.440892098500626e-16
+        },
+        "LOWER": {
+          "matrix_error": 2.842170943040401e-14,
+          "pass": true,
+          "scale": [
+            2.0,
+            1.9999999999999998,
+            1.9999999999999998
+          ],
+          "scale2_error": 2.220446049250313e-16
+        },
+        "MIDDLE": {
+          "matrix_error": 2.1316282072803006e-14,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "SHOULDER": {
+          "matrix_error": 1.4210854715202004e-14,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            1.9999999999999996
+          ],
+          "scale2_error": 4.440892098500626e-16
+        }
+      },
+      "pass": true,
+      "shoulder_pivot_world": [
+        -110.52983640590237,
+        80.97136221939365,
+        219.8938419145945
+      ]
+    },
+    {
+      "label": "twist",
+      "mode": 1,
+      "parts": {
+        "HIP": {
+          "matrix_error": 0.0,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "LOWER": {
+          "matrix_error": 2.842170943040401e-14,
+          "pass": true,
+          "scale": [
+            2.0,
+            1.9999999999999998,
+            1.9999999999999998
+          ],
+          "scale2_error": 2.220446049250313e-16
+        },
+        "MIDDLE": {
+          "matrix_error": 2.842170943040401e-14,
+          "pass": true,
+          "scale": [
+            1.9999999999999996,
+            2.0,
+            1.9999999999999998
+          ],
+          "scale2_error": 4.440892098500626e-16
+        },
+        "SHOULDER": {
+          "matrix_error": 2.842170943040401e-14,
+          "pass": true,
+          "scale": [
+            1.9999999999999998,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 2.220446049250313e-16
+        }
+      },
+      "pass": true,
+      "shoulder_pivot_world": [
+        -98.32703370653634,
+        85.82931316515342,
+        194.84761658534723
+      ]
+    },
+    {
+      "label": "fk_lower",
+      "mode": 2,
+      "parts": {
+        "HIP": {
+          "matrix_error": 0.0,
+          "pass": true,
+          "scale": [
+            1.9999999999999998,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 2.220446049250313e-16
+        },
+        "LOWER": {
+          "matrix_error": 2.842170943040401e-14,
+          "pass": true,
+          "scale": [
+            1.9999999999999996,
+            1.9999999999999998,
+            2.0
+          ],
+          "scale2_error": 4.440892098500626e-16
+        },
+        "MIDDLE": {
+          "matrix_error": 1.4210854715202004e-14,
+          "pass": true,
+          "scale": [
+            1.9999999999999998,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 2.220446049250313e-16
+        },
+        "SHOULDER": {
+          "matrix_error": 2.842170943040401e-14,
+          "pass": true,
+          "scale": [
+            2.000000000000001,
+            2.0000000000000004,
+            2.0
+          ],
+          "scale2_error": 8.881784197001252e-16
+        }
+      },
+      "pass": true,
+      "shoulder_pivot_world": [
+        -98.10925090091496,
+        85.8444066546505,
+        194.79988267396539
+      ]
+    },
+    {
+      "label": "fk_middle",
+      "mode": 2,
+      "parts": {
+        "HIP": {
+          "matrix_error": 0.0,
+          "pass": true,
+          "scale": [
+            1.9999999999999996,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 4.440892098500626e-16
+        },
+        "LOWER": {
+          "matrix_error": 1.4210854715202004e-14,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "MIDDLE": {
+          "matrix_error": 7.105427357601002e-15,
+          "pass": true,
+          "scale": [
+            2.0000000000000004,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 4.440892098500626e-16
+        },
+        "SHOULDER": {
+          "matrix_error": 2.220446049250313e-16,
+          "pass": true,
+          "scale": [
+            2.0,
+            1.9999999999999996,
+            2.0
+          ],
+          "scale2_error": 4.440892098500626e-16
+        }
+      },
+      "pass": true,
+      "shoulder_pivot_world": [
+        -88.61354043209734,
+        85.94785293756482,
+        192.4269867450517
+      ]
+    },
+    {
+      "label": "fk_shoulder",
+      "mode": 2,
+      "parts": {
+        "HIP": {
+          "matrix_error": 1.4210854715202004e-14,
+          "pass": true,
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 0.0
+        },
+        "LOWER": {
+          "matrix_error": 3.552713678800501e-15,
+          "pass": true,
+          "scale": [
+            2.0,
+            1.9999999999999998,
+            2.0
+          ],
+          "scale2_error": 2.220446049250313e-16
+        },
+        "MIDDLE": {
+          "matrix_error": 2.842170943040401e-14,
+          "pass": true,
+          "scale": [
+            1.9999999999999998,
+            2.0000000000000004,
+            2.0000000000000004
+          ],
+          "scale2_error": 4.440892098500626e-16
+        },
+        "SHOULDER": {
+          "matrix_error": 2.842170943040401e-14,
+          "pass": true,
+          "scale": [
+            1.9999999999999993,
+            2.0,
+            2.0
+          ],
+          "scale2_error": 6.661338147750939e-16
+        }
+      },
+      "pass": true,
+      "shoulder_pivot_world": [
+        -129.17237258929424,
+        92.21741153785578,
+        166.1921741663287
+      ]
+    }
+  ],
+  "generated_utc": "2026-11-02T16:10:39.851541Z",
+  "shoulder_pivot_local": [
+    0.0,
+    145.98902893066406,
+    0.0
+  ],
+  "shoulder_pivot_local_error": 0.0,
+  "skinClusters_unchanged": {
+    "body_BAKED_skinCluster": true,
+    "hair_short_skinCluster27": true,
+    "skinCluster40": true
+  },
+  "stages": [
+    {
+      "follow": "DIANA_SPINE_P4_LOWER_FOLLOW",
+      "mode0_validation": {
+        "label": "stage_LOWER_mode0",
+        "mode": 0,
+        "parts": {
+          "HIP": {
+            "matrix_error": 0.0,
+            "pass": true,
+            "scale": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "scale2_error": 0.0
+          },
+          "LOWER": {
+            "matrix_error": 0.0,
+            "pass": true,
+            "scale": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "scale2_error": 0.0
+          },
+          "MIDDLE": {
+            "matrix_error": 0.0,
+            "pass": true,
+            "scale": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "scale2_error": 0.0
+          },
+          "SHOULDER": {
+            "matrix_error": 0.0,
+            "pass": true,
+            "scale": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "scale2_error": 0.0
+          }
+        },
+        "pass": true,
+        "shoulder_pivot_world": [
+          -98.13571664974373,
+          85.83315303357637,
+          194.805338518121
+        ]
+      },
+      "new_mode2_source": "DIANA_SPINE_P4_LOWER_IKFK_WORLD_MM.matrixSum",
+      "old_mode2_source": "DIANA_SPINE_DEFORM_LOWER_MODE2_FINAL_MM.matrixSum",
+      "original_parent": "group_68",
+      "part": "LOWER"
+    },
+    {
+      "follow": "DIANA_SPINE_P4_MIDDLE_FOLLOW",
+      "mode0_validation": {
+        "label": "stage_MIDDLE_mode0",
+        "mode": 0,
+        "parts": {
+          "HIP": {
+            "matrix_error": 0.0,
+            "pass": true,
+            "scale": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "scale2_error": 0.0
+          },
+          "LOWER": {
+            "matrix_error": 0.0,
+            "pass": true,
+            "scale": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "scale2_error": 0.0
+          },
+          "MIDDLE": {
+            "matrix_error": 0.0,
+            "pass": true,
+            "scale": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "scale2_error": 0.0
+          },
+          "SHOULDER": {
+            "matrix_error": 0.0,
+            "pass": true,
+            "scale": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "scale2_error": 0.0
+          }
+        },
+        "pass": true,
+        "shoulder_pivot_world": [
+          -98.13571664974373,
+          85.83315303357637,
+          194.805338518121
+        ]
+      },
+      "new_mode2_source": "DIANA_SPINE_P4_MIDDLE_IKFK_WORLD_MM.matrixSum",
+      "old_mode2_source": "DIANA_SPINE_DEFORM_MIDDLE_MODE2_FINAL_MM.matrixSum",
+      "original_parent": "middle_fk_Spine_OFFSET",
+      "part": "MIDDLE"
+    },
+    {
+      "follow": "DIANA_SPINE_P4_SHOULDER_FOLLOW",
+      "mode0_validation": {
+        "label": "stage_SHOULDER_mode0",
+        "mode": 0,
+        "parts": {
+          "HIP": {
+            "matrix_error": 0.0,
+            "pass": true,
+            "scale": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "scale2_error": 0.0
+          },
+          "LOWER": {
+            "matrix_error": 0.0,
+            "pass": true,
+            "scale": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "scale2_error": 0.0
+          },
+          "MIDDLE": {
+            "matrix_error": 0.0,
+            "pass": true,
+            "scale": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "scale2_error": 0.0
+          },
+          "SHOULDER": {
+            "matrix_error": 0.0,
+            "pass": true,
+            "scale": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "scale2_error": 0.0
+          }
+        },
+        "pass": true,
+        "shoulder_pivot_world": [
+          -98.13571664974373,
+          85.83315303357637,
+          194.805338518121
+        ]
+      },
+      "new_mode2_source": "DIANA_SPINE_P4_SHOULDER_IKFK_WORLD_MM.matrixSum",
+      "old_mode2_source": "DIANA_SPINE_DEFORM_SHOULDER_MODE2_FINAL_MM.matrixSum",
+      "original_parent": "middle_fk_Spine_anim",
+      "part": "SHOULDER"
+    },
+    {
+      "follow": "DIANA_SPINE_P4_HIP_FOLLOW",
+      "mode0_validation": {
+        "label": "stage_HIP_mode0",
+        "mode": 0,
+        "parts": {
+          "HIP": {
+            "matrix_error": 0.0,
+            "pass": true,
+            "scale": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "scale2_error": 0.0
+          },
+          "LOWER": {
+            "matrix_error": 0.0,
+            "pass": true,
+            "scale": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "scale2_error": 0.0
+          },
+          "MIDDLE": {
+            "matrix_error": 0.0,
+            "pass": true,
+            "scale": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "scale2_error": 0.0
+          },
+          "SHOULDER": {
+            "matrix_error": 0.0,
+            "pass": true,
+            "scale": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "scale2_error": 0.0
+          }
+        },
+        "pass": true,
+        "shoulder_pivot_world": [
+          -98.13571664974373,
+          85.83315303357637,
+          194.805338518121
+        ]
+      },
+      "new_mode2_source": "DIANA_SPINE_P4_HIP_IKFK_WORLD_MM.matrixSum",
+      "old_mode2_source": "DIANA_SPINE_DEFORM_HIP_MODE2_FINAL_MM.matrixSum",
+      "original_parent": "COG_anim",
+      "part": "HIP"
+    }
+  ],
+  "tolerance": 0.0001
+}

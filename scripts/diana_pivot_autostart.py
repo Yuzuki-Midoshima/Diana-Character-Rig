@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 """Diana pivot v3 bootstrap for Maya 2026.
 
-Loaded from this repository's ``scripts`` package by ``startup/userSetup.py``.
+Loaded from this repository's Maya module by ``scripts/userSetup.py``.
 """
-import os
-import sys
 import importlib
 import maya.cmds as cmds
 import maya.utils
@@ -14,18 +12,7 @@ _SCENE_CALLBACKS = []
 _STARTED = False
 
 def _pivot_module():
-    folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Pivot_Transfer')
-    path = os.path.join(folder, 'diana_pivot_v3.py')
-    if not os.path.isfile(path):
-        raise RuntimeError('Missing: ' + path)
-    if folder not in sys.path:
-        sys.path.insert(0, folder)
-    existing = sys.modules.get('diana_pivot_v3')
-    if existing is not None:
-        loaded = os.path.normcase(os.path.abspath(getattr(existing, '__file__', '')))
-        if loaded != os.path.normcase(os.path.abspath(path)):
-            raise RuntimeError('Conflicting diana_pivot_v3: ' + loaded)
-    return importlib.import_module('diana_pivot_v3')
+    return importlib.import_module('Pivot_Transfer.diana_pivot_v3')
 
 def _activate():
     try:

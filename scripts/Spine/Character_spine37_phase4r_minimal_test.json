@@ -1,0 +1,69 @@
+{
+  "created_utc": "2026-11-02T16:20:32.187489Z",
+  "production_nodes_modified": false,
+  "recommended_topology": {
+    "cycle_free": true,
+    "cyclic_nodes": [],
+    "edges": [
+      [
+        "DIANA_P4R_SAFE_MODE1.output",
+        "DIANA_P4R_SAFE_OPERATION_FK.offsetParentMatrix",
+        "DG"
+      ],
+      [
+        "DIANA_P4R_SAFE.worldMatrix[0]",
+        "DIANA_P4R_SAFE_OPERATION_FK.parentMatrix[0]",
+        "DAG_PARENT"
+      ],
+      [
+        "DIANA_P4R_SAFE_OPERATION_FK.rotate",
+        "DIANA_P4R_SAFE_FK_DELTA.inputRotate",
+        "DG"
+      ],
+      [
+        "DIANA_P4R_SAFE_FK_DELTA.outputMatrix",
+        "DIANA_P4R_SAFE_MODE2_FINAL.matrixIn[0]",
+        "DG"
+      ],
+      [
+        "DIANA_P4R_SAFE_MODE1.output",
+        "DIANA_P4R_SAFE_MODE2_FINAL.matrixIn[1]",
+        "DG"
+      ]
+    ],
+    "formula": "FK local delta x MODE1 final"
+  },
+  "reproduction": {
+    "cycle_reproduced": true,
+    "cyclic_nodes": [
+      "DIANA_P4R_REPRO_FK",
+      "DIANA_P4R_REPRO_FOLLOW",
+      "DIANA_P4R_REPRO_MODE1"
+    ],
+    "edges": [
+      [
+        "DIANA_P4R_REPRO_MODE1.matrixSum",
+        "DIANA_P4R_REPRO_FOLLOW.offsetParentMatrix",
+        "DG"
+      ],
+      [
+        "DIANA_P4R_REPRO.worldMatrix[0]",
+        "DIANA_P4R_REPRO_FOLLOW.parentMatrix[0]",
+        "DAG_PARENT"
+      ],
+      [
+        "DIANA_P4R_REPRO_FOLLOW.worldMatrix[0]",
+        "DIANA_P4R_REPRO_FK.parentMatrix[0]",
+        "DAG_PARENT"
+      ],
+      [
+        "DIANA_P4R_REPRO_FK.worldMatrix",
+        "DIANA_P4R_REPRO_MODE1.matrixIn[0]",
+        "DG"
+      ]
+    ]
+  },
+  "scene": "C:/Users/draco/OneDrive/ドキュメント/maya/projects/JAM_rig/scenes/Character_spine37_PHASE4_VALIDATION.ma",
+  "test_nodes_remaining": [],
+  "version": 1
+}

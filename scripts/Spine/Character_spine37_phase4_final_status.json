@@ -1,0 +1,39 @@
+{
+  "phase4_complete": false,
+  "numeric_validation_pass": true,
+  "dg_cycle_free": false,
+  "blocking_issue": "Maya reported a DG cycle containing DIANA_SPINE_P4_HIP_FOLLOW_MODE_CHOICE.output; production integration was rolled back.",
+  "rolled_back": true,
+  "p4_nodes_remaining": [],
+  "parts": {
+    "HIP": {
+      "fk_world_matrix_error": 0.0,
+      "mode2_source_restored": true,
+      "actual_mode2_source": "DIANA_SPINE_DEFORM_HIP_MODE2_FINAL_MM.matrixSum",
+      "expected_mode2_source": "DIANA_SPINE_DEFORM_HIP_MODE2_FINAL_MM.matrixSum"
+    },
+    "LOWER": {
+      "fk_world_matrix_error": 0.0,
+      "mode2_source_restored": true,
+      "actual_mode2_source": "DIANA_SPINE_DEFORM_LOWER_MODE2_FINAL_MM.matrixSum",
+      "expected_mode2_source": "DIANA_SPINE_DEFORM_LOWER_MODE2_FINAL_MM.matrixSum"
+    },
+    "MIDDLE": {
+      "fk_world_matrix_error": 0.0,
+      "mode2_source_restored": true,
+      "actual_mode2_source": "DIANA_SPINE_DEFORM_MIDDLE_MODE2_FINAL_MM.matrixSum",
+      "expected_mode2_source": "DIANA_SPINE_DEFORM_MIDDLE_MODE2_FINAL_MM.matrixSum"
+    },
+    "SHOULDER": {
+      "fk_world_matrix_error": 0.0,
+      "mode2_source_restored": true,
+      "actual_mode2_source": "DIANA_SPINE_DEFORM_SHOULDER_MODE2_FINAL_MM.matrixSum",
+      "expected_mode2_source": "DIANA_SPINE_DEFORM_SHOULDER_MODE2_FINAL_MM.matrixSum"
+    }
+  },
+  "rollback_max_fk_world_matrix_error": 0.0,
+  "all_mode2_sources_restored": true,
+  "validation_scene": "C:/Users/draco/OneDrive/ドキュメント/maya/projects/JAM_rig/scenes/Character_spine37_PHASE4_VALIDATION.ma",
+  "integrated_scene_saved": false,
+  "save_reload_validation_performed": false
+}
